@@ -24,7 +24,7 @@ except ImportError:  # run as script inside grader/
     import rubric
     from rubric import PROFILES, apply_caps
 
-GO_DEFAULT_BASE_URL = "https://opencode.ai/inference/go/openai/v1/chat/completions"
+GO_DEFAULT_BASE_URL = "https://opencode.ai/inference/go/openai/v1"
 FALLBACK_BASE_URL = "https://api.deepseek.com"
 
 BASE_URL = os.environ.get("GRADER_BASE_URL") or GO_DEFAULT_BASE_URL
@@ -184,7 +184,10 @@ def _call_model(messages, session_id):
 
 
 def _models_url(base_url: str) -> str:
-    root = base_url.rsplit("/chat/completions", 1)[0]
+    # Accept both shapes: ".../v1" and legacy ".../v1/chat/completions".
+    root = base_url
+    if root.rstrip("/").endswith("/chat/completions"):
+        root = root.rsplit("/chat/completions", 1)[0]
     return root.rstrip("/") + "/models"
 
 

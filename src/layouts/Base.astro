@@ -1,0 +1,131 @@
+---
+interface Props {
+  title?: string;
+}
+const { title = 'Comm2 Reviewer' } = Astro.props;
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title}</title>
+    <style>
+      :root {
+        --tint: #f4f6fb;
+        --border: #c9d1e0;
+        --accent: #1f3a8a;
+      }
+      * { box-sizing: border-box; }
+      body {
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 12pt;
+        line-height: 1.5;
+        margin: 0;
+        color: #1a1a1a;
+        background: #fff;
+      }
+      nav.top {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        background: #fff;
+        border-bottom: 1px solid var(--border);
+      }
+      nav.top .inner {
+        max-width: 7.5in;
+        margin: 0 auto;
+        padding: 0.6rem 1rem;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+      }
+      nav.top a { color: var(--accent); text-decoration: none; font-size: 11pt; }
+      nav.top a:hover { text-decoration: underline; }
+      nav.top .brand { font-weight: bold; margin-right: auto; }
+      main {
+        max-width: 7.5in;
+        margin: 0 auto;
+        padding: 1.5rem 1rem 4rem;
+      }
+      blockquote {
+        border-left: 4px solid var(--accent);
+        background: var(--tint);
+        margin: 1rem 0;
+        padding: 0.75rem 1rem;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 9pt;
+        margin: 1rem 0;
+      }
+      th, td {
+        border: 1px solid var(--border);
+        padding: 0.4rem 0.5rem;
+        text-align: left;
+        vertical-align: top;
+      }
+      thead th, th {
+        background: var(--tint);
+      }
+      pre {
+        background: var(--tint);
+        border: 1px solid var(--border);
+        padding: 0.75rem 1rem;
+        overflow-x: auto;
+        font-size: 9pt;
+      }
+      code { font-size: 0.9em; }
+      .card {
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 1rem;
+        margin: 1rem 0;
+        background: #fff;
+      }
+      .grid { display: grid; gap: 1rem; }
+      @media (min-width: 700px) {
+        .grid.two { grid-template-columns: 1fr 1fr; }
+      }
+      .btn {
+        display: inline-block;
+        border: 1px solid var(--accent);
+        color: var(--accent);
+        border-radius: 6px;
+        padding: 0.35rem 0.75rem;
+        text-decoration: none;
+        font-size: 10pt;
+        background: #fff;
+        cursor: pointer;
+      }
+      .btn.primary { background: var(--accent); color: #fff; }
+      .badge {
+        display: inline-block;
+        font-size: 9pt;
+        border: 1px solid var(--accent);
+        border-radius: 999px;
+        padding: 0.1rem 0.6rem;
+        color: var(--accent);
+        margin-right: 0.4rem;
+      }
+      .badge.historic { background: var(--accent); color: #fff; }
+      .meta { font-size: 9pt; color: #555; }
+      .alac { border-left: 4px solid var(--accent); background: var(--tint); padding: 0.6rem 0.8rem; margin: 0.6rem 0; }
+    </style>
+  </head>
+  <body>
+    <nav class="top">
+      <div class="inner">
+        <a class="brand" href="/">Comm2 Reviewer</a>
+        <a href="/">Home</a>
+        <a href="/#parts">Parts</a>
+        <a href="/exams/all">Exams</a>
+        <a href="/#pdfs">PDFs</a>
+      </div>
+    </nav>
+    <main>
+      <slot />
+    </main>
+  </body>
+</html>

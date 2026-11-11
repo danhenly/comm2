@@ -1,0 +1,57 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { PART_ORDER, PART_LABEL, PART_PDF, pdfUrl } from '../../data/parts';
+
+export async function getStaticPaths() {
+  const parts = await getCollection('parts');
+  return PART_ORDER.map((slug) => {
+    const entry = parts.find((e: any) => {
+      const id = (e.slug ?? e.id ?? '').replace(/\.mdx?$/, '');
+      return id === slug;
+    });
+    if (!entry) throw new Error(`missing content entry for ${slug}`);
+    return { params: { slug }, props: { entry } };
+  });
+}
+
+const { slug } = Astro.params as { slug: string };
+const { entry } = Astro.props as { entry: any };
+const { Content, headings } = await render(entry);
+
+const idx = PART_ORDER.indexOf(slug as any);
+const prev = idx > 0 ? PART_ORDER[idx - 1] : null;
+const next = idx >= 0 && idx < PART_ORDER.length - 1 ? PART_ORDER[idx + 1] : null;
+const pdf = (PART_PDF as Record<string, string>)[slug];
+const sections = (headings as { depth: number; slug: string; text: string }[]).filter(
+  (h) => h.depth === 2 || h.depth === 3
+);
+const label = (PART_LABEL as Record<string, string>)[slug] ?? slug;
+---
+<Base title={`${label} — Comm2 Reviewer`}>
+  <p><a href="/">&larr; Home</a></p>
+  <h1>{label}</h1>
+  <p class="meta">/{slug} · <a href={`/exams/${slug}`}>exam</a>{pdf ? (<span> · <a href={pdfUrl(pdf)}>PDF: {pdf}</a></span>) : null}</p>
+
+  {sections.length > 0 && (
+    <nav class="card" aria-label="Sections" style="position: sticky; top: 56px;">
+      <strong>Sections</strong>
+      <ul>
+        {sections.map((h) => (
+          <li><a href={`#${h.slug}`}>{h.text}</a></li>
+        ))}
+      </ul>
+    </nav>
+  )}
+
+  <article>
+    <Content />
+  </article>
+
+  <hr />
+  <p>
+    {prev && <a class="btn" href={`/parts/${prev}`}>&larr; {prev}</a>}
+    {' '}
+    {next && <a class="btn" href={`/parts/${next}`}>{next} &rarr;</a>}
+  </p>
+</Base>

@@ -1,16 +1,39 @@
 ---
+import Base from '../layouts/Base.astro';
+import { GROUPS, PART_LABEL, pdfUrl } from '../data/parts';
 ---
+<Base title="Comm2 Reviewer">
+  <h1>Comm2 Reviewer</h1>
+  <p>Static reviewer site: 18 parts, exams with grader fallback, compiled PDFs.</p>
+  <p>
+    <a class="btn primary" href="/exams/all">Whole-course exam (/exams/all)</a>
+  </p>
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+  <h2 id="parts">Parts</h2>
+  {GROUPS.map((g) => (
+    <section class="card">
+      <h3>{g.title}</h3>
+      <ul>
+        {g.slugs.map((slug) => (
+          <li>
+            <strong>{PART_LABEL[slug]}</strong>
+            {' — '}
+            <a href={`/parts/${slug}`}>/parts/{slug}</a>
+            {' · '}
+            <a href={`/exams/${slug}`}>/exams/{slug}</a>
+          </li>
+        ))}
+      </ul>
+      <p>
+        <a class="btn" href={pdfUrl(g.pdf)}>Compiled PDF: {g.pdf}</a>
+      </p>
+    </section>
+  ))}
+
+  <h2 id="pdfs">PDFs</h2>
+  <ul>
+    {GROUPS.map((g) => (
+      <li><a href={pdfUrl(g.pdf)}>{g.pdf}</a></li>
+    ))}
+  </ul>
+</Base>

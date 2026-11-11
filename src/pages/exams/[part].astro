@@ -1,0 +1,187 @@
+---
+import Base from '../../layouts/Base.astro';
+import { PART_ORDER, PART_LABEL } from '../../data/parts';
+
+export function getStaticPaths() {
+  return PART_ORDER.map((part) => ({ params: { part } }));
+}
+
+const { part } = Astro.params as { part: string };
+const label = (PART_LABEL as Record<string, string>)[part] ?? part;
+
+// Load exam JSON at build time (static, no server code).
+const examFiles = import.meta.glob('../../data/exams/*.json', { eager: true, import: 'default' }) as Record<string, any[]>;
+const items = (examFiles[`../../data/exams/${part}.json`] ?? []) as any[];
+const graderUrl = import.meta.env.PUBLIC_GRADER_URL ?? 'http://localhost:8000/grade';
+const storageKey = `comm2-exam-${part}`;
+---
+<Base title={`Exam ${label} — Comm2 Reviewer`}>
+  <p><a href="/">&larr; Home</a> · <a href={`/parts/${part}`}>reviewer</a> · <a href="/exams/all">all exams</a></p>
+  <h1>Exam: {label}</h1>
+  <p class="meta">{items.length} items · grader: {graderUrl} (falls back to model answer if unreachable)</p>
+
+  <script type="application/json" id="exam-data" set:html={JSON.stringify(items)} />
+  <div id="exam-app" data-part={part} data-grader={graderUrl} data-storage={storageKey}>
+    <p class="meta" id="exam-counter"></p>
+    <div class="card">
+      <p><span id="exam-badge"></span><span class="meta" id="exam-section"></span></p>
+      <p id="exam-stem" style="font-weight: bold;"></p>
+      <p class="meta" id="exam-auth"></p>
+      <label for="exam-attempt"><strong>Your attempt</strong></label>
+      <textarea id="exam-attempt" rows="6" style="width: 100%; font-family: Georgia, serif; font-size: 11pt;"></textarea>
+      <p style="margin-top: 0.6rem;">
+        <button class="btn primary" id="exam-submit" type="button">Submit</button>
+        {' '}
+        <button class="btn" id="exam-reveal" type="button">Reveal model answer</button>
+        {' '}
+        <button class="btn" id="exam-prev" type="button">&larr; Prev</button>
+        {' '}
+        <button class="btn" id="exam-next" type="button">Next &rarr;</button>
+      </p>
+    </div>
+    <div id="exam-result"></div>
+  </div>
+
+  <script>
+    (() => {
+      const app = document.getElementById('exam-app');
+      if (!app) return;
+      const dataEl = document.getElementById('exam-data');
+      const items = JSON.parse(dataEl?.textContent || '[]');
+      const graderUrl = app.dataset.grader || 'http://localhost:8000/grade';
+      const storageKey = app.dataset.storage || 'comm2-exam';
+      const badge = document.getElementById('exam-badge');
+      const section = document.getElementById('exam-section');
+      const stem = document.getElementById('exam-stem');
+      const auth = document.getElementById('exam-auth');
+      const counter = document.getElementById('exam-counter');
+      const attempt = document.getElementById('exam-attempt');
+      const submitBtn = document.getElementById('exam-submit');
+      const revealBtn = document.getElementById('exam-reveal');
+      const prevBtn = document.getElementById('exam-prev');
+      const nextBtn = document.getElementById('exam-next');
+      const result = document.getElementById('exam-result');
+      let idx = 0;
+      let store = {};
+      try { store = JSON.parse(localStorage.getItem(storageKey) || '{}'); } catch { store = {}; }
+      const save = () => { try { localStorage.setItem(storageKey, JSON.stringify(store)); } catch {} };
+
+      function showModel(item, grade) {
+        if (!result) return;
+        result.innerHTML = '';
+        if (grade && grade.components && Array.isArray(grade.components)) {
+          grade.components.slice(0, 4).forEach((c) => {
+            const div = document.createElement('div');
+            div.className = 'alac';
+            const title = document.createElement('strong');
+            title.textContent = `${c.name || c.label || c.title || 'ALAC'} — ${c.band || c.score || ''}`;
+            div.appendChild(title);
+            const ev = c.evidence || c.quotes;
+            if (ev) {
+              const p = document.createElement('p');
+              p.textContent = `Evidence: ${Array.isArray(ev) ? ev.join(' / ') : ev}`;
+              div.appendChild(p);
+            }
+            if (c.fix || c.feedback) {
+              const p2 = document.createElement('p');
+              p2.textContent = `Fix: ${c.fix || c.feedback}`;
+              div.appendChild(p2);
+            }
+            result.appendChild(div);
+          });
+          if (grade.total !== undefined || grade.score !== undefined) {
+            const t = document.createElement('p');
+            t.innerHTML = `<strong>Total: ${grade.total ?? grade.score}</strong>`;
+            result.appendChild(t);
+          }
+        }
+        const h = document.createElement('h3');
+        h.textContent = 'Model answer (A:)';
+        result.appendChild(h);
+        const pre = document.createElement('pre');
+        pre.style.whiteSpace = 'pre-wrap';
+        pre.textContent = item.answer || '(missing A: block)';
+        result.appendChild(pre);
+      }
+
+      function render() {
+        if (!items.length) {
+          if (counter) counter.textContent = 'No items.';
+          return;
+        }
+        const item = items[idx];
+        if (counter) counter.textContent = `Item ${idx + 1} / ${items.length} — ${item.id}`;
+        if (badge) {
+          badge.textContent = '';
+          badge.className = '';
+          if (item.kind === 'historic') {
+            badge.textContent = `${item.year || ''} Bar`.trim();
+            badge.className = 'badge historic';
+          } else {
+            badge.textContent = 'Q';
+            badge.className = 'badge';
+          }
+        }
+        if (section) section.textContent = item.section || '';
+        if (stem) stem.textContent = item.stem || '';
+        if (auth) auth.textContent = item.authorities || '';
+        const saved = store[item.id] || {};
+        if (attempt) attempt.value = saved.attempt || '';
+        if (result) {
+          result.innerHTML = '';
+          if (saved.grade) showModel(item, saved.grade);
+          else if (saved.revealed) showModel(item, null);
+        }
+      }
+
+      async function submit() {
+        const item = items[idx];
+        if (!item || !attempt) return;
+        const attemptText = attempt.value;
+        store[item.id] = { ...(store[item.id] || {}), attempt: attemptText };
+        save();
+        try {
+          const res = await fetch(graderUrl, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              id: item.id,
+              stem: item.stem,
+              answer: attemptText,
+              profile: item.profile,
+              authorities: item.authorities,
+            }),
+          });
+          if (!res.ok) throw new Error(`grader ${res.status}`);
+          const grade = await res.json();
+          store[item.id] = { ...(store[item.id] || {}), attempt: attemptText, grade, revealed: false };
+          save();
+          showModel(item, grade);
+        } catch {
+          // Grader unbuilt: fall back to revealing the model A: block.
+          store[item.id] = { ...(store[item.id] || {}), attempt: attemptText, revealed: true };
+          save();
+          showModel(item, null);
+        }
+      }
+
+      submitBtn?.addEventListener('click', submit);
+      revealBtn?.addEventListener('click', () => {
+        const item = items[idx];
+        if (!item) return;
+        store[item.id] = { ...(store[item.id] || {}), attempt: attempt?.value || '', revealed: true };
+        save();
+        showModel(item, (store[item.id] || {}).grade || null);
+      });
+      prevBtn?.addEventListener('click', () => { if (idx > 0) { idx--; render(); } });
+      nextBtn?.addEventListener('click', () => { if (idx < items.length - 1) { idx++; render(); } });
+      attempt?.addEventListener('input', () => {
+        const item = items[idx];
+        if (!item) return;
+        store[item.id] = { ...(store[item.id] || {}), attempt: attempt.value };
+        save();
+      });
+      render();
+    })();
+  </script>
+</Base>

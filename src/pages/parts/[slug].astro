@@ -34,13 +34,15 @@ const label = (PART_LABEL as Record<string, string>)[slug] ?? slug;
   <p class="meta">/{slug} · <a href={`/exams/${slug}`}>exam</a>{pdf ? (<span> · <a href={pdfUrl(pdf)}>PDF: {pdf}</a></span>) : null}</p>
 
   {sections.length > 0 && (
-    <nav class="card" aria-label="Sections" style="position: sticky; top: 56px;">
-      <strong>Sections</strong>
+    <nav class="card" aria-label="Sections">
+      <details open>
+        <summary><strong>Sections</strong></summary>
       <ul>
         {sections.map((h) => (
           <li><a href={`#${h.slug}`}>{h.text}</a></li>
         ))}
       </ul>
+      </details>
     </nav>
   )}
 

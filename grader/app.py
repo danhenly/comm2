@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import json
 import os
+import traceback
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -34,7 +35,13 @@ API_KEY = (
     or os.environ.get("DEEPSEEK_API_KEY")
     or ""
 )
-MODEL = os.environ.get("GRADER_MODEL") or ""
+# Exact inference id (verified 2026-11-11: returns 200 chat.completion).
+# NOTE: `deepseek-v4-flash` (no ".1") 400s with "Model is unavailable".
+# NOTE 2: the `"thinking": {"type": "disabled"}` body flag is accepted but
+# IGNORED on the Go route — reasoning_content still comes back (70 reasoning
+# tokens on a trivial probe) billed at the output rate. Kept sending it:
+# harmless, and it works on direct DeepSeek. Env overrides; never empty.
+MODEL = os.environ.get("GRADER_MODEL") or "deepseek-v4.1-flash"
 CUTOFF = os.environ.get("GRADER_CUTOFF") or grader.CUTOFF_DEFAULT
 
 USER_AGENT = "comm2-reviewer/0.1"
@@ -79,8 +86,6 @@ def _call_model(messages, session_id):
         raise HTTPException(status_code=503, detail=f"openai package not installed: {exc}")
     if not API_KEY:
         raise HTTPException(status_code=503, detail="grader API key not configured (GRADER_API_KEY)")
-    if not MODEL:
-        raise HTTPException(status_code=503, detail="grader model not configured (GRADER_MODEL)")
     headers = {"User-Agent": USER_AGENT, "x-opencode-session": session_id}
     last_err: Exception | None = None
     for base_url in ([BASE_URL] if BASE_URL == FALLBACK_URL else [BASE_URL, FALLBACK_URL]):
@@ -97,8 +102,59 @@ def _call_model(messages, session_id):
             )
             return resp.choices[0].message.content or ""
         except Exception as exc:  # noqa: BLE001 - fallback then 502
+            traceback.print_exc()
             last_err = exc
     raise HTTPException(status_code=502, detail=f"model call failed: {last_err}")
+
+
+def _models_url(base_url: str) -> str:
+    root = base_url.rsplit("/chat/completions", 1)[0]
+    return root.rstrip("/") + "/models"
+
+
+@app.get("/debug-net")
+def debug_net():
+    """Connectivity diagnostics: config presence + catalog reachability.
+
+    Never returns the key. Uses a cheap GET /models (same auth/headers) so
+    catalog-vs-inference id mismatches surface without spending a grade call.
+    """
+    try:
+        from openai import OpenAI  # noqa: F401
+        import urllib.request
+
+        models_url = _models_url(BASE_URL)
+        req = urllib.request.Request(
+            models_url,
+            headers={
+                "Authorization": f"Bearer {API_KEY}",
+                "User-Agent": USER_AGENT,
+                "x-opencode-session": "debug-net",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=30) as r:
+            catalog = json.loads(r.read().decode("utf-8"))
+        ids = [m.get("id") for m in catalog.get("data", [])] if isinstance(catalog, dict) else []
+        return {
+            "ok": True,
+            "base_url": BASE_URL,
+            "models_url": models_url,
+            "model": MODEL,
+            "key_configured": bool(API_KEY),
+            "cutoff": CUTOFF,
+            "models_reachable": True,
+            "model_in_catalog": MODEL in ids,
+        }
+    except Exception as exc:  # noqa: BLE001 - diagnostics must never 500
+        traceback.print_exc()
+        return {
+            "ok": False,
+            "base_url": BASE_URL,
+            "model": MODEL,
+            "key_configured": bool(API_KEY),
+            "models_reachable": False,
+            "models_error": f"{type(exc).__name__}: {exc}",
+        }
 
 
 @app.get("/health")

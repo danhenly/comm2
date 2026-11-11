@@ -41,7 +41,7 @@ python3 grader/test_grader.py        # rubric sums, caps, validator, prompt, fix
 |---|---|---|
 | `GRADER_BASE_URL` | `https://opencode.ai/inference/go/openai/v1/chat/completions` | Go gateway; fallback `https://api.deepseek.com` |
 | `GRADER_API_KEY` | (required) | Never committed (`.gitignore` covers `.env`) |
-| `GRADER_MODEL` | (required) | Exact pinned id, echoed per grade with `model_date` |
+| `GRADER_MODEL` | `deepseek-v4.1-flash` | Exact pinned inference id, echoed per grade with `model_date` (verified; `deepseek-v4-flash` without `.1` 400s "Model is unavailable") |
 | `GRADER_CUTOFF` | `2025-06-30` | Law-as-of date in the examiner prompt |
 | `PUBLIC_GRADER_URL` | `http://localhost:8000/grade` | Build-time; exam pages POST `{id,stem,answer,profile,authorities}` here |
 

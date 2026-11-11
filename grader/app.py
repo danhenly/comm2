@@ -35,13 +35,13 @@ API_KEY = (
     or os.environ.get("DEEPSEEK_API_KEY")
     or ""
 )
-# Exact inference id (verified 2026-11-11: returns 200 chat.completion).
-# NOTE: `deepseek-v4-flash` (no ".1") 400s with "Model is unavailable".
-# NOTE 2: the `"thinking": {"type": "disabled"}` body flag is accepted but
-# IGNORED on the Go route — reasoning_content still comes back (70 reasoning
-# tokens on a trivial probe) billed at the output rate. Kept sending it:
-# harmless, and it works on direct DeepSeek. Env overrides; never empty.
-MODEL = os.environ.get("GRADER_MODEL") or "deepseek-v4.1-flash"
+# Exact inference id. Earlier deepseek-v4-flash 400s ("Model is unavailable")
+# were root-caused to a workspace-scoped key, not the id: Go completions 401s
+# "api key invalid" on non-console keys even when /models returns 200.
+# Use a console-minted personal key. If Go still 401s, switch GRADER_BASE_URL
+# to https://api.deepseek.com with a DeepSeek direct key (~P0.05/grade).
+# Env overrides; never empty.
+MODEL = os.environ.get("GRADER_MODEL") or "deepseek-v4-flash"
 CUTOFF = os.environ.get("GRADER_CUTOFF") or grader.CUTOFF_DEFAULT
 
 USER_AGENT = "comm2-reviewer/0.1"
@@ -78,6 +78,13 @@ def _today() -> str:
     return datetime.now(timezone.utc).date().isoformat()
 
 
+def _redact(text: str) -> str:
+    """Strip any key material before it leaves the server in an error body."""
+    if API_KEY and API_KEY in text:
+        text = text.replace(API_KEY, "[redacted]")
+    return text[:2000]
+
+
 def _call_model(messages, session_id):
     """Sync OpenAI-compatible call. Tries primary base URL, then one fallback host."""
     try:
@@ -101,10 +108,19 @@ def _call_model(messages, session_id):
                 extra_body={"thinking": {"type": "disabled"}},
             )
             return resp.choices[0].message.content or ""
-        except Exception as exc:  # noqa: BLE001 - fallback then 502
+        except Exception as exc:  # noqa: BLE001 - 4xx surfaces provider body, else fallback then 502
             traceback.print_exc()
+            status = getattr(exc, "status_code", None)
+            if status is not None and 400 <= status < 500:
+                raw = ""
+                try:
+                    resp_obj = getattr(exc, "response", None)
+                    raw = resp_obj.text if resp_obj is not None else str(exc)
+                except Exception:
+                    raw = str(exc)
+                raise HTTPException(status_code=502, detail=f"provider {status}: {_redact(raw)}")
             last_err = exc
-    raise HTTPException(status_code=502, detail=f"model call failed: {last_err}")
+    raise HTTPException(status_code=502, detail=f"model call failed: {_redact(str(last_err))}")
 
 
 def _models_url(base_url: str) -> str:
@@ -116,14 +132,27 @@ def _models_url(base_url: str) -> str:
 def debug_net():
     """Connectivity diagnostics: config presence + catalog reachability.
 
-    Never returns the key. Uses a cheap GET /models (same auth/headers) so
-    catalog-vs-inference id mismatches surface without spending a grade call.
+    Sends the models request WITH Authorization + User-Agent (key never
+    leaves the server; only booleans/counts are returned). A 401 from
+    /models means bad key scope — reported as auth_ok:false, NOT as
+    "unreachable" or "not in catalog" (model_in_catalog:null in that case).
     """
-    try:
-        from openai import OpenAI  # noqa: F401
-        import urllib.request
+    import urllib.error
+    import urllib.request
 
-        models_url = _models_url(BASE_URL)
+    models_url = _models_url(BASE_URL)
+    base = {
+        "base_url": BASE_URL,
+        "models_url": models_url,
+        "model": MODEL,
+        "key_configured": bool(API_KEY),
+        "cutoff": CUTOFF,
+    }
+    if not API_KEY:
+        return {**base, "ok": False, "auth_ok": False,
+                "models_reachable": None, "model_in_catalog": None,
+                "models_error": "no key configured"}
+    try:
         req = urllib.request.Request(
             models_url,
             headers={
@@ -136,24 +165,33 @@ def debug_net():
             catalog = json.loads(r.read().decode("utf-8"))
         ids = [m.get("id") for m in catalog.get("data", [])] if isinstance(catalog, dict) else []
         return {
-            "ok": True,
-            "base_url": BASE_URL,
-            "models_url": models_url,
-            "model": MODEL,
-            "key_configured": bool(API_KEY),
-            "cutoff": CUTOFF,
+            **base, "ok": True, "auth_ok": True,
             "models_reachable": True,
+            "catalog_count": len(ids),
             "model_in_catalog": MODEL in ids,
+        }
+    except urllib.error.HTTPError as exc:
+        traceback.print_exc()
+        if exc.code == 401:
+            return {
+                **base, "ok": False, "auth_ok": False,
+                "models_reachable": True,
+                "model_in_catalog": None,
+                "models_error": f"401: key rejected by {models_url} (wrong scope, not a connectivity issue)",
+            }
+        return {
+            **base, "ok": False, "auth_ok": None,
+            "models_reachable": True,
+            "model_in_catalog": None,
+            "models_error": f"{exc.code}: {_redact(str(exc))}",
         }
     except Exception as exc:  # noqa: BLE001 - diagnostics must never 500
         traceback.print_exc()
         return {
-            "ok": False,
-            "base_url": BASE_URL,
-            "model": MODEL,
-            "key_configured": bool(API_KEY),
+            **base, "ok": False, "auth_ok": None,
             "models_reachable": False,
-            "models_error": f"{type(exc).__name__}: {exc}",
+            "model_in_catalog": None,
+            "models_error": f"{type(exc).__name__}: {_redact(str(exc))}",
         }
 
 

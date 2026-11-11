@@ -13,12 +13,14 @@ const { title = 'Comm2 Reviewer' } = Astro.props;
     <style>
       :root {
         --tint: #f4f6fb;
-        --border: #c9d1e0;
+        --border: #9fb0cc;
         --accent: #1f3a8a;
-        --quote-bg: #f7f3e8;
-        --quote-border: #c8a84b;
+        --quote-bg: #f6e9c4;
+        --quote-border: #a87f1f;
         --code-bg: #f6f4ec;
-        --zebra: #fafbfd;
+        --zebra: #e6ebf5;
+        --header-bg: #1f3a8a;
+        --header-fg: #ffffff;
       }
       * { box-sizing: border-box; }
       body {
@@ -54,12 +56,13 @@ const { title = 'Comm2 Reviewer' } = Astro.props;
       }
       blockquote {
         border: 1px solid var(--quote-border);
-        border-left: 4px solid var(--quote-border);
+        border-left: 6px solid var(--quote-border);
         background: var(--quote-bg);
         margin: 1.1rem 0;
-        padding: 0.85rem 1.1rem;
-        border-radius: 0 6px 6px 0;
+        padding: 0.9rem 1.15rem;
+        border-radius: 0 8px 8px 0;
         font-style: italic;
+        box-shadow: 0 1px 3px rgba(168, 127, 31, 0.25);
       }
       blockquote p { margin: 0.3em 0; }
       blockquote p:first-child { margin-top: 0; }
@@ -83,6 +86,7 @@ const { title = 'Comm2 Reviewer' } = Astro.props;
         line-height: 1.45;
         margin: 1.1rem 0;
         background: #fff;
+        box-shadow: 0 1px 4px rgba(31, 58, 138, 0.18);
       }
       caption {
         font-size: 10pt;
@@ -98,11 +102,20 @@ const { title = 'Comm2 Reviewer' } = Astro.props;
         vertical-align: top;
       }
       thead th, th {
-        background: #e8edf7;
+        background: var(--header-bg);
+        color: var(--header-fg);
         font-weight: bold;
-        letter-spacing: 0.01em;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        font-size: 8.5pt;
       }
       tbody tr:nth-child(even) td { background: var(--zebra); }
+      @media (max-width: 700px) {
+        table { font-size: 8.5pt; }
+        th, td { padding: 0.4rem 0.45rem; }
+        blockquote { padding: 0.7rem 0.85rem; }
+        main { padding: 1rem 0.75rem 3rem; }
+      }
       td:first-child { font-weight: 600; }
       article table { display: table; }
       .card table { margin: 0.6rem 0; }

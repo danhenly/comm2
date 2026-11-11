@@ -46,9 +46,45 @@ const label = (PART_LABEL as Record<string, string>)[slug] ?? slug;
     </nav>
   )}
 
-  <article>
+  <article id="reviewer-article">
     <Content />
   </article>
+
+  <script>
+    (() => {
+      const article = document.getElementById('reviewer-article');
+      if (!article || article.dataset.collapsed) return;
+      article.dataset.collapsed = '1';
+      const h2Targets = ['1. Coverage Map', '2. Learning Objectives', '3. Authority Inventory', '4. Three-Pass', '5. Syllabus Self-Check', '0. One-Page Outline'];
+      const h3Targets = ['A. Cases', 'B. Laws'];
+      const matches = (text, list) => list.some((s) => text.trim().startsWith(s));
+      // Collect first, then wrap (live DOM mutation while iterating skips nodes).
+      const h2s = Array.from(article.querySelectorAll('h2')).filter((h) => matches(h.textContent || '', h2Targets));
+      const h3s = Array.from(article.querySelectorAll('h3')).filter((h) => matches(h.textContent || '', h3Targets));
+      const wrap = (heading, stopSel, open) => {
+        const details = document.createElement('details');
+        details.className = 'card';
+        if (open) details.open = true;
+        if (heading.id) { details.id = heading.id; heading.removeAttribute('id'); }
+        const summary = document.createElement('summary');
+        summary.innerHTML = '<strong></strong>';
+        summary.firstChild.textContent = heading.textContent || '';
+        details.appendChild(summary);
+        heading.parentNode.insertBefore(details, heading);
+        details.appendChild(heading);
+        heading.style.display = 'none';
+        let n = details.nextSibling;
+        while (n && !(n.nodeType === 1 && n.matches(stopSel))) {
+          const cur = n;
+          n = n.nextSibling;
+          details.appendChild(cur);
+        }
+      };
+      // Inner H3 first so they land inside their parent H2's details.
+      h3s.forEach((h) => wrap(h, 'h2, h3', false));
+      h2s.forEach((h) => wrap(h, 'h2', false));
+    })();
+  </script>
 
   <hr />
   <p>

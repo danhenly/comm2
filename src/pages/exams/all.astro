@@ -7,6 +7,7 @@ const _graderRaw = (import.meta.env.PUBLIC_GRADER_URL ?? 'http://localhost:8000/
 const graderUrl = _graderRaw.endsWith('/grade') ? _graderRaw : _graderRaw + '/grade';
 const storageKey = 'comm2-exam-all';
 ---
+<style>.spinner{display:inline-block;width:14px;height:14px;border:2px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin 0.8s linear infinite;vertical-align:-2px}@keyframes spin{to{transform:rotate(360deg)}}</style>
 <Base title="Exam all — Comm2 Reviewer">
   <p><a href="/">&larr; Home</a></p>
   <h1>Exam: whole course</h1>
@@ -30,6 +31,11 @@ const storageKey = 'comm2-exam-all';
         {' '}
         <button class="btn" id="exam-next" type="button">Next &rarr;</button>
       </p>
+    </div>
+    <div id="exam-loading" hidden class="card" role="status" aria-live="polite" style="border-left: 4px solid var(--accent);">
+      <p><strong>Grading your answer…</strong></p>
+      <p class="meta">The machine is checking your answer against the ALAC rubric — answer, legal basis, application, conclusion — and pulling the evidence quotes. Analysis will appear in a few seconds. Please wait.</p>
+      <p class="meta"><span class="spinner" aria-hidden="true"></span> working…</p>
     </div>
     <div id="exam-result"></div>
   </div>
@@ -69,11 +75,20 @@ const storageKey = 'comm2-exam-all';
             const title = document.createElement('strong');
             title.textContent = `${c.id || c.name || c.label || c.title || 'ALAC'} — ${c.band || c.score || ''}`;
             div.appendChild(title);
-            const ev = c.evidence || c.quotes;
-            if (ev) {
-              const p = document.createElement('p');
-              p.textContent = `Evidence: ${Array.isArray(ev) ? ev.join(' / ') : ev}`;
-              div.appendChild(p);
+            if (c.verdict) {
+              const v = document.createElement('p');
+              v.textContent = String(c.verdict);
+              div.appendChild(v);
+            }
+            const evRaw = c.evidence || c.quotes;
+            if (evRaw) {
+              const arr = Array.isArray(evRaw) ? evRaw : [evRaw];
+              const quotes = arr.map((e) => (typeof e === 'string' ? e : (e && (e.quote ?? e.text ?? e.excerpt)) || '')).filter(Boolean);
+              if (quotes.length) {
+                const p = document.createElement('p');
+                p.textContent = `Evidence: ${quotes.join(' / ')}`;
+                div.appendChild(p);
+              }
             }
             if (c.fix || c.feedback) {
               const p2 = document.createElement('p');
@@ -103,7 +118,7 @@ const storageKey = 'comm2-exam-all';
           const ol = document.createElement('ol');
           tips.forEach((t) => {
             const li = document.createElement('li');
-            li.textContent = t;
+            li.textContent = typeof t === 'string' ? t : (t && (t.text ?? t.suggestion ?? t.fix)) || JSON.stringify(t);
             ol.appendChild(li);
           });
           result.appendChild(ol);
@@ -143,6 +158,9 @@ const storageKey = 'comm2-exam-all';
         const attemptText = attempt.value;
         store[item.id] = attemptText;
         save();
+        const loading = document.getElementById('exam-loading');
+        if (loading) loading.hidden = false;
+        if (submitBtn) submitBtn.disabled = true;
         try {
           const res = await fetch(graderUrl, {
             method: 'POST',
@@ -160,8 +178,12 @@ const storageKey = 'comm2-exam-all';
           save();
           showModel(item, grade);
         } catch {
+          // Grader unreachable: fall back to revealing the model A: block.
           save();
           showModel(item, null);
+        } finally {
+          if (loading) loading.hidden = true;
+          if (submitBtn) submitBtn.disabled = false;
         }
       }
 

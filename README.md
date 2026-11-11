@@ -1,43 +1,67 @@
-# Astro Starter Kit: Minimal
+# Comm2 Reviewer
+
+Static Astro reviewer site (18 parts, per-part + whole-course exams) plus a
+stateless FastAPI AI grader. Single user, no auth beyond the deploy gate.
+
+## Content sync (vault → site)
+
+Reviewer sources live outside the repo:
 
 ```sh
-pnpm create astro@latest -- --template minimal
+# default VAULT, overridable per run
+node scripts/sync-content.mjs --check   # validate only (~143 items, CHECK OK)
+VAULT_REVIEWERS=/path/to/Reviewers node scripts/sync-content.mjs --check
+
+node scripts/sync-content.mjs           # writes src/content/parts, src/data/exams, public/pdfs
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Web
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+```sh
+pnpm dev      # astro dev (background); status: pnpm astro dev status
+pnpm astro build
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Bake the grader endpoint at build time:
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+```sh
+PUBLIC_GRADER_URL=http://localhost:8000/grade pnpm astro build
+```
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Grader (stateless, no DB, no history)
 
-## 🧞 Commands
+```sh
+cp grader/.env.example grader/.env   # fill GRADER_API_KEY + GRADER_MODEL, never commit
+cd grader && uvicorn app:app --host 0.0.0.0 --port 8000
+curl -s localhost:8000/health        # {"ok": true}
+python3 grader/test_grader.py        # rubric sums, caps, validator, prompt, fixture grade
+```
 
-All commands are run from the root of the project, from a terminal:
+| Env | Default | Notes |
+|---|---|---|
+| `GRADER_BASE_URL` | `https://opencode.ai/inference/go/openai/v1/chat/completions` | Go gateway; fallback `https://api.deepseek.com` |
+| `GRADER_API_KEY` | (required) | Never committed (`.gitignore` covers `.env`) |
+| `GRADER_MODEL` | (required) | Exact pinned id, echoed per grade with `model_date` |
+| `GRADER_CUTOFF` | `2025-06-30` | Law-as-of date in the examiner prompt |
+| `PUBLIC_GRADER_URL` | `http://localhost:8000/grade` | Build-time; exam pages POST `{id,stem,answer,profile,authorities}` here |
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+## Coolify deploy
 
-## 👀 Want to learn more?
+Two services from this repo:
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- **comm2-web** (`Dockerfile.web`): static `dist/` on nginx. Put Traefik
+  BasicAuth on this service (single user gate).
+- **comm2-grader** (`grader/Dockerfile`): uvicorn on 8000, `GET /health`.
+  Set `GRADER_BASE_URL` / `GRADER_API_KEY` / `GRADER_MODEL` / `GRADER_CUTOFF`
+  envs here. No volumes, no DB.
+
+Point the web build at the grader's full endpoint URL (path included), e.g.
+`PUBLIC_GRADER_URL=http://comm2-grader:8000/grade` as the web service's
+build arg. (Exam pages also normalize a bare host by appending `/grade`.)
+
+Password rotation (web BasicAuth via htpasswd):
+
+```sh
+htpasswd -nbB user 'new-password'   # paste the line into the Traefik
+                                    # BasicAuth middleware value, redeploy web
+```

@@ -3,7 +3,8 @@ import Base from '../../layouts/Base.astro';
 import allItems from '../../data/exams/all.json';
 
 const items = allItems as any[];
-const graderUrl = import.meta.env.PUBLIC_GRADER_URL ?? 'http://localhost:8000/grade';
+const _graderRaw = (import.meta.env.PUBLIC_GRADER_URL ?? 'http://localhost:8000/grade').replace(/\/+$/, '');
+const graderUrl = _graderRaw.endsWith('/grade') ? _graderRaw : _graderRaw + '/grade';
 const storageKey = 'comm2-exam-all';
 ---
 <Base title="Exam all — Comm2 Reviewer">
@@ -39,7 +40,8 @@ const storageKey = 'comm2-exam-all';
       if (!app) return;
       const dataEl = document.getElementById('exam-data');
       const items = JSON.parse(dataEl?.textContent || '[]');
-      const graderUrl = app.dataset.grader || 'http://localhost:8000/grade';
+      const normGrader = (u) => { const s = (u || '').replace(/\/+$/, ''); return s.endsWith('/grade') ? s : s + '/grade'; };
+      const graderUrl = normGrader(app.dataset.grader || 'http://localhost:8000/grade');
       const storageKey = app.dataset.storage || 'comm2-exam-all';
       const badge = document.getElementById('exam-badge');
       const section = document.getElementById('exam-section');
@@ -65,7 +67,7 @@ const storageKey = 'comm2-exam-all';
             const div = document.createElement('div');
             div.className = 'alac';
             const title = document.createElement('strong');
-            title.textContent = `${c.name || c.label || c.title || 'ALAC'} — ${c.band || c.score || ''}`;
+            title.textContent = `${c.id || c.name || c.label || c.title || 'ALAC'} — ${c.band || c.score || ''}`;
             div.appendChild(title);
             const ev = c.evidence || c.quotes;
             if (ev) {

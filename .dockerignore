@@ -1,0 +1,22 @@
+# dependencies
+node_modules
+# build output
+dist
+.astro
+# git
+.git
+.gitignore
+# vault reviewer sources live outside the repo (VAULT_REVIEWERS absolute
+# host path); never copy them into the build context
+Reviewers/
+*.md.bak
+# databases
+*.db
+*.sqlite*
+# secrets
+.env
+.env.*
+# local python envs / caches
+grader/.venv
+__pycache__
+*.pyc

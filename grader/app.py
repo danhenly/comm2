@@ -35,16 +35,44 @@ API_KEY = (
     or os.environ.get("DEEPSEEK_API_KEY")
     or ""
 )
-# Exact inference id. Earlier deepseek-v4-flash 400s ("Model is unavailable")
-# were root-caused to a workspace-scoped key, not the id: Go completions 401s
-# "api key invalid" on non-console keys even when /models returns 200.
-# Use a console-minted personal key. If Go still 401s, switch GRADER_BASE_URL
-# to https://api.deepseek.com with a DeepSeek direct key (~P0.05/grade).
+# Exact inference id: deepseek-v4.1-flash (verified against the live catalog;
+# do NOT switch to deepseek-v4-flash — Go inference 400s "Model is unavailable"
+# for it). Earlier 400/404 confusion was root-caused to key scope, not the id:
+# Go completions 401s "api key invalid" on workspace-scoped/log-scraped keys
+# even when /models returns 200. Use a console-minted personal key. If Go
+# still 401s, switch GRADER_BASE_URL to https://api.deepseek.com with a
+# DeepSeek direct key (~P0.05/grade).
 # Env overrides; never empty.
-MODEL = os.environ.get("GRADER_MODEL") or "deepseek-v4-flash"
+MODEL = os.environ.get("GRADER_MODEL") or "deepseek-v4.1-flash"
 CUTOFF = os.environ.get("GRADER_CUTOFF") or grader.CUTOFF_DEFAULT
 
 USER_AGENT = "comm2-reviewer/0.1"
+
+
+def _host(url: str) -> str:
+    try:
+        from urllib.parse import urlsplit
+
+        return urlsplit(url).hostname or url
+    except Exception:
+        return url
+
+
+# NOTE on env staleness: BASE_URL/API_KEY/MODEL/CUTOFF are read ONCE at
+# import. uvicorn runs WITHOUT --reload here (see Dockerfile CMD), so each
+# container process imports fresh — no in-process caching across deploys.
+# Stale values can only mean Coolify is still running an OLD container/image
+# (redeploy never triggered). The startup line below proves which values are
+# live: compare its timestamp against the deploy. Smoking gun for a stale
+# prod: a 502 whose detail LACKS the "provider {status}:" prefix (that prefix
+# only exists in images >= the provider-body commit).
+print(
+    f"[grader] config loaded_at={datetime.now(timezone.utc).isoformat()} "
+    f"pid={os.getpid()} model={MODEL} base={_host(BASE_URL)} "
+    f"fallback={_host(FALLBACK_URL)} key=...{(API_KEY[-4:] if API_KEY else 'NONE')} "
+    f"fallback_armed={BASE_URL != FALLBACK_URL} cutoff={CUTOFF}",
+    flush=True,
+)
 
 # Read-only lookup of suggested answers by item id (no writes, ever).
 DATA_DIR = Path(__file__).resolve().parent.parent / "src" / "data" / "exams"
@@ -85,6 +113,38 @@ def _redact(text: str) -> str:
     return text[:2000]
 
 
+def _describe_error(exc: Exception, model_sent: str, base_url: str) -> dict:
+    """Full provider error detail for logs: status, message, request id,
+    model actually sent, and host actually hit. Key material redacted."""
+    status = getattr(exc, "status_code", None)
+    body: object = getattr(exc, "body", None)
+    message = getattr(exc, "message", None) or str(exc)
+    if isinstance(body, dict):
+        err = body.get("error", body) if isinstance(body, dict) else body
+        if isinstance(err, dict):
+            message = err.get("message", message)
+    request_id = getattr(exc, "request_id", None)
+    if request_id is None:
+        try:
+            resp_obj = getattr(exc, "response", None)
+            headers = getattr(resp_obj, "headers", {}) or {}
+            request_id = headers.get("x-request-id") or headers.get("request-id")
+        except Exception:
+            request_id = None
+    try:
+        raw_body = json.dumps(body) if isinstance(body, dict) else str(body or message)
+    except Exception:
+        raw_body = str(message)
+    return {
+        "status": status,
+        "message": _redact(str(message)),
+        "request_id": request_id,
+        "model_sent": model_sent,
+        "host": _host(base_url),
+        "body": _redact(raw_body)[:1000],
+    }
+
+
 def _call_model(messages, session_id):
     """Sync OpenAI-compatible call. Tries primary base URL, then one fallback host."""
     try:
@@ -94,8 +154,10 @@ def _call_model(messages, session_id):
     if not API_KEY:
         raise HTTPException(status_code=503, detail="grader API key not configured (GRADER_API_KEY)")
     headers = {"User-Agent": USER_AGENT, "x-opencode-session": session_id}
+    targets = [BASE_URL] if BASE_URL == FALLBACK_URL else [BASE_URL, FALLBACK_URL]
     last_err: Exception | None = None
-    for base_url in ([BASE_URL] if BASE_URL == FALLBACK_URL else [BASE_URL, FALLBACK_URL]):
+    for n, base_url in enumerate(targets, start=1):
+        print(f"[grader] attempt {n}/{len(targets)} model={MODEL} host={_host(base_url)}", flush=True)
         try:
             client = OpenAI(api_key=API_KEY, base_url=base_url, timeout=60.0, max_retries=0)
             resp = client.chat.completions.create(
@@ -109,16 +171,14 @@ def _call_model(messages, session_id):
             )
             return resp.choices[0].message.content or ""
         except Exception as exc:  # noqa: BLE001 - 4xx surfaces provider body, else fallback then 502
+            info = _describe_error(exc, MODEL, base_url)
+            print(f"[grader] attempt {n}/{len(targets)} FAILED {json.dumps(info)}", flush=True)
             traceback.print_exc()
-            status = getattr(exc, "status_code", None)
+            status = info["status"]
             if status is not None and 400 <= status < 500:
-                raw = ""
-                try:
-                    resp_obj = getattr(exc, "response", None)
-                    raw = resp_obj.text if resp_obj is not None else str(exc)
-                except Exception:
-                    raw = str(exc)
-                raise HTTPException(status_code=502, detail=f"provider {status}: {_redact(raw)}")
+                print(f"[grader] not falling back (client {status} would repeat on fallback host)", flush=True)
+                raise HTTPException(status_code=502, detail=f"provider {status}: {info['message']} (request_id={info['request_id']})")
+            print(f"[grader] falling back (transport/server error)", flush=True)
             last_err = exc
     raise HTTPException(status_code=502, detail=f"model call failed: {_redact(str(last_err))}")
 

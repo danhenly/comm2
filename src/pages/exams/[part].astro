@@ -102,6 +102,19 @@ const storageKey = `comm2-exam-${part}`;
         pre.style.whiteSpace = 'pre-wrap';
         pre.textContent = item.answer || '(missing A: block)';
         result.appendChild(pre);
+        const tips = (grade && grade.suggestions) || [];
+        if (tips.length) {
+          const h2 = document.createElement('h3');
+          h2.textContent = 'How to improve';
+          result.appendChild(h2);
+          const ol = document.createElement('ol');
+          tips.forEach((t) => {
+            const li = document.createElement('li');
+            li.textContent = t;
+            ol.appendChild(li);
+          });
+          result.appendChild(ol);
+        }
       }
 
       function render() {
@@ -125,20 +138,17 @@ const storageKey = `comm2-exam-${part}`;
         if (section) section.textContent = item.section || '';
         if (stem) stem.textContent = item.stem || '';
         if (auth) auth.textContent = item.authorities || '';
-        const saved = store[item.id] || {};
-        if (attempt) attempt.value = saved.attempt || '';
-        if (result) {
-          result.innerHTML = '';
-          if (saved.grade) showModel(item, saved.grade);
-          else if (saved.revealed) showModel(item, null);
-        }
+        // localStorage keeps the attempt text only (nothing graded is stored server-side).
+        const savedAttempt = typeof store[item.id] === 'string' ? store[item.id] : '';
+        if (attempt) attempt.value = savedAttempt || '';
+        if (result) result.innerHTML = '';
       }
 
       async function submit() {
         const item = items[idx];
         if (!item || !attempt) return;
         const attemptText = attempt.value;
-        store[item.id] = { ...(store[item.id] || {}), attempt: attemptText };
+        store[item.id] = attemptText;
         save();
         try {
           const res = await fetch(graderUrl, {
@@ -154,12 +164,10 @@ const storageKey = `comm2-exam-${part}`;
           });
           if (!res.ok) throw new Error(`grader ${res.status}`);
           const grade = await res.json();
-          store[item.id] = { ...(store[item.id] || {}), attempt: attemptText, grade, revealed: false };
           save();
           showModel(item, grade);
         } catch {
           // Grader unbuilt: fall back to revealing the model A: block.
-          store[item.id] = { ...(store[item.id] || {}), attempt: attemptText, revealed: true };
           save();
           showModel(item, null);
         }
@@ -169,16 +177,16 @@ const storageKey = `comm2-exam-${part}`;
       revealBtn?.addEventListener('click', () => {
         const item = items[idx];
         if (!item) return;
-        store[item.id] = { ...(store[item.id] || {}), attempt: attempt?.value || '', revealed: true };
+        store[item.id] = attempt?.value || '';
         save();
-        showModel(item, (store[item.id] || {}).grade || null);
+        showModel(item, null);
       });
       prevBtn?.addEventListener('click', () => { if (idx > 0) { idx--; render(); } });
       nextBtn?.addEventListener('click', () => { if (idx < items.length - 1) { idx++; render(); } });
       attempt?.addEventListener('input', () => {
         const item = items[idx];
         if (!item) return;
-        store[item.id] = { ...(store[item.id] || {}), attempt: attempt.value };
+        store[item.id] = attempt.value;
         save();
       });
       render();

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "part-iii-a-q01",
+    "part": "part-iii-a",
+    "section": "1. Public Utility Concept; Public Service under PSA",
+    "stem": "A company owns no power plant and merely advances the building-wide Meralco bill while collecting each tenant's metered share. The tenants complain to the regulator that the company sells electricity without a franchise. Is the company a public service subject to regulation.",
+    "answer": "No, because the three-element Sec. 13(b) test fails on ownership or control of a covered service. The law requires ownership, operation, management, or control of an enterprise supplying electric light, heat, and power for hire or compensation as a business, and a mere administrator who advances and recovers billings owns and controls no plant while the utility supplies the tenants directly. The ruling in Cruz de Syquia (G.R. Nos. L-42783-85, 1976) annulled the same kind of board orders and left the pro-rata dispute to the regular courts as a civil lease question.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-A Concept Agencies Constitutional Frame.md :: 1. Public Utility Concept; Public Service under PSA"
+  },
+  {
+    "id": "part-iii-a-q02",
+    "part": "part-iii-a",
+    "section": "2. Regulatory Agencies; Bases of Regulation",
+    "stem": "A bus operator with existing certificates applies for additional units and the regulator adds a twenty-five-year expiry to all its certificates without any hearing. The operator assails the whole statute as undue delegation. How should the challenge fail and the order fall.",
+    "answer": "The statute stands while the order falls for want of hearing. The regulation of utilities is a valid exercise of police power, the legislature may delegate certificate periods under the sufficient standard of public interest within the fifty-year constitutional cap, and a certificate is a mere privilege so police-power conditions reach existing holders. The ruling in Pangasinan Transportation (G.R. No. 47065, 1940) still annulled the limit because Sec. 16(m) allows amendment only upon proper notice and hearing and the operator never had the chance to present its case.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-A Concept Agencies Constitutional Frame.md :: 2. Regulatory Agencies; Bases of Regulation"
+  },
+  {
+    "id": "part-iii-a-q03",
+    "part": "part-iii-a",
+    "section": "3. Constitutional Provisions and Limitations",
+    "stem": "TRUE or FALSE. Explain briefly your answer. (b) The term capital in relation to public utilities under Sec. 11, Art. XII of the 1987 Constitution refers to the total outstanding capital stock comprising both common and non-voting preferred shares. (2%)",
+    "answer": "FALSE, because capital in Sec. 11 Art. XII means only shares entitled to vote in the election of directors and never the total outstanding stock with non-voting preferred shares. The law ties control to electing directors and demands full beneficial ownership with voting rights, so the sixty-forty test applies to voting shares under the 2011 decision in Gamboa (G.R. No. 176579, 2011) as implemented by SEC-MC No. 8 sustained in Roy III (G.R. No. 207246, 2016). A corporation whose foreigners hold the voting common shares fails the test even when Filipinos hold all the non-voting preferred shares.",
+    "kind": "historic",
+    "year": "2017",
+    "profile": "P1",
+    "authorities": "Part III-A Concept Agencies Constitutional Frame.md :: 3. Constitutional Provisions and Limitations"
+  },
+  {
+    "id": "part-iii-a-q04",
+    "part": "part-iii-a",
+    "section": "3. Constitutional Provisions and Limitations",
+    "stem": "A water district charter provides that no other franchise for water service inside the district may issue without board consent. A cooperative seeks a franchise and the board refuses. Is the consent requirement valid.",
+    "answer": "No, because the Constitution bans every exclusive franchise whether created directly or indirectly. The law states that no franchise, certificate, or authorization for a public utility shall be exclusive in character, and police power includes no power to violate that ban. The book rule voids Sec. 47 of P.D. No. 198 as amended for creating exclusivity through a consent veto, following the RCPI mandate (G.R. No. L-68729, 1987) that one operator never blocks another.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-A Concept Agencies Constitutional Frame.md :: 3. Constitutional Provisions and Limitations"
+  },
+  {
+    "id": "part-iii-a-q05",
+    "part": "part-iii-a",
+    "section": "4. Foreign-Owned Enterprise; Critical Infrastructure",
+    "stem": "A foreign state-owned enterprise proposes to acquire forty percent of a declared critical-infrastructure telecommunications operator after the effectivity of R.A. No. 11659. Its lawyers invoke the thirty percent sovereign wealth exception. May the acquisition proceed.",
+    "answer": "No, because the ban reaches every entity controlled by or acting for a foreign government with only the narrow fund exception available. The law prohibits a foreign state-owned enterprise from owning capital in a public utility or critical infrastructure for post-effectivity investments, and the thirty percent allowance belongs solely to sovereign wealth funds and independent pension funds collectively. A forty percent acquisition by the state enterprise itself exceeds the only exception and remains prohibited.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-A Concept Agencies Constitutional Frame.md :: 4. Foreign-Owned Enterprise; Critical Infrastructure"
+  }
+]

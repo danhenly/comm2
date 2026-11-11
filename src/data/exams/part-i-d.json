@@ -1,0 +1,160 @@
+[
+  {
+    "id": "part-i-d-q01",
+    "part": "part-i-d",
+    "section": "1. Reinsurance",
+    "stem": "X obtained an insurance policy for her Porsche Carrera GT from XYZ Insurance Company. The same car was insured by her creditor-mortgagee, Y, with ABC Insurance Company. When the car was damaged because of an accident, X filed a claim with XYZ Insurance Company. The latter denied the claim since it discovered that the car was also insured with ABC Insurance Company. According to XYZ Insurance Company, double insurance is prohibited by law. Decide with reason(s).",
+    "answer": "Denial of the claim is improper because X and Y are different persons with distinct interests — owner and creditor-mortgagee — so the two policies are not double insurance, which exists only where the same person is insured by several insurers separately in respect to the same subject and interest.\nThe controlling rule is Sec. 95, which defines double insurance by the same-person, same-subject, same-interest identities, as applied in Malayan v Phil First: the same goods exposed to the same peril but insured for different persons with distinct interests is not double insurance, and double cover is regulated by deduction and contribution under Sec. 96, not prohibited.\nApplied here, XYZ answers X's ownership interest while ABC answers Y's mortgage-credit interest, so each insurer pays on its own contract without deduction from the other.\nXYZ is therefore liable on X's claim, and neither an other-insurance clause nor Sec. 96 contribution defeats recovery.",
+    "kind": "historic",
+    "year": "2025",
+    "profile": "P1",
+    "authorities": "Part I-D Classes of Insurance.md :: 1. Reinsurance"
+  },
+  {
+    "id": "part-i-d-q02",
+    "part": "part-i-d",
+    "section": "2. Fire Insurance",
+    "stem": "Flavio obtained from Safe Assurance Corporation (SAC), through its agent Laureen, a fire insurance policy over his residential house for a period of one year from August 25, 2024 to August 24, 2025. Flavio delivered on August 26, 2024 a check representing premium payment to Laureen who then issued an acknowledgment receipt. On August 27, 2024, a fire completely razed Flavio's house. Oblivious of the incident, Laureen deposited the check on August 28, 2024 to SAC's bank account and was credited on the same day. Thereafter, Flavio filed against SAC an insurance claim. However, SAC denied the claim and argued that there was no payment of premium yet to make the insurance policy effective at the time of the loss. SAC explained that it received the premium payment only on August 28, 2024 or after the fire occurred on August 27, 2024. Is there a valid and binding insurance contract between SAC and Flavio? Explain.",
+    "answer": "Yes, a valid and binding insurance contract exists between SAC and Flavio because delivery of the premium check to the insurer's authorized agent, evidenced by the August 26 acknowledgment receipt, perfected payment as between insured and insurer, and the August 27 loss fell within the August 25, 2024 to August 24, 2025 cover.\nThe controlling rules are that cash-and-carry is satisfied by payment to the authorized agent whose receipt binds the insurer, and that Sec. 173 measures the razed house at the replacement expense at the commencement of the fire.\nApplied here, Flavio paid through Laureen before the fire razed the house, so SAC's August 28 bank-credit date is a mere internal matter that does not move the payment date, and the denial on the no-premium ground fails.\nSAC is therefore liable for the fire loss.",
+    "kind": "historic",
+    "year": "2024",
+    "profile": "P1",
+    "authorities": "Part I-D Classes of Insurance.md :: 2. Fire Insurance"
+  },
+  {
+    "id": "part-i-d-q03",
+    "part": "part-i-d",
+    "section": "2. Fire Insurance",
+    "stem": "Jason pays in cash Oct. 11. The insurer mails the approved policy Oct. 18. Fire razes the house before receipt. Decide under perfection and assumption-of-risk rules and state the measure under Sec. 173.",
+    "answer": "The insurer is liable because the contract was perfected on approval and the risk had already attached before the fire, since Jason's October 11 cash payment and the insurer's approval perfected the contract so the October 18 mailing did not defer attachment of the risk, and the insurer must therefore pay the replacement expense of the house in the condition it was in at the time of the injury under Section 173.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-D Classes of Insurance.md :: 2. Fire Insurance"
+  },
+  {
+    "id": "part-i-d-q04",
+    "part": "part-i-d",
+    "section": "3. Life Insurance",
+    "stem": "In January 2016, Mr. H was issued a life insurance policy by XYZ Insurance Co., wherein his wife, Mrs. W, was designated as the sole beneficiary. Unbeknownst to XYZ Insurance Co., however, Mr. H had been previously diagnosed with colon cancer, the fact of which Mr. H had concealed during the entire time his insurance policy was being processed. In January 2019, Mr. H unfortunately committed suicide. Due to her husband's death, Mrs. W, as beneficiary, filed a claim with XYZ Insurance Co. to recover the proceeds of the late Mr. H's life insurance policy. However, XYZ Insurance Co. resisted the claim, contending that: 1. the policy is void ab initio because Mr. H fraudulently concealed or misrepresented his medical condition, i.e., his colon cancer; and 2. as an insurer in a life insurance policy, it cannot be held liable in case of suicide. Rule on each of XYZ Insurance Co.'s contentions. (5%)",
+    "answer": "Both of XYZ's contentions fail because by January 2019 the policy had been in force for three years, so the Sec. 48 two-year incontestability bar kills the concealment defense and the Sec. 183 two-year suicide clock makes the suicide compensable.\nThe controlling rules are Sec. 48, under which the insurer is barred after two years from proving void ab initio or rescission for fraud or concealment even on a void-ab-initio recast (Manila Bankers), and Sec. 183, which makes the insurer liable for suicide committed after the policy has been in force two years from issue or last reinstatement.\nApplied here, three years in force exceeds both clocks, so the concealed colon cancer can no longer be proved to avoid the policy and the sane suicide after the period is a covered risk.\nXYZ must therefore pay Mrs. W the proceeds of the policy.",
+    "kind": "historic",
+    "year": "2019",
+    "profile": "P1",
+    "authorities": "Part I-D Classes of Insurance.md :: 3. Life Insurance"
+  },
+  {
+    "id": "part-i-d-q05",
+    "part": "part-i-d",
+    "section": "3. Life Insurance",
+    "stem": "On June 21, 2008, Yate took out a life insurance policy on her life in the amount of PhP 10 million and named her husband Vandy and daughter as joint irrevocable beneficiaries. Before the policy was issued and the premiums were paid, Yate underwent a medical checkup with a physician accredited by the insurer, and the only result found was that she was suffering from high blood pressure. Yate was previously diagnosed by a private physician of having breast cancer which she did not disclose to the insurer in her application, nor to the insurer's accredited physician because by then, she was told that she was already cancer-free after undergoing surgery which removed both her breasts. She was later diagnosed with psychotic tendency that graduated into extreme despondency. She was found dead hanging in her closet 36 months after the issuance of the policy. The police authorities declared it to be a case of suicide. The policy did not include suicide as an excepted risk. (a) Can the insurer raise the issue of failure to disclose that she had cancer as a cause for denying the claim of the beneficiaries? (2.5%) (b) Are the beneficiaries entitled to receive the proceeds of the life insurance notwithstanding the fact that the cause of death was suicide? (2.5%)",
+    "answer": "(a) No, the insurer cannot raise the non-disclosure of the breast cancer because thirty-six months in force exceeds the two-year incontestability period, so that defense is barred. (b) Yes, the beneficiaries are entitled to the proceeds because suicide thirty-six months after issue is compensable under Sec. 183, the policy did not except suicide, and insanity-graded despondency reinforces compensability.\nThe controlling rules are Sec. 48 as construed in Manila Bankers and the Sec. 183 suicide text quoted above.\nApplied here, the insurer's own accredited examination found only hypertension, so the cancer history, even if material, is time-barred, and the 36-month suicide falls outside any exclusion window.\nVandy and the daughter therefore recover the P10M as joint irrevocable beneficiaries.",
+    "kind": "historic",
+    "year": "2019",
+    "profile": "P1",
+    "authorities": "Part I-D Classes of Insurance.md :: 3. Life Insurance"
+  },
+  {
+    "id": "part-i-d-q06",
+    "part": "part-i-d",
+    "section": "3. Life Insurance",
+    "stem": "Shortly after Yin and Yang were wed, they each took out separate life insurance policies on their lives, and mutually designated one another as sole beneficiary. Both life insurance policies provided for a double indemnity clause, the cost for which was added to the premium rate. During the last 10 years of their marriage, the spouses had faithfully paid for the annual premiums over the life policies from both their salaries. Unfortunately, Yin fell in love with his officemate, Vessel, and they carried on an affair. After two years, their relationship bore them a daughter named Vinsel. Without the knowledge of Yang, Yin changed the designation of the beneficiary to an \"irrevocable designation\" of Vinsel and Vessel jointly. When Yang learned of the affair, she was so despondent that, having chanced upon Yin and Vessel on a date, she rammed them down with the car she was driving, resulting in Vin's death and Vessel's complete loss of mobilization. Yang was sued for parricide, and while the case was pending, she filed a claim on the proceeds of the life insurance of Yin as irrevocable beneficiary, or at least his legal heir, and opposed the claims on behalf of Vessel and her daughter Vinsel. Yang claimed that her designation as beneficiary in Vin's life insurance policy was irrevocable, in the nature of one \"coupled with interest,\" since it was made in accordance with their mutual agreement to designate one another as sole beneficiary in their respective life policies. She also claimed that the beneficiary designation of Vessel and the illegitimate minor child Vinsel was void being the product of an illicit relationship, and therefore without \"insurable interest.\" (a) Is Yang correct in saying that her designation as beneficiary was irrevocable? (2.5%) (b) Do Vessel and Vinsel have \"insurable interest\" on the life of Yin? (2.5%)",
+    "answer": "(a) No, Yang is not correct because a beneficiary designation is revocable unless expressly made irrevocable in the policy, a private mutual agreement does not create irrevocability \"coupled with interest,\" and Yin's later express irrevocable designation of Vinsel and Vessel displaced her. Her killing of Yin additionally disqualifies her as beneficiary. (b) Vessel and Vinsel need no insurable interest on Yin's life because Sec. 184 lets a life policy pass to any person and Sec. 10 gives Yin insurable interest in his own life to support naming whom he pleases, so their illicit origin does not void the designation itself.\nThe controlling rules are Secs. 184-185, which allow transfer to any person without need of notice, together with the revocability default and the killer-beneficiary disqualification.\nApplied here, ten years of faithful premium payment created no vested irrevocability, so the written irrevocable change controls and Vessel and Vinsel take as designated transferees.\nYang's irrevocability claim therefore fails, and Vessel and Vinsel may recover as irrevocable beneficiaries, subject to the parricide consequence against Yang.",
+    "kind": "historic",
+    "year": "2018",
+    "profile": "P1",
+    "authorities": "Part I-D Classes of Insurance.md :: 3. Life Insurance"
+  },
+  {
+    "id": "part-i-d-q07",
+    "part": "part-i-d",
+    "section": "3. Life Insurance",
+    "stem": "X insured his life for P20 million. X, plays golf and regularly exercises everyday, hence is considered in good health. He did not know, however, that his frequent headache is really caused by his being hypertensive. In his application form for a life insurance for himself, he did not put a check to the question if he is suffering from hypertension, believing that because of his active lifestyle, being hypertensive is a remote possibility. While playing golf one day, X collapsed at the fairway a [question continues in the official release on hypertension concealment and materiality]. [a] Will the beneficiary of X be entitled to the proceeds of the life insurance under the circumstances, despite the non-disclosure that he is hypertensive at the time of application? (2.5%) [b] If X died in an accident instead of a heart attack, would the fact of X's failure to disclose that he is hypertensive be considered as material information? (2.5%)",
+    "answer": "[a] The beneficiary's right to the proceeds depends on good faith and materiality at application, because unknowing non-disclosure without fraudulent intent does not avoid the policy where the applicant genuinely believed himself healthy, but hypertension that caused the very death is material and avoids the policy if it is proved to have been known or fraudulently concealed. [b] No, the undisclosed hypertension is not a ground to deny the accidental-death claim because immateriality to accidental death means it would not have affected the risk assumed.\nThe controlling rules are that concealment avoids only when fraudulent and material to the risk, that incontestability under Sec. 48 (Manila Bankers) bars late proof after two years, and that Biagtan distinguishes accidental from non-accidental death measures.\nApplied here, X's good-faith omission plus the insurer's own medical-examination opportunity weigh against avoidance, and death by accident severs any causal link to hypertension.\nThe insurer must therefore pay where the omission was innocent or time-barred, and may deny only on proved fraudulent material concealment within the contestable period.",
+    "kind": "historic",
+    "year": "2016",
+    "profile": "P1",
+    "authorities": "Part I-D Classes of Insurance.md :: 3. Life Insurance"
+  },
+  {
+    "id": "part-i-d-q08",
+    "part": "part-i-d",
+    "section": "3. Life Insurance",
+    "stem": "The insured names his business partner, who has no insurable interest, as irrevocable beneficiary, then outlives two years. Decide on the partner's right and the insurer's late fraud defense.",
+    "answer": "The business partner recovers the proceeds because Section 184 lets a life policy pass to any person even without insurable interest, so the irrevocable designation stands, and the insurer's fraud suit comes too late because Section 48 bars rescission after two years in force.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-D Classes of Insurance.md :: 3. Life Insurance"
+  },
+  {
+    "id": "part-i-d-q09",
+    "part": "part-i-d",
+    "section": "3. Life Insurance",
+    "stem": "An insured with two successive marriages names both wives as beneficiaries. State who takes and why, running Secs. 184-185 and the revocability default.",
+    "answer": "The widow named in the last valid written designation takes the proceeds because beneficiary designations are revocable by default so the later designation displaces the earlier one, each taker needs no insurable interest under Sections 184 and 185, and the succession of marriages itself neither supplies nor defeats the designation.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-D Classes of Insurance.md :: 3. Life Insurance"
+  },
+  {
+    "id": "part-i-d-q10",
+    "part": "part-i-d",
+    "section": "4. Annuity",
+    "stem": "X transfers P1,000,000 to Y in exchange for a yearly pension during the life of Z, who dies of a pre-existing illness ten days after the contract. X demands the capital back. Decide under Arts. 2021-2024.",
+    "answer": "The constitution is void and X recovers the capital because Z died within twenty days from a pre-existing illness under Article 2023, so no valid measuring life ever attached and the Article 2024 arrears-only remedy for a valid annuity never came into play.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-D Classes of Insurance.md :: 4. Annuity"
+  },
+  {
+    "id": "part-i-d-q11",
+    "part": "part-i-d",
+    "section": "5. Casualty Insurance",
+    "stem": "A personal accident policy excludes ten listed causes. The insured dies in a stabbing by strangers, with no provocation. The insurer denies the claim. It cites an unlisted peace-and-order exclusion it says is implied. Decide whether the insurer must pay.",
+    "answer": "The insurer must pay the face amount because the death is accidental as to the insured under the Section 176 trigger, murder by strangers falls outside the ten listed causes so the exclusive enumeration closes against adding an implied peace-and-order exclusion, and ambiguities construe against the insurer.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-D Classes of Insurance.md :: 5. Casualty Insurance"
+  },
+  {
+    "id": "part-i-d-q12",
+    "part": "part-i-d",
+    "section": "6. Compulsory Motor Vehicle Liability Insurance (CMVLI)",
+    "stem": "A pedestrian is hit by a private car. Sworn police report and hospital receipts for P40,000 are filed with the offending car's insurer. The insurer refuses any payment until fault is proved and demands a full quitclaim for P15,000. The victim sues eight months after denial. Decide liability, amount floor, quitclaim, and prescription.",
+    "answer": "The insurer must pay no-fault indemnity of at least P15,000.00 on the sworn papers without proof of fault, and it may not condition payment on a full quitclaim, while the balance above the floor is litigated on fault and the suit filed eight months after denial is within the Sec. 397 one-year period.\nThe controlling rules are Sec. 391(a)-(c) on the no-fault track, the Sec. 398 first paragraph barring quitclaim compulsion, and Sec. 397 on the six-month notice and one-year-from-denial suit.\nApplied here, the sworn police report plus medical and disbursement proof satisfies Sec. 391(b), Sec. 391(c) points the claim at the directly offending vehicle, Sec. 398 bars the forced quitclaim, and eight months from denial is inside the one-year limit.\nThe insurer must therefore pay no-fault now, litigate the excess on fault, and the action is timely.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-D Classes of Insurance.md :: 6. Compulsory Motor Vehicle Liability Insurance (CMVLI)"
+  },
+  {
+    "id": "part-i-d-q13",
+    "part": "part-i-d",
+    "section": "7. Marine Insurance",
+    "stem": "A time-policy hull insurer denies a mid-period voyage loss because the ship, seaworthy at inception of the period, developed unseaworthiness during an earlier voyage that the master unreasonably delayed repairing. The cargo owner separately claims although the hull was sound for hull purposes. Decide both claims.",
+    "answer": "The hull claim fails for losses arising from the unrepaired defect because Sec. 117(a) demands seaworthiness at the commencement of every voyage and Sec. 120 exonerates the insurer on unreasonable delay in repairing unseaworthiness, while the cargo claim depends on Sec. 121, under which fitness for hull purposes does not decide fitness for cargo.\nThe controlling rules are Secs. 115-121 as quoted and tabled above.\nApplied here, the master's unreasonable delay in repair triggers the Sec. 120 exoneration on the resulting hull loss, and cargo seaworthiness is separately measured at the inception of the risk against equipment, lading, and manning.\nThe denial is therefore proper on the resulting hull loss, and cargo recovery turns on cargo-specific unseaworthiness.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-D Classes of Insurance.md :: 7. Marine Insurance"
+  },
+  {
+    "id": "part-i-d-q14",
+    "part": "part-i-d",
+    "section": "8. Suretyship",
+    "stem": "EFG, Inc. is indebted to Bank Y in the amount of P50,000,000.00. The loan was secured by a suretyship agreement issued by Z Insurance Co. Due to EFG, Inc's default, Bank Y filed a case against Z Insurance Co. as surety. There is also a pending criminal case for violation of the Bouncing Checks Law against the President of EFG, Inc., Mr. P, who signed the check as signatory for the company. Unable to meet its obligations as they fell due, EFG, Inc. filed a petition for rehabilitation. Finding the petition sufficient in form and substance, the court issued a Commencement Order, which was thereafter published. (a) Should the case filed against Z Insurance Co. be suspended in light of the Commencement Order? Explain. (2.5%) (b) Should the criminal case filed against Mr. P be suspended in light of the Commencement Order? Explain. (2.5%)",
+    "answer": "(a) No, the case against Z Insurance Co. should not be suspended because the surety's liability is joint and several with the obligor under Sec. 178 and solidary under Art. 2047, second paragraph, so Bank Y may proceed directly against the surety while the rehabilitation stay covers only EFG, with the solidary surety answering independently up to the bond amount. (b) No, the criminal case against Mr. P should not be suspended because rehabilitation suspends only enforcement of civil claims against the debtor, while his criminal liability for the Bouncing Checks Law violation is personal to him as signatory and is not a claim against EFG's estate.\nThe controlling rules are Sec. 178 on joint-and-several liability within the bond cap and strict bond terms, Art. 2047 on solidary suretyship, and Arts. 2059(2) and 2084 on the absence of exhaustion where the obligation is solidary or the bond is judicial.\nApplied here, Bank Y sues on the surety's independent solidary promise and not on EFG's stayed obligation, and Mr. P is prosecuted for his own act of issuing the worthless check and not for EFG's debt.\nNeither case is therefore suspended: Bank Y collects from Z up to the bond amount, and the State prosecutes Mr. P.",
+    "kind": "historic",
+    "year": "2019",
+    "profile": "P1",
+    "authorities": "Part I-D Classes of Insurance.md :: 8. Suretyship"
+  },
+  {
+    "id": "part-i-d-q15",
+    "part": "part-i-d",
+    "section": "8. Suretyship",
+    "stem": "Yellow Fin Tuna Corporation (Yellow Fin), a domestic corporation, applied for a credit facility in the amount of PhP 50 million with Yengzi Financial Corporation (YFC). The application was approved and the Credit Agreement was signed and took effect. Ysko and Yuan, Yellow Fin Chairman and President, respectively, executed a Continuing Suretyship Agreement in favor of YFC wherein they guaranteed the due and full payment and performance of Yellow Fin's guarantee obligations under the credit facility. YFC soon discovered material inconsistencies in the financial statements given by Yellow Fin, drawing YFC to conclude that Yellow Fin committed misrepresentation. Under the Credit Agreement, any misrepresentation by Yellow Fin or its sureties will constitute an event of default. YFC thus called an event of default and filed a complaint for sum of money against Yellow Fin, Ysko, and Yuan. Immediately thereafter, Yellow Fin filed a petition for rehabilitation. The court suspended the proceedings in YFC's complaint until the rehabilitation court disposed of the petition for rehabilitation. YFC posits that the suspension of the proceedings should only be with respect to Yellow Fin but not with respect to Ysko and Yuan. Is YFC correct? (2.5%)",
+    "answer": "Yes, YFC is correct because a continuing suretyship guarantees full payment and performance of present and future obligations under the facility under Art. 2053, and sureties bind themselves solidarily under Sec. 178 and Art. 2047, so YFC may enforce directly against Ysko and Yuan despite the stay on Yellow Fin, with the solidary sureties answering on their own promise and remaining suable while retaining reimbursement against the debtor later under Arts. 2066-2067.\nThe controlling rules are Art. 2053 on future debts secured, Sec. 178 and Art. 2047 on joint-and-several and solidary liability, and Art. 2059(2) on the absence of excussion where the obligation is solidary.\nApplied here, Ysko and Yuan signed a continuing solidary guarantee of the whole facility, so YFC's declaration of default on misrepresentation triggered their independent liability, unaffected by Yellow Fin's rehabilitation stay.\nSuspension is therefore proper as to Yellow Fin only, and the complaint proceeds against Ysko and Yuan.",
+    "kind": "historic",
+    "year": "2018",
+    "profile": "P1",
+    "authorities": "Part I-D Classes of Insurance.md :: 8. Suretyship"
+  }
+]

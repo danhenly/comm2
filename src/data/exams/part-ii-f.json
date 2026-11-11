@@ -1,0 +1,94 @@
+[
+  {
+    "id": "part-ii-f-q01",
+    "part": "part-ii-f",
+    "section": "1. Maritime law defined with the vessel, the Philippine flag, registry, prescription, and co-owner rights",
+    "stem": "A part owner of a merchant vessel sells his undivided share to a stranger without telling the other part owners, and the sale is recorded in the mercantile registry on June 1. On June 8 the remaining part owners tender the price and claim the share. Is their claim timely and what must they still do to perfect it?",
+    "answer": "Yes, the remaining part owners acted in time and they perfect their right by delivering the price at once and anchoring their claim on the record of the sale.\nArticle 575 gives part owners the right of option of purchase and withdrawal in sales made to strangers, exercisable within nine days following record of the sale in the registry by delivering the price at once.\nThe June 8 tender falls on the seventh day from the June 1 record, so it is well within the nine-day window and the recorded sale is the exact trigger the law names.\nThe part owners therefore take the stranger share upon prompt delivery of the price, and the stranger buyer cannot keep what the law reserves to the ownership.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-F Maritime Law.md :: 1. Maritime law defined with the vessel, the Philippine flag, registry, prescription, and co-owner rights"
+  },
+  {
+    "id": "part-ii-f-q02",
+    "part": "part-ii-f",
+    "section": "2. Real and hypothecary nature with maritime lien and the limited liability rule of no vessel, no liability",
+    "stem": "Absolute Timber Co. (ATC) has been engaged in the logging business in Isabela. To secure one of its shipments of logs to be transported by Andok Shipping Co., ATC purchased a marine policy with an \"all risks\" provision. Because of a strong typhoon then hitting Northern Luzon, the vessel sank and the shipment of logs was totally lost. ATC filed its claim, but the insurer denied the claim on several grounds, namely: (1) the vessel had not been seaworthy; (2) the vessel's crew had lacked sufficient training; (3) the improper loading of the logs on only one side of the vessel had led to the tilting of the ship to that side during the stormy voyage; and (4) the extremely bad weather had been a fortuitous event. ATC now seeks your legal advice to know if its claim was sustainable. What is your advice? Explain your answer. (3%)",
+    "answer": "I advise ATC that its claim is sustainable and that the four grounds for denial all fail against the carrier negligence shown.\nA common carrier must observe extraordinary diligence and a typhoon that regularly visits Northern Luzon is an ordinary vicissitude of the voyage rather than a fortuitous event once unseaworthiness, an untrained crew, and one-sided loading concurred to sink the vessel.\nThe unseaworthy condition at sailing, the lack of crew training, and the improper stowage point to concurrent fault of the shipowner, so the defense of force majeure collapses and the limited liability rule of no vessel and no liability cannot shelter the owner under the doctrine of *Phil-Am General Insurance Co., Inc. v. Court of Appeals* (G.R. No. 116940, 1997).\nATC therefore recovers on the all-risks policy and the insurer as subrogee takes the same action against Andok Shipping, because the proximate cause of the total loss was carrier fault and not the weather alone.",
+    "kind": "historic",
+    "year": "2017",
+    "profile": "P1",
+    "authorities": "Part II-F Maritime Law.md :: 2. Real and hypothecary nature with maritime lien and the limited liability rule of no vessel, no liability"
+  },
+  {
+    "id": "part-ii-f-q03",
+    "part": "part-ii-f",
+    "section": "3. Protests with admiralty jurisdiction, smuggling forfeiture, and marine pollution",
+    "stem": "The captain limps into a strange Philippine port with a sprung mast and no ship agent in sight, fearing seizure by privateers reported along his course. What must he file within twenty-four hours and before whom, and what paper proves he complied?",
+    "answer": "The captain must present himself to the maritime authority within twenty-four hours and file a sworn declaration of the vessel name, registry, port of departure, cargo, and cause of arrival.\nArticle 612 makes this protest an inherent duty of the captain whenever he makes a port in distress, and the authority vises the declaration when found acceptable.\nThe vised certificate proving arrival in distress and its reasons is the paper that proves compliance, and it anchors the later ruling on whether the arrival was proper or improper.\nWithout that timely protest the shipowner loses the evidentiary root of a proper arrival and stays exposed to the cargo claims the voyage break caused.\n## 4. Cabotage and co-loading",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-F Maritime Law.md :: 3. Protests with admiralty jurisdiction, smuggling forfeiture, and marine pollution"
+  },
+  {
+    "id": "part-ii-f-q04",
+    "part": "part-ii-f",
+    "section": "3. Protests with admiralty jurisdiction, smuggling forfeiture, and marine pollution",
+    "stem": "A foreign vessel on a Singapore to Manila run loads Manila to Cebu boxes between foreign legs and files no transshipment manifest. May it carry them?",
+    "answer": "No because the Manila to Cebu leg is domestic cargo reserved to Philippine bottoms under R.A. No. 9295.\nR.A. No. 10668 allows a foreign vessel to co-load only foreign cargo for transshipment and never domestic cargo under Secs. 4 and 8.\nThe operator without a manifest and without a Marina special permit therefore has no paper for the domestic lift.\nThe boxes must move on a Philippine vessel while the foreign vessel keeps only its foreign cargo.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-F Maritime Law.md :: 3. Protests with admiralty jurisdiction, smuggling forfeiture, and marine pollution"
+  },
+  {
+    "id": "part-ii-f-q05",
+    "part": "part-ii-f",
+    "section": "5. Persons in maritime commerce with ship agents, captains, and officers",
+    "stem": "A ship agent without owner authority orders the vessel on a new voyage and insures her with an unsound underwriter. The venture fails. Who bears the loss?",
+    "answer": "The agent bears it because a new voyage with new insurance needs owner or majority authority under Art. 598.\nActs inside repairs, equipment, and navigation needs bind ownership, but unauthorized new voyages and charters stay personal to the agent.\nThe insurer insolvency therefore falls subsidiarily on the agent who insured without authority.\nThe owner answers only for authorized navigation needs proved to benefit the vessel.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-F Maritime Law.md :: 5. Persons in maritime commerce with ship agents, captains, and officers"
+  },
+  {
+    "id": "part-ii-f-q06",
+    "part": "part-ii-f",
+    "section": "6. Special contracts with charter parties, bills of lading, and bottomry and respondentia",
+    "stem": "Onassis Shipping, Inc. (Onassis) operated passenger vessels and cargo trucks, and offered its services to the general public. In line with its vision and mission to protect the environment, Go-Green Asia (Go-Green), an NGO affiliated with Greenpeace, entered into a contract with Onassis whereby Go-Green would operate with its own crew the MN Dolphin, an ocean-going passenger vessel of Onassis. While on its way to Palawan carrying Go-Green's invited guests who were international and local observers desirous of checking certain environmental concerns in the area, the MN Dolphin encountered high waves and strong winds caused by a typhoon in the West Philippine Sea. The rough seas led to serious physical injuries to some of the guests. Discuss the liabilities of Onassis and Go-Green to the passengers of the M/V Dolphin. Explain briefly your answer. (3%)",
+    "answer": "Go-Green answers as owner pro hac vice because it ran the vessel with its own crew and full command, which is a demise shifting carrier character to the charterer under Planters Products (G.R. No. 101503, 1993).\nOnassis kept bare ownership but ran no navigation on that voyage, so it does not answer as carrier for the onboard injuries.\nGo-Green must therefore meet carrier diligence for its guests and rebut presumed fault with seaworthiness and storm unavoidability.\nOnassis pays nothing absent its own fault since control decides everything in charter liability.\n## 7. Risks — Averages (general; simple vs general); Collision (zones, error in extremis, applicable law, COLREGS, liability rules, contributory negligence/last clear chance inapplicable, Code of Commerce rules, statutory violation, sinking, protest, limited liability); Arrival under Stress (propriety, protest, improper arrival, expenses, unloading, custody, captain liability); Shipwrecks",
+    "kind": "historic",
+    "year": "2017",
+    "profile": "P1",
+    "authorities": "Part II-F Maritime Law.md :: 6. Special contracts with charter parties, bills of lading, and bottomry and respondentia"
+  },
+  {
+    "id": "part-ii-f-q07",
+    "part": "part-ii-f",
+    "section": "6. Special contracts with charter parties, bills of lading, and bottomry and respondentia",
+    "stem": "The master faces an imminent storm and deliberately jettisons hold bales to save ship and remaining cargo, then brings the venture safely to port. The shippers of the saved bales refuse to contribute, arguing that only the shipowner should pay for saving his own vessel. Who contributes and on what basis?",
+    "answer": "All saved interests contribute, and the objecting shippers pay their proportionate share of the jettison.\nThe jettison was a deliberate sacrifice against a real and known common peril threatening vessel and cargo together, which is the textbook definition of general average under Article 811.\nArticle 812 makes every person with an interest in vessel and cargo at the time contribute, with the vessel, the saved cargo, and half the freight forming the contributing capital.\nThe saved shippers therefore share the indemnity of the jettisoned bales pro rata, because general average spreads a sacrifice made for all upon all whom it saved.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-F Maritime Law.md :: 6. Special contracts with charter parties, bills of lading, and bottomry and respondentia"
+  },
+  {
+    "id": "part-ii-f-q08",
+    "part": "part-ii-f",
+    "section": "8. Ship Mortgage Decree 1978 (preferred mortgage meaning/requirements, preferred claims, executory contract doctrine, prescription/laches, necessaries liens, maritime tort, salvage lien, subrogation, mortgage with other properties, arrest/foreclosure)",
+    "stem": "A bank records a whole-vessel mortgage with the good-faith affidavit and keeps its preference. On foreclosure the proceeds cannot pay everyone. Name in exact order the seven grades that beat the bank mortgage.",
+    "answer": "The seven grades that beat the foreclosing mortgage run courts and taxes, crew, average, salvage, prior liens, tort, and prior mortgages.\nSection 17 of Presidential Decree No. 1521 gives the preferred mortgage priority over all claims except the following in the order stated, namely court costs and taxes, crew wages, general average, salvage with contract salvage, maritime liens prior in time to recordation, tort damages, and earlier recorded preferred mortgages.\nThe bank mortgage therefore pays only after every one of these grades is satisfied in full, with claimants inside the same grade sharing pro rata when proceeds fall short.\nThis fixed ladder is why a mortgagee searches the record and demands disclosure of prior liens before parting with the loan.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-F Maritime Law.md :: 8. Ship Mortgage Decree 1978 (preferred mortgage meaning/requirements, preferred claims, executory contract doctrine, prescription/laches, necessaries liens, maritime tort, salvage lien, subrogation, mortgage with other properties, arrest/foreclosure)"
+  },
+  {
+    "id": "part-ii-f-q09",
+    "part": "part-ii-f",
+    "section": "9. Salvage Law (kinds, compensation, limit, excluded persons, jetsam/flotsam, rights/obligations)",
+    "stem": "A fishing crew spots a burning yacht abandoned by its panic-stricken owner, and a passing tug that owes the yacht nothing tows her to port while the crew helps lash the line. Both claim salvage. Who earns and who is excluded?",
+    "answer": "The passing tug earns the reward and the fishing crew shares only if its help went beyond crew duty and the tug accepts it.\nSection 8 denies reward to the crew of the vessel in danger, while a stranger who voluntarily conveys abandoned sea property to safety with success earns under Section 1.\nThe tug as pure salvor takes a court-measured reward up to the fifty percent limit secured by a fourth-grade salvage lien, and the crew members who merely did their duty take nothing.\nOnly voluntary extra help accepted by the salvor can share in the award, because salvage pays successful strangers and never the hands already bound to the imperiled vessel.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-F Maritime Law.md :: 9. Salvage Law (kinds, compensation, limit, excluded persons, jetsam/flotsam, rights/obligations)"
+  }
+]

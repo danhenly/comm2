@@ -1,0 +1,92 @@
+[
+  {
+    "id": "part-iii-c-q01",
+    "part": "part-iii-c",
+    "section": "1. Due Process: Alternative Penalty, NTC Against Legislative Franchise, Hearing Rule",
+    "stem": "A certificate holder disobeys voltage and metering directives for eight straight years, cures nothing after inspection reports and hearings, and pleads that the Commission must impose only the daily fine. Must the Commission settle for a fine.",
+    "answer": "No, because willful and contumacious refusal to obey orders and certificate conditions warrants revocation and the fine remedy is only cumulative and additional.\nThe law empowers the Commission to suspend or revoke where the holder violated or willfully and contumaciously refused to obey any order, rule, regulation, or provision of law, and the last sentence of Sec. 21 keeps every other remedy intact so a fine never blocks cancellation.\nThe ruling in Rizal Light v. Morong (G.R. Nos. L-20993 and L-21221, 1968) sustained revocation on exactly such an eight-year record of neglect since protection of investment shields only operators of good standing.\nThe Commission therefore revokes the certificate and forfeits the franchise on substantial evidence instead of stopping at a fine.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-C Due Process Rates Transfers Offenses.md :: 1. Due Process: Alternative Penalty, NTC Against Legislative Franchise, Hearing Rule"
+  },
+  {
+    "id": "part-iii-c-q02",
+    "part": "part-iii-c",
+    "section": "1. Due Process: Alternative Penalty, NTC Against Legislative Franchise, Hearing Rule",
+    "stem": "The NTC cancels the CPC of a broadcast station that operates under a congressional franchise, and the station invokes free speech and prior restraint. May the NTC end the franchise by cancelling the certificate.",
+    "answer": "No, because the NTC has no power to cancel the legislative franchise behind the certificate and cancellation of the operating license operates as a death sentence on broadcast speech.\nThe Constitution protects broadcast media under the free-speech, expression, and press guarantees even while scarcity justifies regulation, and the franchise-plus-certificate framework already imposes fees, fines, and mandates through valid rule-making without ending the grant.\nThe ruling in Albano v. Reyes (G.R. No. 83551, 1989) confirms that franchise authority and agency authorization are distinct layers since a delegated contract with presidential approval can authorize operation where Congress supplied the delegation.\nThe NTC therefore keeps its fining and rule-making powers but leaves repeal of the franchise to Congress when the common good so requires.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-C Due Process Rates Transfers Offenses.md :: 1. Due Process: Alternative Penalty, NTC Against Legislative Franchise, Hearing Rule"
+  },
+  {
+    "id": "part-iii-c-q03",
+    "part": "part-iii-c",
+    "section": "1. Due Process: Alternative Penalty, NTC Against Legislative Franchise, Hearing Rule",
+    "stem": "The Commission suspended a certificate without prior hearing, the operator moved for reconsideration raising every merit and defense it would have raised at the original hearing, and the Commission granted partial relief after full argument. Was due process denied.",
+    "answer": "No, because the later full hearing on reconsideration cured the earlier want of prior notice and hearing.\nThe law requires notice and hearing before suspension or revocation, yet the defect is procedural and curable where the operator actually adduced evidence, faced the record, and argued through counsel on reconsideration.\nThe ruling in Rizal Light v. Morong (G.R. Nos. L-20993 and L-21221, 1968) treats hearing objections as waived unless timely raised and cures process through the granted reconsideration.\nThe suspension therefore stands as a valid exercise of the Sec. 16(n) power with the thirty-day pre-hearing limit observed.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-C Due Process Rates Transfers Offenses.md :: 1. Due Process: Alternative Penalty, NTC Against Legislative Franchise, Hearing Rule"
+  },
+  {
+    "id": "part-iii-c-q04",
+    "part": "part-iii-c",
+    "section": "2. Rate Regulation: Police Power, Non-Delegation, Deregulation, Just Standard, Expenses, Provisional Increase, Collection",
+    "stem": "The LTFRB authorizes provincial bus operators to collect the P0.37 per kilometer fare plus a floating band of fifteen percent over it at their own discretion, and a later increase compounds on the collected figure. Commuters challenge the band as surrender of rate power. Is the band valid.",
+    "answer": "No, because the band lets each operator fix its own effective fare and amounts to an undue delegation of the delegated rate power.\nThe law delegates rate fixing to the regulator under the fair and reasonable standard, the operator may propose new rates but never makes them effective without prior approval on evidence, and the regulator cannot decide in advance that unknown future rates are just.\nThe ruling in Pangasinan Transportation v. PSC (G.R. No. 47065, 1940) roots rate control in police power that the agency must actually exercise instead of surrendering to carriers.\nThe band therefore falls as illegal and invalid while the base authorized fare survives until lawfully changed.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-C Due Process Rates Transfers Offenses.md :: 2. Rate Regulation: Police Power, Non-Delegation, Deregulation, Just Standard, Expenses, Provisional Increase, Collection"
+  },
+  {
+    "id": "part-iii-c-q05",
+    "part": "part-iii-c",
+    "section": "2. Rate Regulation: Police Power, Non-Delegation, Deregulation, Just Standard, Expenses, Provisional Increase, Collection",
+    "stem": "The regulator approves a provisional rate increase without hearing on urgent public need, publishes notice to affected parties, and opens the ratification hearing on the fifteenth day. The utility collects the provisional rate meanwhile. Was the procedure lawful.",
+    "answer": "Yes, because provisional rates are temporary and adjustable and the law expressly allows approval without necessity of any hearing with a hearing within fifteen days after.\nThe grant must publish notice to the affected territory, must convene the hearing to ratify, change, modify, or alter the provisional figure on public interest, and must fold the provisional collections into the definitive rate after final hearing.\nThe ruling in PLDT v. NTC (G.R. No. 88404, 1990) treats provisional relief as limited, non-exclusive, and revocable with the merits reserved for the main case.\nThe collections therefore stand pending the hearing outcome with refund or adjustment to follow the final rate.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-C Due Process Rates Transfers Offenses.md :: 2. Rate Regulation: Police Power, Non-Delegation, Deregulation, Just Standard, Expenses, Provisional Increase, Collection"
+  },
+  {
+    "id": "part-iii-c-q06",
+    "part": "part-iii-c",
+    "section": "2. Rate Regulation: Police Power, Non-Delegation, Deregulation, Just Standard, Expenses, Provisional Increase, Collection",
+    "stem": "An electric utility books its income tax payments as operating expenses, asks a return on that item, and defends the entry as a cost of doing business. Consumers oppose the pass-through. Must the regulator allow the item.",
+    "answer": "No, because income tax never forms part of operating expenses and its burden stays with the taxpayer alone.\nOperating expenses must be reasonable, recurring, and attributable to production of the service so the utility recoups prudent costs and earns a return above them, while income tax is an excise on the privilege of earning that benefits no customer and yields no service revenue.\nThe return cases from Republic v. Meralco (G.R. Nos. 141314 and 141369, 2002) fix the fair-return-on-property standard with expenses limited to service-related prudent costs.\nThe regulator therefore disallows the item and sets the rate without shifting the tax to consumers.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-C Due Process Rates Transfers Offenses.md :: 2. Rate Regulation: Police Power, Non-Delegation, Deregulation, Just Standard, Expenses, Provisional Increase, Collection"
+  },
+  {
+    "id": "part-iii-c-q07",
+    "part": "part-iii-c",
+    "section": "3. Transfer of Properties and Shares; Unlawful Acts; Administrative Fines; Rule-Making and Quasi-Judicial Functions",
+    "stem": "A bus company sells forty-five percent of its subscribed capital to a single buyer in two connected deeds without Commission approval and books the transfer. The buyer demands recognition as stockholder. Must the company register the buyer.",
+    "answer": "No, because every transfer vesting more than forty per centum of subscribed capital in one transferee without prior approval is void and unregistrable.\nThe law counts connected previous sales together so structuring in tranches never evades the ceiling, and the corporation may not book what the statute voids.\nThe ruling in PLDT v. NTC (G.R. No. 88404, 1990) applies the Sec. 20(h) approval rule to share transfers with only the agency empowered to allow them.\nThe buyer therefore holds nothing registrable and the company faces sanction if it keeps the entry.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-C Due Process Rates Transfers Offenses.md :: 3. Transfer of Properties and Shares; Unlawful Acts; Administrative Fines; Rule-Making and Quasi-Judicial Functions"
+  },
+  {
+    "id": "part-iii-c-q08",
+    "part": "part-iii-c",
+    "section": "3. Transfer of Properties and Shares; Unlawful Acts; Administrative Fines; Rule-Making and Quasi-Judicial Functions",
+    "stem": "A utility sells ten percent of its stock to an alien and Filipino holdings fall to fifty-five percent of capital. The parties call the sale private and internal. What follows for the sale and the certificate.",
+    "answer": "The sale is void and of no effect and independently supplies cause to cancel the certificate.\nThe law voids every alien transfer that in itself or with connected previous sales drops Philippine citizens below sixty per centum, and the same transfer expressly warrants cancellation of the authority to operate.\nThe constitutional sixty percent Filipino ownership rule in Art. XII Sec. 11 anchors the statutory floor construed in Gamboa v. Teves (G.R. No. 176579, 2011) with full beneficial ownership.\nThe Commission therefore strikes the transfer from the books and opens cancellation while the parties renegotiate a compliant Filipino-majority structure.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-C Due Process Rates Transfers Offenses.md :: 3. Transfer of Properties and Shares; Unlawful Acts; Administrative Fines; Rule-Making and Quasi-Judicial Functions"
+  },
+  {
+    "id": "part-iii-c-q09",
+    "part": "part-iii-c",
+    "section": "3. Transfer of Properties and Shares; Unlawful Acts; Administrative Fines; Rule-Making and Quasi-Judicial Functions",
+    "stem": "The NTC fines a broadcast station P100,000 per day for operating after its provisional authority lapsed, without any prior notice or hearing, and the station claims the fine needs a criminal case in court. Is the fine valid.",
+    "answer": "The fine as imposed is void, though the NTC holds the fining power and no criminal case is needed.\nThe law empowers the successor agency to fine for violation of certificate terms after due notice and hearing within the P5,000 to P2,000,000 daily range, and such proceedings are administrative and regulatory rather than penal with prescription under Act No. 3326 instead of court rules.\nTemporary permits never bar fines for post-expiry operation, yet notice and hearing remain indispensable to the quasi-judicial act.\nThe NTC therefore re-issues the fine only after proper notice and hearing, with refund, suspension until payment, and court enforcement available as cumulative remedies.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-C Due Process Rates Transfers Offenses.md :: 3. Transfer of Properties and Shares; Unlawful Acts; Administrative Fines; Rule-Making and Quasi-Judicial Functions"
+  }
+]

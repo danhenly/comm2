@@ -1,0 +1,72 @@
+[
+  {
+    "id": "part-i-f-q01",
+    "part": "part-i-f",
+    "section": "1. Defined; Governing Law and State Policy; Insurance Commission",
+    "stem": "A hospital gives subscribers, their spouses, and dependents free or discounted board, procedures, and drugs as subscriber incentives. Decide whether these perks are pre-need plans or HMO contracts.",
+    "answer": "The perks are neither pre-need plans nor HMO contracts. They are mere shareholder incentives.\nThe controlling rules are Sec. 4(b) of RA 9829, which requires a contract for future service, money, or benefit at actual need or agreed maturity in exchange for cash or installment amounts. EO 192 s. 2015 defines an HMO contract as pre-agreed health care services for a fixed prepaid fee over a period through a provider network.\nApplied here, the perks ride on stock subscription payments rather than plan consideration and promise no benefit at actual need or agreed maturity. They likewise involve no fixed prepaid fee and no provider network.\nThe perks therefore fall outside both Sec. 4(b) and the HMO definition and stand as mere shareholder incentives.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-F Pre-Need Plans.md :: 1. Defined; Governing Law and State Policy; Insurance Commission"
+  },
+  {
+    "id": "part-i-f-q02",
+    "part": "part-i-f",
+    "section": "2. Parties; Other Regulated Persons; Suspension/Revocation",
+    "stem": "A company offers pension plans online with bank-deposit payment instructions but holds no license. Decide whether the offer is actionable.",
+    "answer": "The online offer is actionable, and a cease-and-desist order against it is proper.\nThe controlling rules are Sec. 10, which bars operation as a pre-need company without a Commission license. Sec. 18 requires prior Commission approval of advertising. Sec. 53(c) fines unauthorized sales on a 30%/40%/license-loss ladder. Sec. 54(a)-(b) punishes unregistered selling with one (1) year of imprisonment and triple-price fines.\nApplied here, the Primamanila-pattern facts — a website offer of pension plans with bank-deposit payments and no license — breach both the licensing gate and the advertising gate.\nThe Commission may therefore issue a cease-and-desist order, and fines plus criminal exposure attach.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-F Pre-Need Plans.md :: 2. Parties; Other Regulated Persons; Suspension/Revocation"
+  },
+  {
+    "id": "part-i-f-q03",
+    "part": "part-i-f",
+    "section": "3. Kinds of Plans; Pre-need Contract and Interpretation",
+    "stem": "After a planholder's mother dies, the family at once engages an outside funeral home that embalms the body and supplies a casket, notifies the provider only that evening, and later substitutes a different casket. Decide whether the provider owes memorial services.",
+    "answer": "The provider owes no memorial services, and the dismissal of the claim stands.\nThe controlling rules are that the plan is the law between the parties so its clear stipulations control literally, and that Sec. 3 liberality for the planholder cannot rewrite those stipulations.\nApplied here, the sole-and-exclusive arrangement right and the imperative acknowledged-notice requirement were preempted by the evening notice after embalming and casketing, and the pre-selected-casket term was breached by the upgrade whose cost falls on the family alone.\nThere is therefore no liability for refusing the services, and the CA dismissal stands.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-F Pre-Need Plans.md :: 3. Kinds of Plans; Pre-need Contract and Interpretation"
+  },
+  {
+    "id": "part-i-f-q04",
+    "part": "part-i-f",
+    "section": "4. Registration/Disclosure; Consideration",
+    "stem": "A planholder misses six months of installments after receiving only one notice, and the company cancels the plan. Decide whether the cancellation is valid.",
+    "answer": "The cancellation is invalid, and the company must accept reinstatement or reimburse the late payments.\nThe controlling rule is Sec. 23, which requires a 60-day grace period, a 2-year reinstatement window from grace lapse with no cancellation inside it, and two written 30-day notices — one after grace expiry and one after reinstatement-period expiry.\nApplied here, six months of nonpayment still falls inside the reinstatement window, and a single notice fails the two-notice rule.\nCancellation is therefore barred until the window closes with both notices given. The company must accept reinstatement or reimburse.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-F Pre-Need Plans.md :: 4. Registration/Disclosure; Consideration"
+  },
+  {
+    "id": "part-i-f-q05",
+    "part": "part-i-f",
+    "section": "5. Termination (by Planholder; by Company)",
+    "stem": "A pre-need company offers to buy out plans at 120 percent of termination value without Commission approval, and some planholders object. Decide whether the offer may proceed.",
+    "answer": "The offer cannot proceed as to the objecting planholders without Commission approval.\nThe controlling rule is Sec. 24, which requires a fair, equitable, Commission-compliant termination-value schedule predetermined by the actuary and disclosed in the contract, and which allows a company above-value offer without prior approval only where the consideration is below the plan's pre-need reserves, the planholder accepts, and non-availing planholders are not prejudiced.\nApplied here, the objectors defeat both the acceptance and non-prejudice conditions, and below-reserves proof is still required.\nThe offer therefore cannot proceed as to objectors and must be routed through Commission approval.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-F Pre-Need Plans.md :: 5. Termination (by Planholder; by Company)"
+  },
+  {
+    "id": "part-i-f-q06",
+    "part": "part-i-f",
+    "section": "6. Claims Settlement; Unfair Claims Settlement",
+    "stem": "A matured education plan pays 60 days late without any fraud. State what the beneficiary collects.",
+    "answer": "The beneficiary collects twice-legal-interest for the delay period plus Sec. 28 damages on suit.\nThe controlling rules are Sec. 26, which prices scheduled-plan delay at twice legal interest from day 16 where the planholder complied with documents. Sec. 28 imposes actual damages, attorney's fees, and legal interest from claim date on unreasonable withholding, with a missed Sec. 26 clock as prima facie proof of unreasonable delay.\nApplied here, the 60-day delay yields 45 days of delay interest, and the missed clock supplies the prima facie case for litigation damages if unreasonableness is found.\nThe beneficiary therefore recovers twice-legal-interest for the delay period plus Sec. 28 damages on a successful suit.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-F Pre-Need Plans.md :: 6. Claims Settlement; Unfair Claims Settlement"
+  },
+  {
+    "id": "part-i-f-q07",
+    "part": "part-i-f",
+    "section": "7. Trust Fund; Regulation of Companies; Companies in Distress",
+    "stem": "General creditors of an insolvent pre-need company seek to attach the trust fund. Decide whether attachment lies.",
+    "answer": "The attachment fails, and the creditors are confined to non-fund assets. The controlling rules are Sec. 30, which bars diversion of the fund and creditor claims against it notwithstanding any contrary law. Sec. 52 excludes the fund from court insolvency jurisdiction and denies creditors personality in Commission fund proceedings. Laigo vests beneficial ownership of the fund in the planholders. Applied here, the attachment targets fund assets, the precise object of the statutory shield. Attachment therefore fails, and creditors may proceed against non-fund assets only.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-F Pre-Need Plans.md :: 7. Trust Fund; Regulation of Companies; Companies in Distress"
+  }
+]

@@ -1,0 +1,105 @@
+[
+  {
+    "id": "part-i-b-q01",
+    "part": "part-i-b",
+    "section": "1. Cancellation; Rescission",
+    "stem": "N, a non-life insurer, sent a cancellation notice for a fire policy five days before termination, citing a ground not listed in Sec. 64. The insured demanded the facts and received none. May the insurer treat the policy as cancelled?",
+    "answer": "No, the attempted cancellation is ineffective and the policy remains in force until validly cancelled or otherwise terminated.\nUnder Sec. 64 cancellation after effectivity is allowed only on seven exclusive statutory grounds, and under Sec. 65 it requires prior written notice stating the ground with a right in the insured to demand the supporting facts.\nHere the notice gave a short five-day lead, invoked an unlisted ground, and the insurer ignored the demand for facts, so both the substantive ground and the procedural notice requirements fail.\nThe cancellation has no effect. The insurer remains bound and any denial on the basis of that cancellation will fail.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-B Grounds for Rescission.md :: 1. Cancellation; Rescission"
+  },
+  {
+    "id": "part-i-b-q02",
+    "part": "part-i-b",
+    "section": "2. Ascertaining and Controlling Risks",
+    "stem": "P applied for marine cargo cover and disclosed the voyage route but not the well-known port congestion surcharge practice. The insurer asked no question on surcharges, issued the policy, then sought rescission for concealment. Will rescission prosper?",
+    "answer": "No, rescission will not prosper because the undisclosed practice was equally open to inquiry and within general usage of trade.\nUnder Sec. 28 there is no duty to communicate what the other has the means of ascertaining, and under Sec. 32 each party is bound to know general causes open to inquiry and general usages of trade, with waiver by neglect to inquire under Sec. 33.\nHere the surcharge practice was a general usage equally accessible to the insurer, the voyage disclosure implied added cost exposure, and the insurer neglected to inquire, so the fact was either bound-to-know or waived.\nThere is no concealment of a material fact the insurer could not ascertain, so the policy stands and rescission fails.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-B Grounds for Rescission.md :: 2. Ascertaining and Controlling Risks"
+  },
+  {
+    "id": "part-i-b-q03",
+    "part": "part-i-b",
+    "section": "3. Concealment",
+    "stem": "Diego, a cancer survivor, filed an application for a life insurance policy with Garantiya Insurance Company (GIC). He delivered his application and insurance premium to Gabriela, the officer of GIC in charge of approving life insurance policies. Gabriela then approved the application of Diego on June 1, 2020. On January 30, 2023, Diego died in a vehicular accident. When the heirs of Diego claimed the insurance proceeds, GIC denied the claim on the ground that Diego had concealed the fact of his illness. Moreover, Gabriela knew about the illness of Diego but also concealed it from GIC. Is the denial of the insurance claim by GIC proper? Discuss.",
+    "answer": "No, the denial is improper and the heirs may recover because the insurer is deemed to have known the illness through its approving officer and cannot claim concealment.\nUnder Secs. 26 to 28 and 31 concealment is neglect to communicate a known material fact the other has no means of ascertaining, judged by probable influence on underwriting, while knowledge of an agent in charge of approval is knowledge of the insurer and Sec. 33 waives inquiry neglected where the fact was knowable.\nHere Gabriela, the officer in charge of approving life policies, knew of the cancer history when she approved the application on June 1, 2020, so GIC had the means of ascertaining and is charged with that knowledge, and death by later vehicular accident confirms materiality is not judged by the event.\nThere is no concealment against GIC, waiver and estoppel bar avoidance, and the claim denial fails so proceeds must be paid.",
+    "kind": "historic",
+    "year": "2023",
+    "profile": "P1",
+    "authorities": "Part I-B Grounds for Rescission.md :: 3. Concealment"
+  },
+  {
+    "id": "part-i-b-q04",
+    "part": "part-i-b",
+    "section": "4. Representation",
+    "stem": "A applied for fire insurance stating the warehouse was \"concrete-walled\" when it was half timber, but added \"per my caretaker, who I have not verified.\" The policy as issued expressly describes the building as \"concrete throughout.\" May the insurer rescind, and may A invoke the caretaker explanation?",
+    "answer": "Yes, the insurer may rescind if the falsity is material, and A cannot defeat rescission by pointing to the caretaker source or by using the representation to contradict the express policy term.\nUnder Secs. 44–46, a representation is false when facts fail to correspond with its assertions, falsity in a material point entitles the injured party to rescind, and materiality follows concealment rules. Sec. 40 bars a representation from qualifying an express provision, and the Sec. 43 second-hand-information excuse fails when the source is the insured's agent whose duty is to inform or when no source explanation cures a material misstatement of own fact.\nThe timber construction contradicts the concrete assertion so the representation is false. A concrete-vs-timber wall plainly affects underwriting and is material. Because the policy expressly states concrete throughout, the representation cannot qualify or soften that term. The caretaker remark does not shift responsibility where A adopted the statement as his own to obtain cover.\nThe insurer is entitled to rescind from the time the representation became false, subject to proof of materiality at trial.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-B Grounds for Rescission.md :: 4. Representation"
+  },
+  {
+    "id": "part-i-b-q05",
+    "part": "part-i-b",
+    "section": "5. Warranties",
+    "stem": "A fire policy warrants \"two 2.5-inch hydrants with 100 psi at all times.\" At issuance the insurer inspects, sees one weak hydrant, issues anyway, and collects premiums for two years. After a fire, may it avoid solely for breach of that warranty with no fraud shown?",
+    "answer": "No, the insurer cannot avoid on that warranty alone where it knew the true condition and accepted premiums, and without fraud Sec. 76 gives only exoneration-while-breached rather than automatic avoidance.\nSecs. 74–76 distinguish material breach entitling rescission from immaterial breach that does not avoid absent policy declaration, and a non-fraudulent breach merely exonerates from occurrence or prevents attachment if broken in inception. Qua Chee Gan adds waiver and estoppel where the insurer knew the deficiency and took premiums, with uberrimae fidei and contra-proferentem against the insurer.\nThe hydrant warranty is material on its face, but the insurer's prior inspection and continued premium collection estop it from invoking a condition it knowingly wrote over a known non-compliance. With no fraud, Sec. 76 does not let it treat the whole policy as void ab initio for a supervening shortfall.\nThe breach defense fails on estoppel and waiver. The insurer remains liable subject to any valid Sec. 73 excuse analysis, which does not help it here.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-B Grounds for Rescission.md :: 5. Warranties"
+  },
+  {
+    "id": "part-i-b-q06",
+    "part": "part-i-b",
+    "section": "6. Conditions; Other Insurance Clause",
+    "stem": "A insures factory machines with X containing an other-insurance clause, then secretly insures the same machines with Y against the same fire risk for an overlapping period. Separately, the X policy says suit must be filed within 6 months of loss. After fire, X invokes both defenses. Decide each defense.",
+    "answer": "X wins on the other-insurance breach but loses on the 6-month suit limit, which is void, leaving the insured the lawful period to sue.\nBreach of an other-insurance condition forfeits where the same subject matter, same interest, and same risk concur with non-disclosure under Multi-Ware, while La O requires all three and recognizes waiver. Sec. 63 voids any policy condition limiting suit to less than one year from accrual.\nThe Y policy hits all three identities on the same machines, same ownership interest, and same fire peril, so non-disclosure breaches the X clause with no waiver shown. The 6-month limit falls below the Sec. 63 floor and is void, leaving the insured the lawful period to sue.\nForfeiture on the co-insurance ground stands, but the time-bar defense fails as void under Sec. 63.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-B Grounds for Rescission.md :: 6. Conditions; Other Insurance Clause"
+  },
+  {
+    "id": "part-i-b-q07",
+    "part": "part-i-b",
+    "section": "7. Exclusion/Exception; Burden of Proof",
+    "stem": "In January 2016, Mr. H was issued a life insurance policy by XYZ Insurance Co., wherein his wife, Mrs. W, was designated as the sole beneficiary. Unbeknownst to XYZ Insurance Co., however, Mr. H had been previously diagnosed with colon cancer, the fact of which Mr. H had concealed during the entire time his insurance policy was being processed. In January 2019, Mr. H unfortunately committed suicide. Due to her husband's death, Mrs. W, as beneficiary, filed a claim with XYZ Insurance Co. to recover the proceeds of the late Mr. H's life insurance policy. However, XYZ Insurance Co. resisted the claim, contending that: 1. the policy is void ab initio because Mr. H fraudulently concealed or misrepresented his medical condition, i.e., his colon cancer; and 2. as an insurer in a life insurance policy, it cannot be held liable in case of suicide. Rule on each of XYZ Insurance Co.'s contentions. (5%)",
+    "answer": "Contention 2 fails. The January 2019 suicide, about three years after the January 2016 issue, falls outside any suicide exclusion.\nUnder Sec. 183 the insurer in a life contract is liable for suicide committed after the policy has been in force two years from issue or last reinstatement, and exclusions are strictly construed against the insurer, which bears the burden of proving the exception after the beneficiary's prima facie case.\nThe policy ran from January 2016 to January 2019, about three years, so the two-year suicide threshold is passed and XYZ proved no insanity issue or shorter policy period. Its blanket citation of suicide, without clause or proof, cannot carry an exclusion defense that is construed against it.\nContention 2 is denied and XYZ is liable on this ground, subject to the §8 incontestability analysis that independently bars contention 1.",
+    "kind": "historic",
+    "year": "2019",
+    "profile": "P1",
+    "authorities": "Part I-B Grounds for Rescission.md :: 7. Exclusion/Exception; Burden of Proof"
+  },
+  {
+    "id": "part-i-b-q08",
+    "part": "part-i-b",
+    "section": "8. Incontestable Clause",
+    "stem": "In January 2016, Mr. H was issued a life insurance policy by XYZ Insurance Co., wherein his wife, Mrs. W, was designated as the sole beneficiary. Unbeknownst to XYZ Insurance Co., however, Mr. H had been previously diagnosed with colon cancer, the fact of which Mr. H had concealed during the entire time his insurance policy was being processed. In January 2019, Mr. H unfortunately committed suicide. Due to her husband's death, Mrs. W, as beneficiary, filed a claim with XYZ Insurance Co. to recover the proceeds of the late Mr. H's life insurance policy. However, XYZ Insurance Co. resisted the claim, contending that: 1. the policy is void ab initio because Mr. H fraudulently concealed or misrepresented his medical condition, i.e., his colon cancer; and 2. as an insurer in a life insurance policy, it cannot be held liable in case of suicide. Rule on each of XYZ Insurance Co.'s contentions. (5%)",
+    "answer": "Contention 1 is barred. XYZ cannot prove void ab initio or rescindibility for fraudulent concealment after 3 years in force.\nSec. 48 bars proof of void ab initio or rescindibility by fraudulent concealment or misrepresentation after a life policy payable on death has been in force during the insured's lifetime for 2 years from issue or last reinstatement, with rescission required before action on the contract.\nThe policy was issued in January 2016 and was in force until death in January 2019, about 3 years during Mr. H's lifetime. Colon-cancer concealment is exactly the fraud defense that Sec. 48 cuts off, and void-ab-initio styling does not evade it per *Manila Bankers*.\nXYZ must pay as to contention 1. Its remedy was timely investigation and pre-action rescission within 2 years.",
+    "kind": "historic",
+    "year": "2019",
+    "profile": "P1",
+    "authorities": "Part I-B Grounds for Rescission.md :: 8. Incontestable Clause"
+  },
+  {
+    "id": "part-i-b-q09",
+    "part": "part-i-b",
+    "section": "9. War Limitation Rider / War Clause",
+    "stem": "Cargo insured under marine policy with F.C. and S. clause deleted and Institute War Clauses attached is seized by civil authority. Insurer denies, citing the war exclusion in the printed form. Rule on the denial.",
+    "answer": "The insurer is liable because civil arrest is covered under the policy as rewritten. Sec. 88 excepts only perils especially excepted as written, and the deleted F.C. and S. language plus the added Institute War Clauses restore war-risk coverage strictly construed in the insured's favor. Deletion erased the printed war exclusion and the rider affirmatively covered civil arrest, so the insurer cannot revive deleted text and has not proved a surviving exception. The insurer must therefore pay the claim because the war defense fails on the policy as rewritten.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-B Grounds for Rescission.md :: 9. War Limitation Rider / War Clause"
+  },
+  {
+    "id": "part-i-b-q10",
+    "part": "part-i-b",
+    "section": "10. Defenses of Insured against Revocation",
+    "stem": "Insurer learns of concealment in Year 1, keeps collecting premiums for a year, then after loss and after beneficiary sues, declares rescission. The insured pleads waiver, estoppel, and timeliness. Rule on the defenses.",
+    "answer": "All three defenses succeed, so rescission is barred and the insurer must pay. Knowing premium collection waives forfeiture, conduct inducing reliance estops contradiction, and Sec. 48 requires rescission previous to action on the contract. One year of post-knowledge collection shows intentional relinquishment and induced reliance, and the post-suit rescission violates the previous-to-action rule, with incontestability as an added bar if the life-policy and 2-year requisites are met. Rescission is therefore ineffective because the insurer is barred by waiver, estoppel, and timeliness.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-B Grounds for Rescission.md :: 10. Defenses of Insured against Revocation"
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "id": "part-ii-c-q01",
+    "part": "part-ii-c",
+    "section": "1. Kinds of Defenses; Proximate Causation",
+    "stem": "LMN, Inc. operates a beach resort in a secluded island off the coast of Puerto Princesa City, Palawan. It operates three (3) motorized boats to ferry its guests from the city proper to the island resort and vice-versa. During one rainy morning, the guests were informed that the ferry services for that day were cancelled due to a storm forecast. In order to appease the apparent dismay of most of the guests who will miss their flight back to Manila, the boat captain of one of LMN, Inc.'s motorized boats decided to push through with its trip back to the city. Shortly after the boat sailed, the storm hit and the winds and waves became stronger, causing engine trouble to the boat. Unfortunately, the boat capsized and sank, resulting in the death of one of the passengers, Mr. X. This prompted Mr. X's heirs to file a complaint for damages against LMN, Inc., which they alleged to be a common carrier. In its defense, LMN, Inc. maintained that it is not a common carrier because its boats are not available to the general public but only ferry resort guests and employees. (a) May LMN, Inc. be considered a common carrier? Explain. (3%) (b) Assuming LMN, Inc. is a common carrier, may it be absolved from liability on the ground of fortuitous event? Explain. (2%)",
+    "answer": "LMN, Inc. is a common carrier, yet it keeps no fortuity defense since its own decision to sail concurred with the storm.\nThe boats ferry guests by water for the imputed fare inside the resort package, and narrow clientele never defeats common character where the service is held out to whoever books the resort.\nThe storm was forecasted and the service stood cancelled, so sailing to appease guests with engine trouble mid-voyage keeps human fault beside the waves and breaks the proximate-and-only-cause demand of Art. 1739.\nDeath therefore raises the presumption of fault, and only proof of utmost diligence could rebut it, which a voluntary voyage into a forecasted storm cannot supply.",
+    "kind": "historic",
+    "year": "2019",
+    "profile": "P1",
+    "authorities": "Part II-C Defenses of the Common Carrier.md :: 1. Kinds of Defenses; Proximate Causation"
+  },
+  {
+    "id": "part-ii-c-q02",
+    "part": "part-ii-c",
+    "section": "2. Defenses in Carriage of Goods in Their Exclusivity and in Carriage of Passengers",
+    "stem": "A vessel loses bagged coffee to warehouse rats during a tariff stop while a passenger on the same voyage is hurt by a falling hatch cover. The carrier pleads unlisted vermin for the coffee and talks of open rebuttal for the passenger. Which plea follows the correct structure?",
+    "answer": "Both pleas name the right structure, yet each still needs its own proof to succeed.\nThe coffee claim runs through the closed goods list, so rats fit nothing in Art. 1734 and the Art. 1735 presumption stands unless the carrier proves extraordinary diligence over the stored bags.\nThe passenger claim runs through open rebuttal, so the carrier may show hatch inspection with maintenance records and utmost care, which can defeat the Art. 1756 presumption.\nThe carrier therefore likely pays for the coffee while keeping a fighting chance on the passenger fall.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-C Defenses of the Common Carrier.md :: 2. Defenses in Carriage of Goods in Their Exclusivity and in Carriage of Passengers"
+  },
+  {
+    "id": "part-ii-c-q03",
+    "part": "part-ii-c",
+    "section": "3. Fortuitous Event with Carrier Participation, Rationale, Fire, Storm, Hijacking, Mechanical Defects, Tire Blowouts, and Other Invalid Defenses",
+    "stem": "A warehouse holding consigned sugar burns from an unknown origin at night while a bus with bald tires blows one on the highway and topples. The warehouseman pleads fire and the bus line pleads blowout. Which plea has a path and what must each prove?",
+    "answer": "The fire plea has a narrow path while the blowout plea has almost none, since diligence decides both.\nFire sits outside the five Art. 1734 causes, so the warehouseman carrier stays presumed at fault and must prove extraordinary diligence with watchmen, wiring, extinguishers, and segregation fully shown.\nThe bald tires prove want of roadworthiness by themselves, so the blowout is carrier-side unfitness rather than calamity and the presumption stands unrebutted.\nThe sugar claim therefore turns on the diligence proof while the bus claim fails on the treads alone.\n## 4. Public Enemy; Nature of Goods and Improper Packing; Order of Public Authority",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-C Defenses of the Common Carrier.md :: 3. Fortuitous Event with Carrier Participation, Rationale, Fire, Storm, Hijacking, Mechanical Defects, Tire Blowouts, and Other Invalid Defenses"
+  },
+  {
+    "id": "part-ii-c-q04",
+    "part": "part-ii-c",
+    "section": "3. Fortuitous Event with Carrier Participation, Rationale, Fire, Storm, Hijacking, Mechanical Defects, Tire Blowouts, and Other Invalid Defenses",
+    "stem": "Scrap iron rides a carrier lighter when an acting mayor with armed men orders the crew to dump it into the sea as part of a shakedown of the shipper. The carrier obeys and pleads competent authority. Does the excuse stand?",
+    "answer": "The excuse fails, since a lawless shakedown order is no competent authority.\nThe carrier must prove official power with a lawful order with issuance under legal process, and a mayor pressing a money demand over goods the town never owned supplies none of the three.\nObedience was carrier fault rather than legal duty, since the scraps could have been unloaded ashore and delivered after the dispute instead of dumped.\nThe line therefore answers under the Art. 1735 presumption with no diligence proved, following Ganzon v. Court of Appeals (G.R. No. L-48757, 1988).",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-C Defenses of the Common Carrier.md :: 3. Fortuitous Event with Carrier Participation, Rationale, Fire, Storm, Hijacking, Mechanical Defects, Tire Blowouts, and Other Invalid Defenses"
+  },
+  {
+    "id": "part-ii-c-q05",
+    "part": "part-ii-c",
+    "section": "3. Fortuitous Event with Carrier Participation, Rationale, Fire, Storm, Hijacking, Mechanical Defects, Tire Blowouts, and Other Invalid Defenses",
+    "stem": "Bulk urea sails in sealed holds with intact seals and arrives short with part contaminated by sand after eleven days of rainy unloading by consignee labor under free-in-and-out terms. The consignee sues for shortage and pollution. Who bears the loss?",
+    "answer": "The consignee bears the loss, since goods character with shipper-side handling caused it despite a diligent voyage.\nUrea solubility with bulk spillage risk is inherent character under Art. 1734(4), and the sealed hatches with clean holds prove the extraordinary care the voyage demanded.\nUnloading belonged to the cargo interests under the agreed terms, so rainy open-air handling with sandy hauling falls outside carrier custody fault.\nThe presumption therefore stands rebutted and the claim fails, following Planters Products v. Court of Appeals (G.R. No. 101503, 1993).",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-C Defenses of the Common Carrier.md :: 3. Fortuitous Event with Carrier Participation, Rationale, Fire, Storm, Hijacking, Mechanical Defects, Tire Blowouts, and Other Invalid Defenses"
+  },
+  {
+    "id": "part-ii-c-q06",
+    "part": "part-ii-c",
+    "section": "5. Defenses in Carriage of Passengers; Acts of Employees, of Other Passengers and Third Persons, and of Shipper or Passenger",
+    "stem": "A conductor pockets a sleeping passenger watch while a stranger at a traffic stop hurls a rock through the window and blinds another rider. The line pleads stranger fortuity for both losses. How does liability divide?",
+    "answer": "The line answers for the watch and tests the rock by preventability, since employees and strangers run on different articles.\nThe pocketed watch is a wilful employee act under Art. 1759 though against orders, and no hiring diligence or ticket term escapes it under Art. 1760.\nThe rock is stranger harm under Art. 1763, so the line answers only where good-family crew vigilance with closed windows, guards, or route care could have prevented or stopped it.\nTheft therefore pays as of course while the blinding turns on the prevention proof.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-C Defenses of the Common Carrier.md :: 5. Defenses in Carriage of Passengers; Acts of Employees, of Other Passengers and Third Persons, and of Shipper or Passenger"
+  },
+  {
+    "id": "part-ii-c-q07",
+    "part": "part-ii-c",
+    "section": "6. Notice of Claim and Prescription in Overland and Coastwise Shipping, in International Carriage by Sea, and in Subrogation",
+    "stem": "A consignee receives crates by truck with intact exteriors, opens them after three days to find water damage, and complains on the fifth day. A second consignee receives container cargo by foreign vessel, joins the survey at receipt, then sues ten months after discharge. Which claims live?",
+    "answer": "The truck claim dies on notice while the vessel claim lives on joint survey with suit inside the year.\nIntact exteriors mean concealed damage, so Art. 366 demanded complaint within twenty-four hours from receipt and the fifth-day notice with freight paid bars the condition claim.\nJoint survey at vessel receipt excuses the COGSA writing, and suit ten months after discharge sits inside the one-year period that late notice could never shorten.\nThe first consignee therefore loses procedurally while the second reaches the merits.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-C Defenses of the Common Carrier.md :: 6. Notice of Claim and Prescription in Overland and Coastwise Shipping, in International Carriage by Sea, and in Subrogation"
+  },
+  {
+    "id": "part-ii-c-q08",
+    "part": "part-ii-c",
+    "section": "6. Notice of Claim and Prescription in Overland and Coastwise Shipping, in International Carriage by Sea, and in Subrogation",
+    "stem": "An insurer pays the shipper in full eleven months after discharge, takes a subrogation receipt, and sues the foreign line in the twelfth month without any prior shipper notice. The line pleads prescription and want of notice. Does the suit prosper?",
+    "answer": "The suit reaches the merits, since the subrogee inherits the shipper clock and the year still runs.\nPayment with assignment puts the insurer in the shipper shoes under Compañia Maritima v. Insurance Company of North America (G.R. No. L-18965, 1964), so it sues as the cargo interest rather than as a stranger.\nThe one-year COGSA period binds shipper with insurer alike, and filing in the twelfth month satisfies it while want of earlier notice never shortens the year.\nPrescription and notice therefore both fail as bars, though the insurer must still prove the loss with the carrier fault presumption.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-C Defenses of the Common Carrier.md :: 6. Notice of Claim and Prescription in Overland and Coastwise Shipping, in International Carriage by Sea, and in Subrogation"
+  },
+  {
+    "id": "part-ii-c-q09",
+    "part": "part-ii-c",
+    "section": "7. Prohibited and Limiting Stipulations with Purpose, Presumption, Reduced Diligence, Fixed Recovery, Riots and Strikes, and COGSA with Its Limits",
+    "stem": "A shipper signs a bill limiting recovery to invoice value for lower freight, then a strike delays the voyage for a week and the line deviates to an unscheduled port where theft guts the container. The line invokes the invoice cap and the strike clause. What survives?",
+    "answer": "Neither invocation fully survives, since deviation forfeits the cap while the strike clause covers only stoppage delay.\nThe signed invoice limit with lower freight satisfies Art. 1744 on its face, so it would have capped ordinary voyage loss at the declared value.\nUnjustified deviation to an unscheduled port forfeits the limiting contract for the ensuing loss under Art. 1747, so the theft after deviation recovers outside the cap.\nThe strike clause stays valid for the week of stoppage delay under Art. 1748, yet it never reaches theft at an off-route port that carrier fault produced.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-C Defenses of the Common Carrier.md :: 7. Prohibited and Limiting Stipulations with Purpose, Presumption, Reduced Diligence, Fixed Recovery, Riots and Strikes, and COGSA with Its Limits"
+  },
+  {
+    "id": "part-ii-c-q10",
+    "part": "part-ii-c",
+    "section": "7. Prohibited and Limiting Stipulations with Purpose, Presumption, Reduced Diligence, Fixed Recovery, Riots and Strikes, and COGSA with Its Limits",
+    "stem": "A foreign-going bill carries no package-limit term and the shipper declares no higher value, then ten packages land short by twenty thousand dollars. The line invokes the five-hundred-dollar cap per package. Does it hold?",
+    "answer": "The cap holds and cuts recovery to five thousand dollars, since COGSA supplies the term the bill omitted.\nThe limitation rides in every foreign sea bill as though written there, and no higher declaration in the bill means no higher valuation binds under Sec. 4(5).\nActual loss above the cap goes unrecovered, since the section never pays beyond damage sustained and the shipper that declares low value accepts the ceiling.\nThe line therefore pays five hundred dollars per lost package with interest and costs as the law allows.\n## Quick-Recall Tables",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-C Defenses of the Common Carrier.md :: 7. Prohibited and Limiting Stipulations with Purpose, Presumption, Reduced Diligence, Fixed Recovery, Riots and Strikes, and COGSA with Its Limits"
+  }
+]

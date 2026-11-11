@@ -1,0 +1,64 @@
+[
+  {
+    "id": "part-i-c-q01",
+    "part": "part-i-c",
+    "section": "1. Loss",
+    "stem": "Absolute Timber Co. (ATC) has been engaged in the logging business in Isabela. To secure one of its shipments of logs to be transported by Andok Shipping Co., ATC purchased a marine policy with an \"all risks\" provision. Because of a strong typhoon then hitting Northern Luzon, the vessel sank and the shipment of logs was totally lost. ATC filed its claim, but the insurer denied the claim on several grounds, namely: (1) the vessel had not been seaworthy; (2) the vessel's crew had lacked sufficient training; (3) the improper loading of the logs on only one side of the vessel had led to the tilting of the ship to that side during the stormy voyage; and (4) the extremely bad weather had been a fortuitous event. ATC now seeks your legal advice to know if its claim was sustainable. What is your advice. Explain your answer. (3 percent)",
+    "answer": "The claim is sustainable. An all-risks marine policy covers all fortuitous losses proximately caused by perils of the sea unless expressly excepted, and the typhoon sinking is the proximate cause of total loss.\nSec. 86 holds the insurer liable where the insured peril was the proximate cause though an uncontemplated peril was remote. Sec. 89 provides that negligence of the insured or its agents does not exonerate. Under Pan Malayan a sunken cargo valueless to the owner is actual total loss payable in full.\nDefenses 1 to 3 sound in unseaworthiness, manning, and loading negligence, which Sec. 89 keeps inside coverage. Defense 4 concedes that the insured peril itself caused the sinking. No excepted peril was invoked under the Sec. 88 but-for test.\nDenial is improper. The insurer is liable for the total loss.",
+    "kind": "historic",
+    "year": "2017",
+    "profile": "P1",
+    "authorities": "Part I-C Loss Settlement Subrogation.md :: 1. Loss"
+  },
+  {
+    "id": "part-i-c-q02",
+    "part": "part-i-c",
+    "section": "2. Notice of Loss",
+    "stem": "A fire policy requires written notice within 15 days. The insured notifies on day 40 without justification, then cures a defective proof after the insurer specifies the defect late. Run Secs. 90, 92, and 93 and conclude which omission exonerates the insurer and which omission it waived.",
+    "answer": "The insurer is exonerated for the late fire notice under Sec. 90, because forty days without justification exceeds without unnecessary delay, unless the delay was insurer-caused or went unobjected under one of the two Sec. 93 waivers. The proof defect specified late is waived under Sec. 92, since a defect the insurer failed to specify without delay cannot later defeat the claim. The notice delay therefore bars recovery unless waived, while the late-specified defects do not bar it.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-C Loss Settlement Subrogation.md :: 2. Notice of Loss"
+  },
+  {
+    "id": "part-i-c-q03",
+    "part": "part-i-c",
+    "section": "3. Collateral Source Rule",
+    "stem": "The insured's employer pays sick-leave benefits for the same confinement the health insurer covers. The insurer deducts the sick-leave amount. Decide, then explain where the insurer's real recourse lies.",
+    "answer": "The deduction is improper because the sick-leave pay comes from a source independent of the insurer, so the collateral source rule requires the health policy to pay in full with total recovery capped at the loss. Employer benefits and policy proceeds answer different promises, and Secs. 95-96 deduction and contribution apply only to same-person same-interest co-insurance. The insurer must therefore pay the policy in full, and any recourse runs through subrogation against the party liable for the loss, never by deduction from the insured.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-C Loss Settlement Subrogation.md :: 3. Collateral Source Rule"
+  },
+  {
+    "id": "part-i-c-q04",
+    "part": "part-i-c",
+    "section": "4. Claims Settlement",
+    "stem": "A non-life insurer receives complete proof of loss on March 1, neither agrees on the amount nor arbitrates within 60 days, and pays on day 120, blaming heavy volume. The insured sues for the proceeds plus damages. Decide interest and damages.",
+    "answer": "The insurer owes double-ceiling interest from May 31, the day after the 90-day Sec. 249 deadline fixed at May 30 where ascertainment defaulted, until full satisfaction, because heavy volume is not just cause and missing the deadline is prima facie unreasonable delay under Sec. 250. Payment on day 120 is therefore 30 days of delay with no fraud defense pleaded. The insured recovers the proceeds plus double-ceiling interest, attorney's fees, and proven expenses.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-C Loss Settlement Subrogation.md :: 4. Claims Settlement"
+  },
+  {
+    "id": "part-i-c-q05",
+    "part": "part-i-c",
+    "section": "5. Prescriptive Period",
+    "stem": "A fire policy requires suit within six months of the fire. The insured sues in month eight after a denied claim. The insurer pleads the six-month clause. Decide.",
+    "answer": "The six-month suit clause is void under Sec. 63 because it falls below the one-year-from-accrual floor, reckoned from accrual which here postdates the fire, so the insurer's plea fails. The suit filed in month eight is proper, and the insurer must defend on the merits.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-C Loss Settlement Subrogation.md :: 5. Prescriptive Period"
+  },
+  {
+    "id": "part-i-c-q06",
+    "part": "part-i-c",
+    "section": "6. Subrogation",
+    "stem": "X obtained an insurance policy for her Porsche Carrera GT from XYZ Insurance Company. The same car was insured by her creditor-mortgagee, Y, with ABC Insurance Company. When the car was damaged because of an accident, X filed a claim with XYZ Insurance Company. The latter denied the claim since it discovered that the car was also insured with ABC Insurance Company. According to XYZ Insurance Company, double insurance is prohibited by law. Decide with reason(s).",
+    "answer": "Denial is improper. Double insurance exists only where the same person is insured by several insurers separately in respect to the same subject and interest, and X and Y are different persons with distinct interests (owner vs creditor-mortgagee).\nSec. 95 defines double insurance, and under Malayan v Phil First the same goods and the same peril for different persons with distinct insurable interests is not double insurance, so the other-insurance and contribution clauses do not apply.\nX's policy answers her ownership interest while Y's answers the mortgage-credit interest. XYZ must pay X's claim and, having paid, is subrogated under Art. 2207 against the party at fault for the accident. Any over-indemnity is adjusted by Sec. 96 deduction and ratable contribution.\nXYZ is liable on the policy. Double insurance is regulated and apportioned, not prohibited.",
+    "kind": "historic",
+    "year": "2025",
+    "profile": "P1",
+    "authorities": "Part I-C Loss Settlement Subrogation.md :: 6. Subrogation"
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "id": "part-ii-a-q01",
+    "part": "part-ii-a",
+    "section": "1. Definition; Parties; Elements; Perfection",
+    "stem": "Wisconsin Transportation Co., Inc. (WTC) owned and operated an inter-island de luxe bus service plying the Manila-Batangas-Mindoro route. Three friends, namely: Aurelio, Jerome and Florencio rode on the same WTC bus from Manila bound for Mindoro. Aurelio purchased a ticket for himself. Jerome, being a boyhood friend of the bus driver, was allowed a free ride by agreeing to sit during the trip on a stool placed in the aisle. Florencio, already penniless after spending all of his money on beer the night before, just stole a ride in the bus by hiding in the on-board toilet of the bus. During the trip, the bus collided with another bus coming from the opposite direction. The three friends all suffered serious physical injuries. What are WTC's liabilities, if any, in favor of Aurelio, Jerome and Florencio? Explain your answer. (4%)",
+    "answer": "WTC answers to Aurelio and Jerome as its passengers and owes nothing to Florencio as a stowaway outside the contract.\nAurelio holds a ticket and Jerome rides by the driver permission inside the vehicle, so both entered carriage by consent while Florencio boarded by stealth without the carrier acceptance that perfection requires.\nWTC must therefore carry Aurelio and Jerome with the utmost diligence of very cautious persons, and their injuries raise the presumption of fault that yields only to proof of extraordinary diligence.\nFlorencio cannot invoke the contract since no meeting of minds ever bound him to the carrier, so he recovers only if he proves the ordinary negligence that the law demands of every person.",
+    "kind": "historic",
+    "year": "2017",
+    "profile": "P1",
+    "authorities": "Part II-A Contract of Common Carriage.md :: 1. Definition; Parties; Elements; Perfection"
+  },
+  {
+    "id": "part-ii-a-q02",
+    "part": "part-ii-a",
+    "section": "2. Common Carriers: Tests, Characteristics, Ancillary Business, Exclusions",
+    "stem": "LMN, Inc. operates a beach resort in a secluded island off the coast of Puerto Princesa City, Palawan. It operates three (3) motorized boats to ferry its guests from the city proper to the island resort and vice-versa. During one rainy morning, the guests were informed that the ferry services for that day were cancelled due to a storm forecast. In order to appease the apparent dismay of most of the guests who will miss their flight back to Manila, the boat captain of one of LMN, Inc.'s motorized boats decided to push through with its trip back to the city. Shortly after the boat sailed, the storm hit and the winds and waves became stronger, causing engine trouble to the boat. Unfortunately, the boat capsized and sank, resulting in the death of one of the passengers, Mr. X. This prompted Mr. X's heirs to file a complaint for damages against LMN, Inc., which they alleged to be a common carrier. In its defense, LMN, Inc. maintained that it is not a common carrier because its boats are not available to the general public but only ferry resort guests and employees. (a) May LMN, Inc. be considered a common carrier? Explain. (3%) (b) Assuming LMN, Inc. is a common carrier, may it be absolved from liability on the ground of fortuitous event? Explain. (2%)",
+    "answer": "LMN, Inc. is a common carrier and it is not absolved by the storm, since it sailed into a known danger and the law imputes the package fare as compensation.\nIts boats carry guests by water for the imputed fare inside the resort package, and Art. 1732 reaches ancillary and narrow-client carriage so long as the service is offered to whoever books the resort.\nThe storm defense fails because the forecast preceded the sailing and the captain chose to brave it, which keeps the human fault concurrent with the waves and defeats the fortuity claim.\nDeath therefore raises the presumption of fault, and only proof of extraordinary diligence could rebut it, which a voluntary voyage into a forecasted storm cannot supply.",
+    "kind": "historic",
+    "year": "2019",
+    "profile": "P1",
+    "authorities": "Part II-A Contract of Common Carriage.md :: 2. Common Carriers: Tests, Characteristics, Ancillary Business, Exclusions"
+  },
+  {
+    "id": "part-ii-a-q03",
+    "part": "part-ii-a",
+    "section": "3. Effect of Charter Party",
+    "stem": "Onassis Shipping, Inc. (Onassis) operated passenger vessels and cargo trucks, and offered its services to the general public. In line with its vision and mission to protect the environment, Go-Green Asia (Go-Green), an NGO affiliated with Greenpeace, entered into a contract with Onassis whereby Go-Green would operate with its own crew the MN Dolphin, an ocean-going passenger vessel of Onassis. While on its way to Palawan carrying Go-Green's invited guests who were international and local observers desirous of checking certain environmental concerns in the area, the MN Dolphin encountered high waves and strong winds caused by a typhoon in the West Philippine Sea. The rough seas led to serious physical injuries to some of the guests. Discuss the liabilities of Onassis and Go-Green to the passengers of the M/V Dolphin. Explain briefly your answer. (3%)",
+    "answer": "Go-Green answers as the carrier for the voyage while Onassis keeps owner exposure under its public franchise, since the contract transferred crew and command to Go-Green.\nThe transfer of operation with its own crew marks a demise in substance, which makes Go-Green the private operator for the invited guests and lifts the voyage out of Onassis common-carrier performance.\nGo-Green therefore bears the diligence of the carrier in command, and the typhoon excuses only if it stood alone without concurrent fault in braving known rough seas.\nOnassis remains reachable on registered ownership and franchise responsibility even as Go-Green carries the primary voyage liability to the injured guests.",
+    "kind": "historic",
+    "year": "2017",
+    "profile": "P1",
+    "authorities": "Part II-A Contract of Common Carriage.md :: 3. Effect of Charter Party"
+  },
+  {
+    "id": "part-ii-a-q04",
+    "part": "part-ii-a",
+    "section": "4. Common vs Private Carrier; vs Towage, Arrastre, Stevedoring, Travel Agency",
+    "stem": "To celebrate her 70th birthday, A hired F Travel & Tours to arrange and facilitate her booking, ticketing, and accommodation for a two-week foreign tour, which included visits to Italy and Greece, for the total amount of PHP 145,000.00. On Wednesday, August 14, 2024, B, an employee of F Travel & Tours, went to A's house to deliver the travel documents and plane ticket. She told A to be at the Ninoy Aquino International Airport (NAIA) on Saturday, August 17, 2024 two hours before her flight schedule. Without checking her travel documents, A went to NAIA on Saturday, August 17, 2024. When she got there, she was informed that the flight she was supposed to take had already left the previous day. A demanded that F Travel & Tours refund her payment. She claimed that F Travel & Tours did not observe the standard of care required of a common carrier when its employee, B, informed her of the wrong flight schedule. Is F Travel & Tours liable as a common carrier? Reason(s).",
+    "answer": "F Travel & Tours is not liable as a common carrier, though it may answer for its own fault as an agent.\nIt never undertook carriage over any route and never held itself out as transporting the public, since it only arranged bookings, tickets, and hotels for the celebrant.\nThe extraordinary diligence and presumed fault of Arts. 1733 and 1735 to 1756 therefore never attached, because those burdens follow the carrier undertaking and not the arranging work.\nIts employee gave the wrong flight date, so liability if any rests on agency fault proved by the traveler and not on the carrier presumption she invoked.",
+    "kind": "historic",
+    "year": "2025",
+    "profile": "P1",
+    "authorities": "Part II-A Contract of Common Carriage.md :: 4. Common vs Private Carrier; vs Towage, Arrastre, Stevedoring, Travel Agency"
+  },
+  {
+    "id": "part-ii-a-q05",
+    "part": "part-ii-a",
+    "section": "5. Tramp vs Line Service; Governing Laws; Nature of Business",
+    "stem": "A liner keeps a fixed Manila-Cebu schedule for whoever books, while a tramp takes whatever bulk cargo offers under voyage charters to chosen charterers. A shipper asks which vessel answers as a common carrier if its cargo is lost. How do you advise?",
+    "answer": "The liner answers as the common carrier while the tramp answers as the private carrier on these facts.\nThe liner holds scheduled carriage out to the public for pay, which meets Art. 1732 without need of further proof of regularity or purpose.\nThe tramp serves chosen charterers by special contract without a public offer, which places it under charter and Code of Commerce rules with fault to be proved.\nThe shipper therefore sues the liner under the presumption of fault and sues the tramp on proved willful negligence, since schedules only evidence and never replace the holding-out test.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-A Contract of Common Carriage.md :: 5. Tramp vs Line Service; Governing Laws; Nature of Business"
+  },
+  {
+    "id": "part-ii-a-q06",
+    "part": "part-ii-a",
+    "section": "6. Registered Owner Rule and Kabit System; Boundary System",
+    "stem": "A bus is sold but the sale is never registered, and the buyer ties the unit to the seller franchise under a kabit arrangement with the driver on boundary. A passenger is hurt when the bus collides with a truck. From whom may the passenger recover?",
+    "answer": "The passenger may recover from the registered franchise holder, who cannot hide behind the unregistered sale or the illegal tie-up.\nRegistration tells the public who operates the vehicle, so the seller on record answers although beneficial ownership already passed to the buyer.\nThe kabit pact is void between the operators, yet that voidness never travels to the victim since pari delicto bars only the wrongdoers against each other.\nThe boundary setup keeps the operator as employer, so the driver fault in the collision is the operator fault that the presumption of carrier negligence already provisionally establishes.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-A Contract of Common Carriage.md :: 6. Registered Owner Rule and Kabit System; Boundary System"
+  },
+  {
+    "id": "part-ii-a-q07",
+    "part": "part-ii-a",
+    "section": "7. Formalities: Bill of Lading",
+    "stem": "A carrier issues a clean bill of lading for bagged fertilizer in apparent good order, and the consignee receives short and hardened bags at discharge. The carrier points to a printed clause exempting it from all liability for any loss. Is the bill conclusive and is the clause valid?",
+    "answer": "The clean bill proves prima facie fault for the shortage and the blanket exemption is void.\nThe bill admits receipt in apparent good order, so short and deteriorated delivery raises the presumption that the carrier failed in extraordinary diligence.\nThe printed total-exemption clause asks less than the diligence the law commands, and stipulations that erase carrier responsibility fall as contrary to public policy.\nThe carrier therefore answers for the shortage unless it proves an excepted cause with extraordinary care, since the bill fixes the prima facie case and the void clause contributes nothing to the defense.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-A Contract of Common Carriage.md :: 7. Formalities: Bill of Lading"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "part-ii-e-q01",
+    "part": "part-ii-e",
+    "section": "1. Civil Aviation Laws and Regulatory Perspectives; Civil Aviation; Aircraft Registration",
+    "stem": "An investor buys a light aircraft abroad and starts selling seats on weekly Boracay runs without registering the aircraft and without any Board authority. A paying guest is hurt on landing and sues on carrier liability. How does the regulatory status affect the case?",
+    "answer": "The guest still sues a common carrier because Art. 1732 turns on holding out carriage for compensation to the public and not on possession of a permit.\nThe lack of registration and of Board authority exposes the operator to administrative and criminal consequences and weakens every documentary defense the operator raises.\nThe operator therefore answers under Arts. 1755 and 1756 with presumed fault while facing the regulators separately.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-E Air Transport and Montreal Convention.md :: 1. Civil Aviation Laws and Regulatory Perspectives; Civil Aviation; Aircraft Registration"
+  },
+  {
+    "id": "part-ii-e-q02",
+    "part": "part-ii-e",
+    "section": "2. Air Transportation in General; Persons Involved; Charter of Aircraft",
+    "stem": "To celebrate her 70th birthday, A hired F Travel & Tours to arrange and facilitate her booking, ticketing, and accommodation for a two-week foreign tour, which included visits to Italy and Greece, for the total amount of PHP 145,000.00. On Wednesday, August 14, 2024, B, an employee of F Travel & Tours, went to A's house to deliver the travel documents and plane ticket. She told A to be at the Ninoy Aquino International Airport (NAIA) on Saturday, August 17, 2024 two hours before her flight schedule. Without checking her travel documents, A went to NAIA on Saturday, August 17, 2024. When she got there, she was informed that the flight she was supposed to take had already left the previous day. A demanded that F Travel & Tours refund her payment. She claimed that F Travel & Tours did not observe the standard of care required of a common carrier when its employee, B, informed her of the wrong flight schedule. Is F Travel & Tours liable as a common carrier? Reason(s).",
+    "answer": "F Travel & Tours is not liable as a common carrier because it only arranged booking, ticketing, and accommodation and operated no aircraft or carriage business for the public under Art. 1732.\nA travel agency is an agent whose diligence is contractual agency care and not the extraordinary diligence of Arts. 1733 and 1755.\nA trip on the wrong date caused by the employee's misinformation is tested under agency and fault rules with proof of actual loss and not under presumed carrier fault.\nThe refund therefore depends on the agency contract and on proved negligence and not on common carrier liability.",
+    "kind": "historic",
+    "year": "2025",
+    "profile": "P1",
+    "authorities": "Part II-E Air Transport and Montreal Convention.md :: 2. Air Transportation in General; Persons Involved; Charter of Aircraft"
+  },
+  {
+    "id": "part-ii-e-q03",
+    "part": "part-ii-e",
+    "section": "2. Air Transportation in General; Persons Involved; Charter of Aircraft",
+    "stem": "To celebrate her 30th birthday party, socialite A chartered for her exclusive use the yacht usually utilized by XYZ Resort to ferry its guests from the public port to its private island. A brought her own private crew to operate the yacht and invited 30 guests to her yacht party. While in the middle of the ocean, a sudden storm caused the yacht to capsize. While all the guests survived thanks to the prompt rescue operations of XYZ Resort, A succumbed to her injuries after hitting her head on floating debris and drowning. B, A's father, sued XYZ Resorts for gross negligence, alleging that it failed to observe extraordinary diligence expected of common carriers. Is XYZ Resorts liable as a common carrier? Reason(s).",
+    "answer": "XYZ Resorts is not liable as a common carrier because A took the yacht for her exclusive use with her own private crew and full operational control, which is a demise that makes the charterer owner pro hac vice.\nThe resort kept no navigation or command over the capsized voyage since A supplied the crew and ran her private party on board.\nThe storm loss therefore cannot be laid on the resort's extraordinary diligence as carrier, and B must anchor any claim on a different source of obligation with its own proof.\n## 3. Sovereignty and Air Freedoms; Cancellation; Cabotage",
+    "kind": "historic",
+    "year": "2025",
+    "profile": "P1",
+    "authorities": "Part II-E Air Transport and Montreal Convention.md :: 2. Air Transportation in General; Persons Involved; Charter of Aircraft"
+  },
+  {
+    "id": "part-ii-e-q04",
+    "part": "part-ii-e",
+    "section": "2. Air Transportation in General; Persons Involved; Charter of Aircraft",
+    "stem": "A foreign flag carrier flies Taipei to Manila to Cebu and offers cheap Manila to Cebu seats to fill the domestic hop. The Board stops the sale while letting the through flight continue. Is the Board correct?",
+    "answer": "The Board is correct because the Manila to Cebu leg is domestic traffic reserved by the cabotage rule even when flown as part of a foreign through service.\nThe fifth and higher freedoms never include the right to carry purely local passengers between two domestic points without a domestic grant.\nThe carrier keeps its transit and through rights but the domestic sale stays barred.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-E Air Transport and Montreal Convention.md :: 2. Air Transportation in General; Persons Involved; Charter of Aircraft"
+  },
+  {
+    "id": "part-ii-e-q05",
+    "part": "part-ii-e",
+    "section": "4. Extraordinary Diligence in Air; Tariff System; Baggage; Duty to Passenger; Denied Boarding; Air Passenger Bill of Rights; Inspection of Aircraft and Cargoes",
+    "stem": "A confirmed economy passenger checks in on time and the airline bumps her without asking for volunteers because the flight is overbooked. She accepts the next-day rebooking and signs a compensation receipt. May she still sue for moral damages for wounded feelings?",
+    "answer": "She may not recover beyond the receipt because compensation accepted under the overbooking rule operates as liquidated damages for the lost confirmed seat.\nThe carrier breached the volunteer-first rule since no passenger with a confirmed seat may be bumped without consent before volunteers are sought with rising offers.\nHer signature on the compensation package therefore closes the seat-loss claim and leaves only relief outside that bargain if independently proved.\n## 5. Montreal Convention 1999",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-E Air Transport and Montreal Convention.md :: 4. Extraordinary Diligence in Air; Tariff System; Baggage; Duty to Passenger; Denied Boarding; Air Passenger Bill of Rights; Inspection of Aircraft and Cargoes"
+  },
+  {
+    "id": "part-ii-e-q06",
+    "part": "part-ii-e",
+    "section": "4. Extraordinary Diligence in Air; Tariff System; Baggage; Duty to Passenger; Denied Boarding; Air Passenger Bill of Rights; Inspection of Aircraft and Cargoes",
+    "stem": "A Manila to Singapore passenger checks through with one ticket and her checked bag never arrives. She declares no higher value and writes a complaint on the tenth day after arrival. The bag is still missing on the twenty-fifth day. What may she collect and is her complaint timely?",
+    "answer": "She collects up to 1,000 Special Drawing Rights under the original-treaty baggage cap since she declared no higher value and proved no intent or qualifying recklessness.\nHer written complaint on the tenth day misses the seven-day baggage damage rule, so the carrier invokes the time bar unless it committed fraud.\nThe twenty-one-day loss rule lets her enforce the contract rights for a missing bag, but the late damage notice still defeats the claim where fraud is absent.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-E Air Transport and Montreal Convention.md :: 4. Extraordinary Diligence in Air; Tariff System; Baggage; Duty to Passenger; Denied Boarding; Air Passenger Bill of Rights; Inspection of Aircraft and Cargoes"
+  },
+  {
+    "id": "part-ii-e-q07",
+    "part": "part-ii-e",
+    "section": "4. Extraordinary Diligence in Air; Tariff System; Baggage; Duty to Passenger; Denied Boarding; Air Passenger Bill of Rights; Inspection of Aircraft and Cargoes",
+    "stem": "Cargo flies Manila to Osaka and arrives water-damaged. The carrier proves the shipper packed the crate defectively and its own handlers did nothing wrong. The consignee sues on the third year after arrival. What is the outcome?",
+    "answer": "The carrier wins on the defense since defective packing by a person other than the carrier or its servants or agents exonerates it to the extent proved.\nThe suit also arrives dead because the two-year extinction under Art. 35 runs from arrival and the forum computation cannot revive an extinguished right.\nThe consignee therefore collects nothing under the Convention and domestic tort cannot reopen what exclusivity closed.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-E Air Transport and Montreal Convention.md :: 4. Extraordinary Diligence in Air; Tariff System; Baggage; Duty to Passenger; Denied Boarding; Air Passenger Bill of Rights; Inspection of Aircraft and Cargoes"
+  }
+]

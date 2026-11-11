@@ -1,0 +1,106 @@
+[
+  {
+    "id": "part-ii-b-q01",
+    "part": "part-ii-b",
+    "section": "1. Duty to Accept Goods; Grounds for Refusal; Animals",
+    "stem": "A shipper tenders drums of nitric acid in brittle crates for a Friday sailing, plus fighting cocks in flimsy coops. The carrier refuses both. A second shipper tenders bagged fertilizer in sound sacks for the same sailing and is also refused for lack of space though room can be made. Which refusals stand?",
+    "answer": "The acid and the cocks refusals stand while the fertilizer refusal fails, since lawful ground excuses while convenience never does.\nThe acid is dangerous cargo in unfit packing and the coops are unfit for live carriage, so both tenders fall outside what the carrier must take until disclosure, safeguards, and fit containers cure them.\nThe fertilizer is ordinary cargo in sound packing within the advertised run, so tight space alone is no lawful ground where the carrier holds itself out for such goods.\nThe carrier therefore answers for the fertilizer refusal and keeps its refusal of the acid and the birds until proper tender is made.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-B Obligations of the Parties.md :: 1. Duty to Accept Goods; Grounds for Refusal; Animals"
+  },
+  {
+    "id": "part-ii-b-q02",
+    "part": "part-ii-b",
+    "section": "2. Timely Delivery; Place of Delivery; To Whom Delivered",
+    "stem": "A consignee lost the original bills and presents certified copies, then signs delivery receipts for each lot through his clerks. Months later the shipper sues the carrier for non-delivery, blaming the missing originals. Is the carrier discharged?",
+    "answer": "The carrier is discharged, since signed receipts by the entitled recipient stand in for the missing originals.\nThe agents substantially complied by demanding the bills and documenting each turnover, which proves the extraordinary diligence that rebuts the fault presumption.\nThe shipper left its own supervisor unpursued until resignation, so it cannot pass to the carrier what may have been its own employee faithlessness.\nThe non-delivery claim therefore fails while the carrier keeps no liability for the lots duly receipted.\n## 3. Duty to Passengers; Delay; Special Classes",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-B Obligations of the Parties.md :: 2. Timely Delivery; Place of Delivery; To Whom Delivered"
+  },
+  {
+    "id": "part-ii-b-q03",
+    "part": "part-ii-b",
+    "section": "2. Timely Delivery; Place of Delivery; To Whom Delivered",
+    "stem": "Hari and Reyna booked a honeymoon package at Anya Resort (AR) in Palawan which included transportation from Batangas to Palawan, and vice versa, via M/B Prinsesa owned and operated by AR. Despite PAGASA storm warning bulletins, M/B Prinsesa proceeded to ferry Hari and Reyna from the port of Batangas to Palawan. While in open seas, the boat was hit by big waves and eventually capsized, drowning Hari and Reyna. When sued by the heirs of the couple, AR denied liability on the ground that it is not a common carrier, as M/B Prinsesa is not available to the general public or other tourists, and exclusively ferries resort guests and crew members. AR further argued that they did not charge Hari and Reyna separate fees to board M/B Prinsesa. Are the arguments of AR correct? Discuss your answer.",
+    "answer": "The arguments of AR are incorrect, since the resort boat is a common carrier and sailing into the storm breached its utmost diligence.\nThe boat carries guests by water for the imputed fare inside the package, and Art. 1732 reaches ancillary and narrow-client carriage so long as the service is offered to whoever books the resort.\nThe storm defense fails because the bulletins preceded the sailing and the captain chose to brave them, which keeps the human fault concurrent with the waves and defeats the fortuity claim.\nDeath therefore raises the presumption of fault, and only proof of extraordinary diligence could rebut it, which a voluntary voyage into a forecasted storm cannot supply.",
+    "kind": "historic",
+    "year": "2023",
+    "profile": "P1",
+    "authorities": "Part II-B Obligations of the Parties.md :: 2. Timely Delivery; Place of Delivery; To Whom Delivered"
+  },
+  {
+    "id": "part-ii-b-q04",
+    "part": "part-ii-b",
+    "section": "4. Extraordinary Diligence: Rationale, Meaning, Presumption, Duration, and Stipulations",
+    "stem": "Ysidro, a paying passenger, was on board Bus No. 904 owned and operated by Yatco Transportation Company (Yatco). He boarded the bus at Munoz, Nueva Ecija with Manila as his final destination. He was seated on the first row, window seat on the left side of the bus. As the bus was negotiating the national highway in front of the public market of Gerona, Tarlac, the bus came to a full stop because of the traffic. The driver of the bus took this opportunity to check on the tires of the bus and to relieve himself. As he was alighting from the bus to do these, an unidentified man standing along the highway hurled a huge rock at the left side of the bus and hit Ysidro between his eyes. He lost consciousness and immediately the driver, with the conductor, drove the bus to bring him to the nearest hospital. He expired before the bus could reach the hospital. Ysidro's wife and children brought a civil action to collect damages from Yatco, alleging that as a common carrier, it was required to exercise extraordinary diligence in ensuring the safety of its passengers. They contended that, in case of injuries and/or death on the part of any of its passengers, the common carrier is presumed to be at fault. In its defense, Yatco alleged that it is not an absolute insurer of its passengers and that Ysidro's death was not due to any defect in the means of transport or method of transporting passengers, or the negligent acts of its employees. Since the accident was due to the fault of a stranger over whom the common carrier had no control, or of which it did not have any prior knowledge to be able to prevent it, the cause of Ysidro's death should be considered a fortuitous event and not the liability of the common carrier. (a) Is a common carrier presumed to be at fault whenever there is death or injury to its passengers, regardless of the cause of death or injury? (2.5%) (b) What kind of diligence is required of common carriers like Yatco for the protection of its passengers? (2.5%) (c) Will your answer be the same as your answer in (b) above, if the assailant was another paying passenger who boarded the bus and deliberately stabbed Ysidro to death? (2.5%)",
+    "answer": "A carrier is presumed at fault on a passenger death or injury, yet the presumption yields to proof of utmost diligence, and a stranger attack still tests what diligence could have prevented.\nThe law presumes fault or negligence on death or injury under Art. 1756, so the carrier opens every case carrying the burden of proving the extraordinary diligence of Arts. 1733 and 1755.\nThat diligence is the utmost care of very cautious persons with due regard for all the circumstances, and the carrier is no absolute insurer since an unforeseeable stranger act it could not have prevented with good-family vigilance breaks liability under Art. 1759.\nA fellow-passenger stabbing is judged the same way, since the carrier answers only where its employees could have prevented or stopped the assault through the diligence the law demands.",
+    "kind": "historic",
+    "year": "2018",
+    "profile": "P1",
+    "authorities": "Part II-B Obligations of the Parties.md :: 4. Extraordinary Diligence: Rationale, Meaning, Presumption, Duration, and Stipulations"
+  },
+  {
+    "id": "part-ii-b-q05",
+    "part": "part-ii-b",
+    "section": "5. Extraordinary Diligence by Sea",
+    "stem": "Nautica Shipping Lines (Nautica) bought a second hand passenger ship from Japan. It modified the design of the bulkhead of the deck of the ship to accommodate more passengers. The ship sunk with its passengers in Tablas Strait due to heavy rains brought by the monsoon. The heirs of the passengers sued Nautica for its liability as a common carrier based on the reconfiguration of the bulkhead which may have compromised the stability of the ship. Nautica raised the defense that the monsoon is a fortuitous event and, at most, its liability is prescribed by the Limited Liability Rule. Decide with reasons. (5%)",
+    "answer": "Nautica answers as a common carrier and keeps neither the fortuity defense nor the limited-liability cap on these facts.\nThe bulkhead reconfiguration that may have compromised stability puts seaworthiness in issue, and ordinary monsoon rains are voyage vicissitudes rather than an irresistible calamity standing alone.\nThe storm defense needs an excepted cause with extraordinary diligence, yet sailing a possibly unstable rebuilt ship with passengers aboard proves the opposite of the diligence the law demands.\nThe abandonment privilege then fails with it, since the owner whose own fault concurred with the casualty cannot limit liability to vessel and freight.\n## 6. Extraordinary Diligence by Land and Train; Railroad Crossings",
+    "kind": "historic",
+    "year": "2016",
+    "profile": "P1",
+    "authorities": "Part II-B Obligations of the Parties.md :: 5. Extraordinary Diligence by Sea"
+  },
+  {
+    "id": "part-ii-b-q06",
+    "part": "part-ii-b",
+    "section": "5. Extraordinary Diligence by Sea",
+    "stem": "A railroad track of the Philippine National Railway (PNR) is located near a busy intersection of Puyat Avenue and Osmeña Highway. One afternoon, the intersection was heavily congested, as usual. Juan, the driver of a public utility jeepney (PUJ), drove onto the railroad tracks but could go no farther because of the heavy traffic at the intersection. After the jeepney stopped right on the railroad track, it was hit and overturned by a PNR train, resulting in the death of Kim, a passenger of the PUJ, and injuries to Juan and his other passengers. Juan, the injured passengers and Kim's family sued the PNR for damages for its negligence. It was established that the steel pole barrier before the track was broken, and that the PNR had the last clear chance of avoiding the accident. On the other hand, the PNR raised the defense that the track is for the exclusive use of the train and that motorists are aware that it is negligence per se to stop their vehicles on the tracks. Decide the case and explain. (5%)",
+    "answer": "The PNR answers though Juan was also at fault, since the broken barrier and the last clear chance keep the train operator liable while Juan fault never travels to his passengers.\nThe carrier and operator owe utmost diligence over the line with working warnings, and a barrier left broken at a known congested crossing breaches that diligence before any jeepney stalls.\nJuan breached his own motorist duty by entering rails he could not clear, so his personal claim suffers his contributory fault under the avoidable-consequences and last-clear-chance sorting.\nKim and the riding passengers recover in full, since the driver negligence is not imputed to them and the PNR with the final opportunity to stop must answer for the injuries its train inflicted.",
+    "kind": "historic",
+    "year": "2016",
+    "profile": "P1",
+    "authorities": "Part II-B Obligations of the Parties.md :: 5. Extraordinary Diligence by Sea"
+  },
+  {
+    "id": "part-ii-b-q07",
+    "part": "part-ii-b",
+    "section": "5. Extraordinary Diligence by Sea",
+    "stem": "A bus company hires an unlicensed driver without road test, skips brake inspection for a month, and the bus with worn pads rams a truck. The company blames the truck driver. Who answers the injured bus passengers?",
+    "answer": "The bus company answers the passengers, since its own want of diligence concurs regardless of the truck fault.\nHiring without license or test breaches selection diligence and skipping brake checks breaches inspection diligence, so the presumption of fault stands unrebutted.\nThe truck fault may divide the ultimate loss between the operators through contribution, yet division never delays or defeats the passenger recovery.\nThe passengers therefore collect from their carrier upon the presumption, and the company pursues the truck operator separately for its share.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-B Obligations of the Parties.md :: 5. Extraordinary Diligence by Sea"
+  },
+  {
+    "id": "part-ii-b-q08",
+    "part": "part-ii-b",
+    "section": "7. Passenger Baggage",
+    "stem": "A tagged suitcase checked into the hold vanishes before arrival, while a laptop kept in the overhead bin is snatched when the passenger leaves it to use the lavatory. What must each claimant prove?",
+    "answer": "The suitcase claimant proves turnover with loss at arrival while the laptop claimant must prove carrier fault, since custody fixes the burden.\nThe tagged suitcase rode in carrier custody, so vanishing baggage raises the presumption of fault and the carrier must prove extraordinary diligence or an Art. 1734 excuse.\nThe laptop stayed in passenger custody throughout, so no presumption runs and the passenger must show the snatching came through employee fault or want of due precautions.\nThe first claim therefore succeeds on custody and loss alone unless rebutted, while the second needs specific fault proved against the carrier.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-B Obligations of the Parties.md :: 7. Passenger Baggage"
+  },
+  {
+    "id": "part-ii-b-q09",
+    "part": "part-ii-b",
+    "section": "8. Obligations of the Passenger and Shipper",
+    "stem": "A shipper declares general merchandise but hides drums of calcium carbide that explode on contact with seawater, damaging fellow cargo. He then refuses freight, claiming the carrier failed to deliver. Who pays for the damage and the freight?",
+    "answer": "The shipper pays for the damage and still owes the freight, since concealment caused the casualty while carriage was duly performed.\nThe undisclosed dangerous character is shipper fault under Art. 1734(3) that breaks the carrier chain, so the explosion loss falls on the concealing shipper with recourse from him by the fellow cargo owners.\nThe carrier earned its freight by receiving, stowing, and sailing the goods with the diligence the known facts demanded, so refusal to pay has no basis in the failed-delivery claim.\nThe carrier therefore keeps its lien on surviving goods for the unpaid charges while the shipper answers for the explosion damage.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-B Obligations of the Parties.md :: 8. Obligations of the Passenger and Shipper"
+  },
+  {
+    "id": "part-ii-b-q10",
+    "part": "part-ii-b",
+    "section": "8. Obligations of the Passenger and Shipper",
+    "stem": "A passenger boards without a visa for the destination state and is refused onward carriage at the transit stop. He demands a full refund and damages for delay. Does he collect?",
+    "answer": "He collects no damages though fare rules decide the refund, since travel papers are his own duty.\nPassports, visas, and health papers belong to the passenger under his Art. 1761 self-care and the contract terms, and want of them lawfully excuses carriage without breach.\nDelay from the refusal is therefore his own making rather than carrier fault, so no delay damages run.\nThe carrier keeps the flown legs earned and refunds only what its tariff promises for the unflown portion.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-B Obligations of the Parties.md :: 8. Obligations of the Passenger and Shipper"
+  }
+]

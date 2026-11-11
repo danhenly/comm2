@@ -1,0 +1,63 @@
+[
+  {
+    "id": "part-iv-a-q01",
+    "part": "part-iv-a",
+    "section": "1. Competition and Importance; Constitutional Provisions; Policies and Rationale",
+    "stem": "Congress deregulates the cement industry but keeps a prior-import-volume rule that only the two incumbent importers can meet, and no newcomer can sell a bag without five years of import records. A newcomer assails the rule as an entry barrier. Will the challenge prosper.",
+    "answer": "Yes, because the rule entrenches the incumbents and shuts newcomers out of a supposedly open market.\nSection 19 of Article XII commands the State to regulate or prohibit monopolies as public interest requires and absolutely bans combinations in restraint of trade with unfair competition.\nThe ruling in Tatad v. Secretary of DOE (G.R. No. 124360, 1997) struck down a deregulation law whose tariff, inventory, and pricing rules built walls only the oligopoly could climb.\nThe prior-volume rule therefore falls as an unconstitutional barrier to a truly competitive market.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part IV-A Competition Foundations Scope Market.md :: 1. Competition and Importance; Constitutional Provisions; Policies and Rationale"
+  },
+  {
+    "id": "part-iv-a-q02",
+    "part": "part-iv-a",
+    "section": "1. Competition and Importance; Constitutional Provisions; Policies and Rationale",
+    "stem": "A mayor claims that the Constitution bans every monopoly so the city may seize the only ice plant in town without regulation. The owner answers that the plant charges fair prices and serves all buyers. May the city skip regulation and proceed to seizure.",
+    "answer": "No, because the Constitution bans no monopoly per se and commands regulation or prohibition only when the public interest so requires.\nA lone plant that serves all buyers at fair prices holds a factual monopoly without a prohibited combination, so the State must first test the facts against the public interest standard.\nThe ruling in Tatad v. Secretary of DOE (G.R. No. 124360, 1997) treats Section 19 as an anti-trust command against entry barriers and not as an automatic death sentence on every large firm, a reading confirmed in Gios-Samar v. DOTC (G.R. No. 217158, 2019).\nThe city therefore regulates before it prohibits and seizes nothing without law and just compensation.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part IV-A Competition Foundations Scope Market.md :: 1. Competition and Importance; Constitutional Provisions; Policies and Rationale"
+  },
+  {
+    "id": "part-iv-a-q03",
+    "part": "part-iv-a",
+    "section": "2. Methods to Deter Anti-competitive Conduct; Tools under the PCA",
+    "stem": "All four refiners agree to fix pump prices and rotate winning bids for government fuel. The finance manager who signed the minutes seeks immunity and tells everything after the inquiry has started. The Department of Justice charges the presidents. Who goes to jail and what happens to the manager.",
+    "answer": "The knowing and willful presidents face two to seven years with a P50,000,000 to P250,000,000 fine each while the manager may earn leniency but never automatic immunity.\nSection 30 punishes every Section 14(a) and 14(b) agreement per violation on responsible officers, and price fixing with bid rotation sits per se prohibited so no efficiency defense saves it.\nSection 35 grants a late reporter leniency only as the first to come forward with full and continuing cooperation where conviction evidence is still lacking and fairness allows.\nThe presidents therefore stand trial for the cartel while the manager keeps only a chance at leniency.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part IV-A Competition Foundations Scope Market.md :: 2. Methods to Deter Anti-competitive Conduct; Tools under the PCA"
+  },
+  {
+    "id": "part-iv-a-q04",
+    "part": "part-iv-a",
+    "section": "2. Methods to Deter Anti-competitive Conduct; Tools under the PCA",
+    "stem": "A consumer group proves a flour mill abused its dominant position and asks the Commission for P80,000,000 on first offense plus damages for every baker overcharged. The mill argues one forum must choose one remedy. Must the Commission stop at the fine.",
+    "answer": "No, because the administrative fine and the private civil action answer different injuries and run on separate tracks.\nSection 29 lets the Commission fine up to P100,000,000 on first offense after notice and hearing with gravity and duration guiding the amount, and Section 45 lets every directly injured person sue separately after the preliminary inquiry closes.\nThe mill pays the State for the violation and pays the bakers for their losses, with triple fines if flour counts as a basic necessity.\nThe Commission therefore imposes the fine while the bakers pursue their own civil case.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part IV-A Competition Foundations Scope Market.md :: 2. Methods to Deter Anti-competitive Conduct; Tools under the PCA"
+  },
+  {
+    "id": "part-iv-a-q05",
+    "part": "part-iv-a",
+    "section": "3. Scope of the PCA; Relevant Market Rule; Single Economic Unit Rule",
+    "stem": "Two shipping lines serve the same island route and charge identical fares. A new entrant proves passengers treat the two lines as fully swappable but proves freight from the rival port costs twice as much with twice the sailing time. The lines claim one national market while the entrant claims an island market. Which market controls.",
+    "answer": "The island market controls if competition conditions there stay homogenous and differ from the national picture.\nThe relevant geographic market turns on where supply and demand truly meet with shared conditions, and Section 24 weighs distribution cost with time to supply and the cost and probability of users seeking other ports.\nPassenger swappability fixes the product market while island freight and sailing time split the geography.\nThe Commission therefore defines the island as the relevant geographic market before testing dominance and abuse inside it.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part IV-A Competition Foundations Scope Market.md :: 3. Scope of the PCA; Relevant Market Rule; Single Economic Unit Rule"
+  },
+  {
+    "id": "part-iv-a-q06",
+    "part": "part-iv-a",
+    "section": "3. Scope of the PCA; Relevant Market Rule; Single Economic Unit Rule",
+    "stem": "3. Ernest Bicycle Corporation (EBC) and Max Speed Corporation (MSC) are the leading manufacturers and sellers of electric bicycles in the country. EBC and MSC offer their bestselling models at PHP 25,000.00 per unit. In 2023, Gryffin Pedals, Inc. (GPI) entered the market and sold electric bicycles with features similar to EBC and MSC's bestselling models for only PHP 20,000.00. GPI has no physical stores and offers its products in digital marketplaces. After a year, GPI had 75% share of the market leaving EBC and MSC at 15% and 10% shares, respectively. EBC and MSC filed a complaint before the Philippine Competition Commission and alleged that GPI is fast monopolizing the electric bicycles market because of its dominant position. Will the complaint against GPI for violation of the competition laws prosper? Explain.",
+    "answer": "No, because a seventy-five percent share only presumes a dominant position while the Act punishes abuse of that position and never the position itself.\nSection 27 raises a rebuttable presumption of dominance at fifty percent share yet shields share gained through superior skill, service, product, and business acumen, and Section 15 condemns only conduct that substantially prevents, restricts, or lessens competition such as below-cost selling with the object of destroying rivals.\nGPI sells a similar bicycle twenty percent cheaper through an efficient no-store marketplace model, and nothing shows selling below cost to kill rivals, entry barriers, or exclusionary conditions rather than legitimate price rivalry that benefits consumers.\nThe complaint therefore fails on dominance alone while EBC and MSC must still prove abusive conduct inside a properly defined relevant market.",
+    "kind": "historic",
+    "year": "2024",
+    "profile": "P1",
+    "authorities": "Part IV-A Competition Foundations Scope Market.md :: 3. Scope of the PCA; Relevant Market Rule; Single Economic Unit Rule"
+  }
+]

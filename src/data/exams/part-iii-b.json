@@ -1,0 +1,72 @@
+[
+  {
+    "id": "part-iii-b-q01",
+    "part": "part-iii-b",
+    "section": "1. Acts Requiring Approval; Legislative Franchise vs CPC; When Franchise Necessary; CPC; LGU Delegation",
+    "stem": "A domestic airline with no congressional franchise applies to the CAB for a certificate while the statute lays down policy, citizenship, fitness, and procedure standards. An incumbent insists the Board must dismiss for want of jurisdiction. Must the Board dismiss.",
+    "answer": "No, because R.A. No. 776 validly delegates domestic air-transport licensing to the Board and a franchise is not indispensable there. The law empowers the Board to issue certificates and temporary permits upon the stated standards, and the ruling in PAL v. CAB (G.R. No. 119528, 1997) holds that absence of a franchise goes to the merits of issuance and never to the jurisdiction to hear. The Board therefore hears the application and decides the certificate on fitness and public convenience.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-B Authority to Operate CPC.md :: 1. Acts Requiring Approval; Legislative Franchise vs CPC; When Franchise Necessary; CPC; LGU Delegation"
+  },
+  {
+    "id": "part-iii-b-q02",
+    "part": "part-iii-b",
+    "section": "1. Acts Requiring Approval; Legislative Franchise vs CPC; When Franchise Necessary; CPC; LGU Delegation",
+    "stem": "A television operator holds a subsisting NTC permit but never obtained the congressional franchise that the radio law exacts. The NTC recalls its frequency after due hearing. Is the recall valid.",
+    "answer": "Yes. The governing broadcast law makes the congressional franchise a condition sine qua non, and later laws vesting certificate powers in the NTC never repealed that exaction. The franchise and the certificate are distinct authorities that must concur, as the ruling in ACWS v. NTC (G.R. No. 144109, 2003) holds, so the operator cannot stay on the air on a permit alone.\n## 2. Issuance Rules: Requirements, Public Interest Primacy, Prior Operator, Free Competition, Nature of CPC, Terms, Provisional Authority, When CPC Not Required",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-B Authority to Operate CPC.md :: 1. Acts Requiring Approval; Legislative Franchise vs CPC; When Franchise Necessary; CPC; LGU Delegation"
+  },
+  {
+    "id": "part-iii-b-q03",
+    "part": "part-iii-b",
+    "section": "1. Acts Requiring Approval; Legislative Franchise vs CPC; When Franchise Necessary; CPC; LGU Delegation",
+    "stem": "An applicant proves Filipino citizenship and financial capacity for a direct route that no incumbent serves, since the incumbents run full buses from farther north and skip the town. The incumbents invoke the prior operator rule. Must the grant fail.",
+    "answer": "No, because public interest is the primordial consideration and the rule never applies automatically. The law protects incumbents only against needless or ruinous duplication, and the ruling in Phil Rabbit v. Gabatin (G.R. No. L-24472, 1968) sustains a grant where substantial evidence shows unserved need with a capable applicant. The Commission grants the newcomer and the opposition falls with the exclusivity claim.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-B Authority to Operate CPC.md :: 1. Acts Requiring Approval; Legislative Franchise vs CPC; When Franchise Necessary; CPC; LGU Delegation"
+  },
+  {
+    "id": "part-iii-b-q04",
+    "part": "part-iii-b",
+    "section": "1. Acts Requiring Approval; Legislative Franchise vs CPC; When Franchise Necessary; CPC; LGU Delegation",
+    "stem": "A carrier holds a provisional authority over two cities and claims exclusive rights there against a second applicant the regulator finds capable with a feasible plan. The first carrier cites the old one-carrier-per-area scheme. May the regulator authorize the second carrier.",
+    "answer": "Yes. Later competition laws replaced the one-carrier scheme with healthy competition, and no franchise, certificate, or authorization is ever exclusive in character. The ruling in Eastern Telecom v. Intl Communication (G.R. No. 135992, 2004) upholds the second provisional authority on capability and demand findings while imposing the separate escrow and bond for the new project. The incumbent keeps no monopoly and improves service instead.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-B Authority to Operate CPC.md :: 1. Acts Requiring Approval; Legislative Franchise vs CPC; When Franchise Necessary; CPC; LGU Delegation"
+  },
+  {
+    "id": "part-iii-b-q05",
+    "part": "part-iii-b",
+    "section": "1. Acts Requiring Approval; Legislative Franchise vs CPC; When Franchise Necessary; CPC; LGU Delegation",
+    "stem": "An incumbent telephone carrier refuses interconnection with a provisionally authorized cellular operator and claims a vested right to be spared competition. The regulator orders interconnection within ninety days. Is the order valid.",
+    "answer": "Yes, because interconnection expands public access and no utility holds a constitutional right to a monopoly. The law empowers the regulator to set interconnection terms, reinforced by the municipal telephone mandate, and the ruling in PLDT v. NTC (G.R. No. 88404, 1990) sustains the order where the newcomer showed prima facie capability with urgent public need. The incumbent interconnects while the main case continues.\n## 3. Transfer of CPC and Other Transactions; Revocation or Cancellation",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-B Authority to Operate CPC.md :: 1. Acts Requiring Approval; Legislative Franchise vs CPC; When Franchise Necessary; CPC; LGU Delegation"
+  },
+  {
+    "id": "part-iii-b-q06",
+    "part": "part-iii-b",
+    "section": "1. Acts Requiring Approval; Legislative Franchise vs CPC; When Franchise Necessary; CPC; LGU Delegation",
+    "stem": "A bus company sells sixty percent of its subscribed capital to a single buyer in two connected deeds without Commission approval and books the transfer. The buyer demands recognition as stockholder. Must the company register the buyer.",
+    "answer": "No, because every transfer vesting more than forty per centum of subscribed capital in one transferee without prior approval is void and unregistrable. The law counts connected previous sales together, as the ruling in PLDT v. NTC (G.R. No. 88404, 1990) applies Sec. 20(h), so the buyer holds nothing registrable and the company faces sanction if it books the sale.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-B Authority to Operate CPC.md :: 1. Acts Requiring Approval; Legislative Franchise vs CPC; When Franchise Necessary; CPC; LGU Delegation"
+  },
+  {
+    "id": "part-iii-b-q07",
+    "part": "part-iii-b",
+    "section": "1. Acts Requiring Approval; Legislative Franchise vs CPC; When Franchise Necessary; CPC; LGU Delegation",
+    "stem": "A certificate holder disobeys service directives for eight years, cures nothing after inspection reports and hearings, and pleads protection of its investments against revocation. Must the Commission settle for a fine.",
+    "answer": "No, because willful and contumacious refusal to obey orders and certificate conditions warrants cancellation and revocation. The fine remedy is cumulative and never bars revocation, and the ruling in Rizal Light v. Morong (G.R. Nos. L-20993 and L-21221, 1968) denies protection to an operator that is not of good standing. The Commission revokes the certificate and forfeits the franchise on substantial evidence.\n## Quick-Recall Tables",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part III-B Authority to Operate CPC.md :: 1. Acts Requiring Approval; Legislative Franchise vs CPC; When Franchise Necessary; CPC; LGU Delegation"
+  }
+]

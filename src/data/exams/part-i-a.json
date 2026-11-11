@@ -1,0 +1,126 @@
+[
+  {
+    "id": "part-i-a-q01",
+    "part": "part-i-a",
+    "section": "1. Definition of Insurance Contract",
+    "stem": "X pays Y P10,000 so that Y will pay X P1M if a named ship, already lost at sea but unknown to both, failed to arrive. Is this a valid subject of insurance?",
+    "answer": "Yes, the undertaking is a valid subject of insurance because both parties were ignorant of the loss when the contract was perfected. Section 3 covers past contingent events unknown to the parties. Both parties were ignorant of the loss at perfection, so fortuity subsists. The subject is therefore insurable, subject to insurable interest and the other requisites.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-A General Concepts - Insurance Contract.md :: 1. Definition of Insurance Contract"
+  },
+  {
+    "id": "part-i-a-q02",
+    "part": "part-i-a",
+    "section": "2. Principal Object and Purpose Test (HMO Product; Variable Contracts)",
+    "stem": "An HMO sells cards guaranteeing doctor visits for a fixed fee, and it absorbs all costs even during epidemics. Is it doing an insurance business?",
+    "answer": "Yes, the HMO is doing an insurance business in substance and is answerable to regulation. Under the Section 2(b) substance test, absorption of fortuitous cost for consideration is risk assumption. Here, epidemic overuse is the contingent event, and the fixed fee is the consideration. The HMO is therefore doing an insurance business in substance.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-A General Concepts - Insurance Contract.md :: 2. Principal Object and Purpose Test (HMO Product; Variable Contracts)"
+  },
+  {
+    "id": "part-i-a-q03",
+    "part": "part-i-a",
+    "section": "3. Doing an Insurance Business; Mutual Insurance Companies",
+    "stem": "A civic club pools member contributions and pays fire losses of members, with no profit and no commission. Is it doing an insurance business?",
+    "answer": "Yes, the club is doing an insurance business. Section 2(b)(1) governs, together with the no-profit sentence: absence of profit does not negate the business. Here, pooling contributions and paying members' fire losses is indemnity on a contingency, regardless of profit motive. The club therefore needs a certificate of authority, and unlicensed operation is punishable.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-A General Concepts - Insurance Contract.md :: 3. Doing an Insurance Business; Mutual Insurance Companies"
+  },
+  {
+    "id": "part-i-a-q04",
+    "part": "part-i-a",
+    "section": "4. Applicable Laws (New Civil Code; Corporation Code)",
+    "stem": "The policy is silent on when a mailed renewal binds. Which law answers?",
+    "answer": "The Civil Code answers, through the cognition rule in Article 1319. The Civil Code applies suppletorily where the Insurance Code is silent. A mailed acceptance therefore binds only upon the offeror's knowledge. The renewal is effective when the insurer knew of the acceptance.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-A General Concepts - Insurance Contract.md :: 4. Applicable Laws (New Civil Code; Corporation Code)"
+  },
+  {
+    "id": "part-i-a-q05",
+    "part": "part-i-a",
+    "section": "5. Importance of Insurance; Dealing with Risks",
+    "stem": "Why can the insurer pay P45M on one fire (cf. Cebu Shipyard) and stay solvent?",
+    "answer": "The insurer stays solvent through pooling. Insurance rests on the distribution of losses across the pool. Here, the single large loss is funded by the premiums of the many exposures. Solvency therefore rests on spread, pricing, and reserves.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-A General Concepts - Insurance Contract.md :: 5. Importance of Insurance; Dealing with Risks"
+  },
+  {
+    "id": "part-i-a-q06",
+    "part": "part-i-a",
+    "section": "6. Characteristics (Indemnity; Not a Wagering Contract)",
+    "stem": "A P5M building is insured for P3M and suffers a P1.5M partial fire loss under a 60 percent coinsurance clause. What is the recovery?",
+    "answer": "Recovery is scaled down. The insured does not get the full P1.5M. Under Galian's ratable-proportion rule and the Section 17 measure, the insurer pays only the insured proportion of the loss. Here, the insured carried part of the risk by underinsuring the P5M building for P3M. The insurer therefore pays only the coinsured proportion of the loss.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-A General Concepts - Insurance Contract.md :: 6. Characteristics (Indemnity; Not a Wagering Contract)"
+  },
+  {
+    "id": "part-i-a-q07",
+    "part": "part-i-a",
+    "section": "7. Perfection (Requisites, Cognition, Offer/Acceptance, Unaccepted Application, Stipulation, Tort Liability, Delivery)",
+    "stem": "\"Jason is the proud owner of a newly-built house worth PS million. As a protection against any possible loss or damage to his house, Jason applied for a fire insurance policy thereon with Shure Insurance Corporation (Shure) on October 11, 2016 and paid the premium in cash. It took the company a week to approve Jason's application. On October 18, 2016, Shure mailed the approved policy to Jason which the latter received five (5) days later. However, Jason's house had been razed by fire which transpired a day before his receipt of the approved policy. Jason filed a written claim with Shure under the insurance policy. Shure prays for the denial of the claim on the ground that the theory of cognition applies to contracts of insurance. Decide Jason's claim with reasons. (5%)\"",
+    "answer": "Jason's claim must fail on these facts because no contract had yet been perfected when the fire occurred.\nPerfection needs absolute acceptance known to the offeror: mailed acceptance binds only from knowledge under Civil Code Article 1319, paragraph 2, and the policy here was still in transit at loss.\nApproval was mailed October 18 and was received five days later. The fire came the day before receipt, so at loss no acceptance had reached Jason and no contract yet existed despite premium payment.\nShure is correct to deny. The premium is returnable. Delay alone neither perfects the contract nor, without inexcusable neglect proved, makes a tort case on these facts.",
+    "kind": "historic",
+    "year": "2016",
+    "profile": "P1",
+    "authorities": "Part I-A General Concepts - Insurance Contract.md :: 7. Perfection (Requisites, Cognition, Offer/Acceptance, Unaccepted Application, Stipulation, Tort Liability, Delivery)"
+  },
+  {
+    "id": "part-i-a-q08",
+    "part": "part-i-a",
+    "section": "8. Kinds of Insurance; Kinds of Property Insurance Policy",
+    "stem": "Two fire policies cover the same building, with the owner holding one and the lessee holding the other, and both are disclosed. Is there a forfeiture?",
+    "answer": "No, there is no forfeiture, and both policies stand. Forfeiture needs triple identity of subject, interest, and risk, and La O holds that different interests defeat the clause. Here, the owner's interest and the lessee's interest differ. Both policies therefore stand, and the loss is shared within each policy's measure.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-A General Concepts - Insurance Contract.md :: 8. Kinds of Insurance; Kinds of Property Insurance Policy"
+  },
+  {
+    "id": "part-i-a-q09",
+    "part": "part-i-a",
+    "section": "10. The Policy (Form, Basic Provisions, Identification, Adhesion, Interpretation, Indivisibility, Proof, Riders, Cover Notes, Renewal, Reformation)",
+    "stem": "A policy insures \"Building A\", and the insurer denies a claim on Building B by invoking an unsigned, unattached, and unreferred-to endorsement. Does that endorsement form part of the contract?",
+    "answer": "The endorsement is no part of the contract. Riders must be attached to the policy, referred to in it, and supported by premium, and ambiguities are construed against the insurer. Here, the unsigned, unattached, and unmentioned endorsement binds no one. The Building A claim therefore stands on the policy as written.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part I-A General Concepts - Insurance Contract.md :: 10. The Policy (Form, Basic Provisions, Identification, Adhesion, Interpretation, Indivisibility, Proof, Riders, Cover Notes, Renewal, Reformation)"
+  },
+  {
+    "id": "part-i-a-q10",
+    "part": "part-i-a",
+    "section": "11. Elements (Distribution of Losses; Risk; Insurable Interest)",
+    "stem": "\"(c) Insurable interest in property (2%)\".",
+    "answer": "Insurable interest in property is any interest in property, whether real or personal, or any relation thereto, or liability in respect thereof, of such nature that a contemplated peril might directly damnify the insured.\nThe governing provisions are Section 13 for the definition, Section 18 requiring that the policy be enforceable only for one holding such interest, Section 19 fixing the time at both effect and loss, and Section 17 fixing the measure at damnification.\nThe question asks for the bare definition, which the Section 13 sentence supplies.\nA complete answer therefore recites the Section 13 definition together with the Section 19 timing and the Section 17 measure.",
+    "kind": "historic",
+    "year": "2019",
+    "profile": "P1",
+    "authorities": "Part I-A General Concepts - Insurance Contract.md :: 11. Elements (Distribution of Losses; Risk; Insurable Interest)"
+  },
+  {
+    "id": "part-i-a-q11",
+    "part": "part-i-a",
+    "section": "11. Elements (Distribution of Losses; Risk; Insurable Interest)",
+    "stem": "\"Emilio owns a car which he purchased from Gregorio. Emilio agreed to pay Gregorio the balance of the purchase price in the amount of P500,000 within one year. To secure the payment of the balance, Emilio and Gregorio executed a security agreement that complies with the requirements of the Personal Property Security Act (PPSA). The security interest was also perfected in accordance with the PPSA. Who has insurable interest over the car? Explain your answer.\"",
+    "answer": "Both Emilio and Gregorio hold insurable interest over the car.\nSection 13's property interest covers any damnifiable relation to the thing. Section 14 reaches existing interests and expectancies coupled with an existing interest. A perfected PPSA security interest is such a relation.\nEmilio as buyer-owner holds the existing ownership interest. Gregorio as perfected secured creditor holds an interest to the extent of the P500,000 collectible from the car.\nEither or both may therefore insure, each within its own measure (Sec. 17), and two policies on different interests are no double-insurance breach (La O and 2025-5).",
+    "kind": "historic",
+    "year": "2023",
+    "profile": "P1",
+    "authorities": "Part I-A General Concepts - Insurance Contract.md :: 11. Elements (Distribution of Losses; Risk; Insurable Interest)"
+  },
+  {
+    "id": "part-i-a-q12",
+    "part": "part-i-a",
+    "section": "12. Premium (Accrual, Provision, Forms, Non-Payment, Check, Binding Despite Unpaid, Lapse Prevention, Return, Rebate)",
+    "stem": "\"Flavio obtained from Safe Assurance Corporation (SAC), through its agent Laureen, a fire insurance policy over his residential house for a period of one year from August 25, 2024 to August 24, 2025. Flavio delivered on August 26, 2024 a check representing premium payment to Laureen who then issued an acknowledgment receipt. On August 27, 2024, a fire completely razed Flavio's house. Oblivious of the incident, Laureen deposited the check on August 28, 2024 to SAC's bank account and was credited on the same day. Thereafter, Flavio filed against SAC an insurance claim. However, SAC denied the claim and argued that there was no payment of premium yet to make the insurance policy effective at the time of the loss. SAC explained that it received the premium payment only on August 28, 2024 or after the fire occurred on August 27, 2024. Is there a valid and binding insurance contract between SAC and Flavio? Explain.\"",
+    "answer": "Yes, a valid and binding insurance contract exists between SAC and Flavio, and SAC must pay the claim.\nA premium delivered to the authorized agent with an acknowledgment receipt is payment to the insurer. Cover attaches upon perfection plus exposure within the policy period. Later bank crediting does not move the payment date back.\nFlavio paid by check to Laureen on August 26, inside the August 25, 2024 to August 24, 2025 term, and the receipt placed payment before the August 27 fire, which fell within cover. The August 28 deposit is merely internal timing.\nThe denial therefore fails: the contract is valid and the loss is covered.",
+    "kind": "historic",
+    "year": "2024",
+    "profile": "P1",
+    "authorities": "Part I-A General Concepts - Insurance Contract.md :: 12. Premium (Accrual, Provision, Forms, Non-Payment, Check, Binding Despite Unpaid, Lapse Prevention, Return, Rebate)"
+  }
+]

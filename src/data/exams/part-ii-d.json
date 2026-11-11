@@ -1,0 +1,83 @@
+[
+  {
+    "id": "part-ii-d-q01",
+    "part": "part-ii-d",
+    "section": "1. Contract vs Other Sources; Culpa Contractual vs Culpa Aquiliana; Concurrent Causes",
+    "stem": "Ysidro, a paying passenger, was on board Bus No. 904 owned and operated by Yatco Transportation Company (Yatco). He boarded the bus at Munoz, Nueva Ecija with Manila as his final destination. He was seated on the first row, window seat on the left side of the bus. As the bus was negotiating the national highway in front of the public market of Gerona, Tarlac, the bus came to a full stop because of the traffic. The driver of the bus took this opportunity to check on the tires of the bus and to relieve himself. As he was alighting from the bus to do these, an unidentified man standing along the highway hurled a huge rock at the left side of the bus and hit Ysidro between his eyes. He lost consciousness and immediately the driver, with the conductor, drove the bus to bring him to the nearest hospital. He expired before the bus could reach the hospital. Ysidro's wife and children brought a civil action to collect damages from Yatco, alleging that as a common carrier, it was required to exercise extraordinary diligence in ensuring the safety of its passengers. They contended that, in case of injuries and/or death on the part of any of its passengers, the common carrier is presumed to be at fault. In its defense, Yatco alleged that it is not an absolute insurer of its passengers and that Ysidro's death was not due to any defect in the means of transport or method of transporting passengers, or the negligent acts of its employees. Since the accident was due to the fault of a stranger over whom the common carrier had no control, or of which it did not have any prior knowledge to be able to prevent it, the cause of Ysidro's death should be considered a fortuitous event and not the liability of the common carrier. (a) Is a common carrier presumed to be at fault whenever there is death or injury to its passengers, regardless of the cause of death or injury? (2.5%) (b) What kind of diligence is required of common carriers like Yatco for the protection of its passengers? (2.5%) (c) Will your answer be the same as your answer in (b) above, if the assailant was another paying passenger who boarded the bus and deliberately stabbed Ysidro to death? (2.5%)",
+    "answer": "No to the blanket presumption, yet the diligence stays utmost and the fellow-passenger variant binds the line where prevention was possible.\nThe presumption of Art. 1756 runs where death or injury attends carriage, and the carrier rebuts it only with proof of the extraordinary diligence of Arts. 1733 and 1755, so a stranger act is tested by preventability rather than by insurance logic.\nA rock from the roadside acquits where the crew could have done nothing with good-family care, since Art. 1763 frees the carrier for stranger harm it could not have prevented or stopped.\nA stabbing by a co-passenger binds where the crew could have prevented or stopped it with the same care, since the article draws no line between strangers and fellow riders.\nThe heirs therefore face fair adjudication on prevention proof, with the rock case turning on the blind roadside and the knife case turning on what the conductor saw and did.",
+    "kind": "historic",
+    "year": "2018",
+    "profile": "P1",
+    "authorities": "Part II-D Actions and Damages.md :: 1. Contract vs Other Sources; Culpa Contractual vs Culpa Aquiliana; Concurrent Causes"
+  },
+  {
+    "id": "part-ii-d-q02",
+    "part": "part-ii-d",
+    "section": "1. Contract vs Other Sources; Culpa Contractual vs Culpa Aquiliana; Concurrent Causes",
+    "stem": "A stowaway hiding in a bus toilet and a fare-paying rider beside him are both hurt when a stranger smashes a window with a bottle. The line answers the rider but disowns the stowaway. Which answers stand?",
+    "answer": "Both answers stand, since the rider holds a contract claim tested by prevention while the stowaway holds none at all.\nThe rider proves the ticket with the injury and the line must show utmost diligence with nothing preventable left undone under Arts. 1756 and 1763.\nThe stowaway proves no carriage, so no contract presumption ever arises for him and only a tort claim with fault proof could even begin.\nThe line therefore pays or rebuts on the rider while meeting the stowaway purely on fault if sued at all.\n## 2. Elements of Cause of Action; Recoverable Damages",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-D Actions and Damages.md :: 1. Contract vs Other Sources; Culpa Contractual vs Culpa Aquiliana; Concurrent Causes"
+  },
+  {
+    "id": "part-ii-d-q03",
+    "part": "part-ii-d",
+    "section": "1. Contract vs Other Sources; Culpa Contractual vs Culpa Aquiliana; Concurrent Causes",
+    "stem": "A consignee proves the bill with short delivery of ten crates but brings no purchase invoices, then claims the highest price the goods ever fetched that year. What does the claim still lack?",
+    "answer": "The claim lacks proved value, since carriage plus shortage states liability while pesos still need proof.\nThe bill with the shortage engages the presumption and fixes breach, so the carrier must pay whatever loss the papers prove.\nThe peak price without invoices proves no pecuniary loss actually suffered, so Art. 2199 holds actual damages to adequate compensation only as duly proved.\nThe consignee therefore keeps liability established but recovers only the value its own evidence sustains.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-D Actions and Damages.md :: 1. Contract vs Other Sources; Culpa Contractual vs Culpa Aquiliana; Concurrent Causes"
+  },
+  {
+    "id": "part-ii-d-q04",
+    "part": "part-ii-d",
+    "section": "1. Contract vs Other Sources; Culpa Contractual vs Culpa Aquiliana; Concurrent Causes",
+    "stem": "A line in good faith misroutes a crate of ordinary spare parts, while a second line spitefully strands a migrant worker who then loses an abroad job. How does extent differ between the two?",
+    "answer": "Extent differs by state of mind, since good faith pays the foreseeable while spite pays all reasonably attributed loss.\nThe misrouted parts pay the natural and probable value foreseeable at booking under the first rule of Art. 2201.\nThe spiteful stranding pays the lost placement with its consequences once bad faith appears under the second rule of the same article.\nThe worker therefore recovers wider than the parts owner though both sue in contract.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-D Actions and Damages.md :: 1. Contract vs Other Sources; Culpa Contractual vs Culpa Aquiliana; Concurrent Causes"
+  },
+  {
+    "id": "part-ii-d-q05",
+    "part": "part-ii-d",
+    "section": "3. Actual/Compensatory Damages; Attorney's Fees; Interests",
+    "stem": "A shipper claims twenty thousand dollars for ten missing crates but its own manager admits the foreign principal already reimbursed the full invoice value. The bill carries no declared higher value. What survives of the money claim?",
+    "answer": "The actual claim dies while any bad-faith correction could live on separate proof.\nReimbursement quenches pecuniary loss, so Art. 2199 leaves nothing more to compensate and British Airways v. Court of Appeals (G.R. No. 92288, 1993) deletes the award.\nWithout a declared higher value the package limitation would have capped any surviving cargo value in any event.\nThe shipper therefore keeps at most moral with exemplary on fraud or bad-faith proof, never the reimbursed sum again.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-D Actions and Damages.md :: 3. Actual/Compensatory Damages; Attorney's Fees; Interests"
+  },
+  {
+    "id": "part-ii-d-q06",
+    "part": "part-ii-d",
+    "section": "3. Actual/Compensatory Damages; Attorney's Fees; Interests",
+    "stem": "A bus line kills a thirty-year-old father earning thirty thousand pesos a month. The heirs prove the payroll with the birth record. Walk the award from indemnity to interest.",
+    "answer": "The award stacks indemnity with capacity with interest, each on its own proof.\nDeath indemnity of fifty thousand pesos goes to the heirs on the death alone under the Art. 2206 package as applied in Sps. Cruz v. Sun Holidays (G.R. No. 186312, 2010).\nEarning capacity runs two thirds of fifty years times one hundred eighty thousand pesos net yearly, which is thirty-three and one third years times one hundred eighty thousand pesos or six million pesos on full proof.\nMoral follows for mental anguish under Art. 2206, exemplary follows on presumed recklessness, fees follow on a statutory door, and the total earns six percent legal interest from finality under the present rate.\n## 4. Moral; Nominal; Temperate or Moderate; Liquidated; Exemplary or Corrective Damages",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-D Actions and Damages.md :: 3. Actual/Compensatory Damages; Attorney's Fees; Interests"
+  },
+  {
+    "id": "part-ii-d-q07",
+    "part": "part-ii-d",
+    "section": "3. Actual/Compensatory Damages; Attorney's Fees; Interests",
+    "stem": "A line delays a bride three hours through plain mismanagement, apologizes at once, and refunds the fare in full. She sues for moral damages over ruined photographs. Does she collect?",
+    "answer": "She collects no moral sum, since clean breach without fraud or bad faith draws only actual loss under Art. 2220. The refund quenches the pecuniary part and the prompt apology negates the spite that moral requires. Her ruined photographs, though genuinely painful, sound in unproved consequence rather than in Art. 2217 anguish proximately tied to a wrongful manner. The claim therefore ends with the refunded fare.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-D Actions and Damages.md :: 3. Actual/Compensatory Damages; Attorney's Fees; Interests"
+  },
+  {
+    "id": "part-ii-d-q08",
+    "part": "part-ii-d",
+    "section": "3. Actual/Compensatory Damages; Attorney's Fees; Interests",
+    "stem": "A carrier pays the fifty thousand pesos death indemnity but fights the one hundred thousand pesos moral award, arguing no fraud attended the accident. The death came from its own admittedly reckless overloading. What answers the carrier?",
+    "answer": "Recklessness answers the carrier, since presumed fault unrebutted in a death case is wanton enough for both moral and exemplary awards. Art. 2206 gives the spouse with descendants with ascendants moral damages for mental anguish by reason of the death alone. Presumed recklessness from unexplained overloading opens exemplary under Art. 2232 as Sps. Cruz v. Sun Holidays (G.R. No. 186312, 2010) holds. The indemnity therefore stands beside moral with exemplary rather than instead of them.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part II-D Actions and Damages.md :: 3. Actual/Compensatory Damages; Attorney's Fees; Interests"
+  }
+]

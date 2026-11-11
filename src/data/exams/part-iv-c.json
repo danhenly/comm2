@@ -1,0 +1,42 @@
+[
+  {
+    "id": "part-iv-c-q01",
+    "part": "part-iv-c",
+    "section": "1. Philippine Competition Commission",
+    "stem": "The Secretary of Energy writes the Commission directing it to clear a refinery merger without review because the project is a presidential priority. The merging refiners invoke the letter and demand immediate clearance. Must the Commission obey the directive.",
+    "answer": "No, because the Commission is an independent quasi-judicial body that decides only on evidence after due process.\nSection 5 creates the Commission as independent although attached to the Office of the President for administration, while Section 12 gives it original and primary jurisdiction over merger review and Section 31 gives it sole and exclusive authority to open and close inquiries.\nA cabinet letter is neither evidence nor law, and the ruling in Tatad v. Secretary of DOE (G.R. No. 124360, 1997) struck down executive implementation that rewrote congressional competition standards.\nThe Commission therefore disregards the directive and runs the notification and review clock on the merits.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part IV-C PCC Confidentiality Remedies.md :: 1. Philippine Competition Commission"
+  },
+  {
+    "id": "part-iv-c-q02",
+    "part": "part-iv-c",
+    "section": "1. Philippine Competition Commission",
+    "stem": "After due hearing the Commission finds a cement cartel and orders the members to sell two plants although a supervised price and supply commitment would restore rivalry. The cartel answers that divestiture is a listed remedy so the Commission may choose it freely. Is the divestiture order valid.",
+    "answer": "No, because structural remedies issue only where behavioral relief cannot do the job.\nSection 12(h) allows adjustment and divestiture orders only where no equally effective behavioral remedy exists or where the behavioral option would burden the enterprise more, and only in proportion to a lasting or repeated infringement risk rooted in the structure itself.\nThe finding here admits that a supervised commitment would restore rivalry, so the first condition fails and the order punishes structure instead of curing conduct.\nThe Commission must replace divestiture with the effective behavioral remedy and reserve structural surgery for a case that proves its necessity.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part IV-C PCC Confidentiality Remedies.md :: 1. Philippine Competition Commission"
+  },
+  {
+    "id": "part-iv-c-q03",
+    "part": "part-iv-c",
+    "section": "2. Composition, Term, Qualification; Confidentiality; Remedies of the Entity",
+    "stem": "A business daily demands that the Commission publish the production costs and customer lists a cement maker filed during a cartel inquiry. The maker objects and withholds consent while no court orders disclosure. Must the Commission publish the data.",
+    "answer": "No, because confidential business information filed in an inquiry shall never be disclosed without consent or a lawful disclosure order.\nSection 34 seals operations, production, sales, shipments, customer identities, inventories, and income data against direct or indirect disclosure, publication, transfer, copying, or dissemination, and breach draws a fine of not less than P1,000,000.00 but not more than P5,000,000.00.\nConsent is absent here and no law or valid court or regulatory order compels release, so none of the three exceptions opens.\nThe Commission therefore keeps the data sealed and publishes only a ruling redacted to the extent possible.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part IV-C PCC Confidentiality Remedies.md :: 2. Composition, Term, Qualification; Confidentiality; Remedies of the Entity"
+  },
+  {
+    "id": "part-iv-c-q04",
+    "part": "part-iv-c",
+    "section": "2. Composition, Term, Qualification; Confidentiality; Remedies of the Entity",
+    "stem": "A flour distributor directly injured by a price cartel files a civil damages suit in the Regional Trial Court while the Commission preliminary inquiry is still running. The cartel moves to dismiss as premature. Must the court dismiss the suit.",
+    "answer": "Yes, because a private action opens only after the Commission completes its preliminary inquiry.\nSection 45 lets any person who suffers direct injury sue separately and independently only after completion of the Section 31 preliminary inquiry, and Section 31 gives the Commission sole and exclusive authority to open that inquiry with a ninety-day completion rule.\nThe ruling in Gios-Samar v. DOTC (G.R. No. 217158, 2019) dismisses competition claims pleaded without the ultimate facts that an inquiry first builds, so a suit filed mid-inquiry jumps the administrative gate.\nThe court therefore dismisses the suit as premature without prejudice to refiling once the Commission completes its inquiry.",
+    "kind": "drafted",
+    "profile": "P1",
+    "authorities": "Part IV-C PCC Confidentiality Remedies.md :: 2. Composition, Term, Qualification; Confidentiality; Remedies of the Entity"
+  }
+]

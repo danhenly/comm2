@@ -20,7 +20,7 @@ const storageKey = `comm2-exam-${part}`;
 <Base title={`Exam ${label} — Comm2 Reviewer`}>
   <p><a href="/">&larr; Home</a> · <a href={`/parts/${part}`}>reviewer</a> · <a href="/exams/all">all exams</a></p>
   <h1>Exam: {label}</h1>
-  <p class="meta">{items.length} items · grader: {graderUrl} (falls back to model answer if unreachable)</p>
+  <p class="meta">{items.length} items</p>
 
   <script type="application/json" id="exam-data" set:html={JSON.stringify(items)} />
   <div id="exam-app" data-part={part} data-grader={graderUrl} data-storage={storageKey}>

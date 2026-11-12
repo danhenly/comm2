@@ -11,7 +11,7 @@ const storageKey = 'comm2-exam-all';
 <Base title="Exam all — Comm2 Reviewer">
   <p><a href="/">&larr; Home</a></p>
   <h1>Exam: whole course</h1>
-  <p class="meta">{items.length} items · grader: {graderUrl} (falls back to model answer if unreachable)</p>
+  <p class="meta">{items.length} items</p>
 
   <script type="application/json" id="exam-data" set:html={JSON.stringify(items)} />
   <div id="exam-app" data-part="all" data-grader={graderUrl} data-storage={storageKey}>

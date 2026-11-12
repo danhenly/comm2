@@ -108,17 +108,10 @@ const storageKey = `comm2-exam-${part}`;
           });
           if (grade.total !== undefined || grade.score !== undefined) {
             const t = document.createElement('p');
-            t.innerHTML = `<strong>Total: ${grade.total ?? grade.score}</strong>`;
+            t.innerHTML = `<strong>Total: ${grade.total ?? grade.score} / 5</strong>`;
             result.appendChild(t);
           }
         }
-        const h = document.createElement('h3');
-        h.textContent = 'Model answer (A:)';
-        result.appendChild(h);
-        const pre = document.createElement('pre');
-        pre.style.whiteSpace = 'pre-wrap';
-        pre.textContent = item.answer || '(missing A: block)';
-        result.appendChild(pre);
         const tips = (grade && grade.suggestions) || [];
         if (tips.length) {
           const h2 = document.createElement('h3');
@@ -132,6 +125,13 @@ const storageKey = `comm2-exam-${part}`;
           });
           result.appendChild(ol);
         }
+        const h = document.createElement('h3');
+        h.textContent = 'Model answer (A:)';
+        result.appendChild(h);
+        const pre = document.createElement('pre');
+        pre.style.whiteSpace = 'pre-wrap';
+        pre.textContent = item.answer || '(missing A: block)';
+        result.appendChild(pre);
       }
 
       function render() {

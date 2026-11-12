@@ -16,11 +16,9 @@ import { GROUPS, PART_LABEL, pdfUrl } from '../data/parts';
       <ul>
         {g.slugs.map((slug) => (
           <li>
-            <strong>{PART_LABEL[slug]}</strong>
-            {' — '}
-            <a href={`/parts/${slug}`}>/parts/{slug}</a>
+            <a href={`/parts/${slug}`}><strong>{PART_LABEL[slug]}</strong></a>
             {' · '}
-            <a href={`/exams/${slug}`}>/exams/{slug}</a>
+            <a class="btn" href={`/exams/${slug}`}>/exams/{slug}</a>
           </li>
         ))}
       </ul>

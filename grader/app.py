@@ -316,6 +316,7 @@ def grade(req: GradeRequest):
     suggestions = [str(s) for s in suggestions if str(s).strip()]
     if not suggestions:
         suggestions = [c["fix"] for c in components if c.get("fix")]
+    print(json.dumps({"ev": "grade", "id": req.id, "total": total, "caps": caps_applied, "model": MODEL}), flush=True)
     # Insertion order: components first, aggregate last.
     return {
         "components": components,

@@ -162,7 +162,10 @@ Complements: the working contrast is suretyship, deemed insurance only when the 
 
 **Q: X pays Y P10,000 so that Y will pay X P1M if a named ship, already lost at sea but unknown to both, failed to arrive. Is this a valid subject of insurance?**
 
-A: Yes, the undertaking is a valid subject of insurance because both parties were ignorant of the loss when the contract was perfected. Section 3 covers past contingent events unknown to the parties. Both parties were ignorant of the loss at perfection, so fortuity subsists. The subject is therefore insurable, subject to insurable interest and the other requisites.
+A: Yes. The undertaking is a valid subject of insurance because both parties were ignorant of the loss when the contract was perfected.
+Under Section 2(a) of the Insurance Code, insurance is an undertaking for consideration to indemnify against loss from an unknown or contingent event, and under Section 3, insurance on a past event is allowed when the parties do not know whether it has already happened. Fortuity is therefore judged at perfection, and ignorance shared by both sides preserves it.
+Here, each element is present on these facts. The P10,000 is the consideration. The P1,000,000 is the promised indemnity. The arrival or nonarrival of the named ship is the contingent event. Both X and Y were ignorant of the loss at perfection, so the counter-reading that an already lost ship cannot be insured fails under the Section 3 unknown-past rule.
+The subject is therefore insurable. The contract is enforceable once insurable interest and the remaining requisites are shown, and the loss is payable within the agreed indemnity. Insurable interest remains the gatekeeper, as in La O v. Yek Tong Lin Fire and Marine (G.R. No. 33131, 1930), where recovery turned on identifying the holder of the damnifiable interest.
 
 ## 2. Principal Object and Purpose Test (HMO Product; Variable Contracts)
 
@@ -190,7 +193,10 @@ Doctrine: A pre-need plan is the law between the parties. Clear terms take their
 
 **Q: An HMO sells cards guaranteeing doctor visits for a fixed fee, and it absorbs all costs even during epidemics. Is it doing an insurance business?**
 
-A: Yes, the HMO is doing an insurance business in substance and is answerable to regulation. Under the Section 2(b) substance test, absorption of fortuitous cost for consideration is risk assumption. Here, epidemic overuse is the contingent event, and the fixed fee is the consideration. The HMO is therefore doing an insurance business in substance.
+A: Yes. The HMO is doing an insurance business in substance and is answerable to regulation as an insurer.
+Under Section 2(b)(1) of the Insurance Code, making insurance contracts as insurer is doing an insurance business, and under Section 2(b)(4), any business in substance equivalent to insurance that is designed to evade the Code is caught. The label on the card does not control. The principal object and purpose test decides. By contrast, a pre-need plan is held to its literal terms as the law between the parties rather than treated as Section 2(a) indemnity (Gaw v. CA, G.R. No. 147748, April 19, 2006).
+Here, the HMO assumes risk for a price. The fixed fee is the consideration. Epidemic overuse is the contingent fortuitous cost. The guarantee of doctor visits is the undertaking to answer that contingency. The counter-reading that the HMO merely sells access to services fails because it absorbs cost variance instead of charging per visit.
+The HMO is therefore transacting insurance business in substance. It needs a certificate of authority, and operating without one is punishable.
 
 ## 3. Doing an Insurance Business; Mutual Insurance Companies
 
@@ -222,7 +228,10 @@ Doctrine: the insurer that issued the bond cannot shed it by invoking internal l
 
 **Q: A civic club pools member contributions and pays fire losses of members, with no profit and no commission. Is it doing an insurance business?**
 
-A: Yes, the club is doing an insurance business. Section 2(b)(1) governs, together with the no-profit sentence: absence of profit does not negate the business. Here, pooling contributions and paying members' fire losses is indemnity on a contingency, regardless of profit motive. The club therefore needs a certificate of authority, and unlicensed operation is punishable.
+A: Yes. The civic club is doing an insurance business even though it earns no profit and pays no commission.
+Under Section 2(b)(1) of the Insurance Code, making or proposing to make any insurance contract as insurer is doing an insurance business, and under the no-profit sentence, the absence of profit and the absence of separate or direct consideration are not conclusive against doing an insurance business. Motive does not decide. The act decides. Substance controls over labels here, as the Court kept an insurer to obligations assumed in substance in Capital Insurance and Surety Co. v. Del Monte Motor Works, Inc. (G.R. No. 159979, 2015).
+Here, the club performs the act. Member contributions are the consideration pooled from the many. Payment of members fire losses is indemnity on a contingency. Fire striking a member home is the fortuitous peril answered by the pool. The counter-readings that nonprofit pooling is mere mutual aid and that unpaid officers negate the business both fail under the no-profit sentence.
+The club is therefore transacting an insurance business. It needs a certificate of authority like any insurer, and unlicensed operation is punishable.
 
 ## 4. Applicable Laws (New Civil Code; Corporation Code)
 
@@ -245,7 +254,10 @@ Cebu Shipyard (Art. 2207 subrogation and the equity-versus-adhesion-cap point) i
 
 **Q: The policy is silent on when a mailed renewal binds. Which law answers?**
 
-A: The Civil Code answers, through the cognition rule in Article 1319. The Civil Code applies suppletorily where the Insurance Code is silent. A mailed acceptance therefore binds only upon the offeror's knowledge. The renewal is effective when the insurer knew of the acceptance.
+A: The Civil Code answers through the cognition rule in Article 1319, applied suppletorily to the renewal.
+Under Article 1319, paragraphs 1 and 2, of the Civil Code, consent is the meeting of offer and acceptance and a mailed acceptance binds the offeror only from knowledge, and under the suppletory-application rule, the Civil Code fills gaps the Insurance Code leaves open. The Code is primary on the contract and the business, while the Civil Code governs perfection timing. The cross-read illustration is Cebu Shipyard v. William Lines, where a Civil Code provision on subrogation was enforced alongside the policy (G.R. No. 132607, May 5, 1999).
+Here, the renewal is a new contract on the old terms unless varied. The mailed renewal acceptance therefore binds only when the insurer as offeror knew of it. The counter-reading that mailing alone perfects the renewal fails under the cognition rule.
+The renewal is therefore effective when the insurer knew of the acceptance, and rights under it are reckoned from that date.
 
 ## 5. Importance of Insurance; Dealing with Risks
 
@@ -260,20 +272,23 @@ State it as framework, never as a holding.
 
 **Q: Why can the insurer pay P45M on one fire (cf. Cebu Shipyard) and stay solvent?**
 
-A: The insurer stays solvent through pooling. Insurance rests on the distribution of losses across the pool. Here, the single large loss is funded by the premiums of the many exposures. Solvency therefore rests on spread, pricing, and reserves.
+A: The insurer stays solvent through pooling, which lets one large loss be paid from the contributions of the many.
+Under the distribution-of-losses framework, fortuitous losses of the few are spread across homogeneous exposures, enforced through the Section 17 measure of damnification and the Section 77 earning of premium on exposure. The insurer prices fortuity across the pool and holds reserves from the common fund. The illustration is Cebu Shipyard v. William Lines, where the vessel insurer paid P45,000,000 on one fire and pursued the repairer by subrogation (G.R. No. 132607, May 5, 1999).
+Here, the single fire loss is funded by the premiums of the many exposures, not by the premium on the burned property alone. The counter-reading that one large payment must exhaust the insurer fails because solvency rests on spread, pricing, and reserves rather than on any single risk.
+The P45,000,000 payment is therefore consistent with solvency, and subrogation replenishes the fund where a third party caused the loss.
 
 ## 6. Characteristics (Indemnity; Not a Wagering Contract)
 
 > "The measure of an insurable interest in property is the extent to which the insured might be damnified by loss or injury thereof."
 > — Sec. 17, Insurance Code (RA 10607, verified)
 
-| Characteristic | Content |
-|---|---|
-| Indemnity | Recovery capped at the actual loss; insured must not profit (property side; life is valued by agreement) |
-| Aleatory | Performance depends on a contingent event; obligations are unequal until the event |
-| Uberrimae fidei | Utmost good faith both ways (Qua Chee Gan binds the insurer more strictly) |
-| Not wagering | Interest + Sec. 4 lottery bar; the contract answers a real exposure, not a manufactured chance |
-| Personal in property | Tied to the insured's interest, so transfer rules (Secs. 20-23) suspend rather than assign freely |
+| Characteristic       | Content                                                                                                  |
+| -------------------- | -------------------------------------------------------------------------------------------------------- |
+| Indemnity            | Recovery capped at the actual loss; insured must not profit (property side; life is valued by agreement) |
+| Aleatory             | Performance depends on a contingent event; obligations are unequal until the event                       |
+| Uberrimae fidei      | Utmost good faith both ways (Qua Chee Gan binds the insurer more strictly)                               |
+| Not wagering         | Interest + Sec. 4 lottery bar; the contract answers a real exposure, not a manufactured chance           |
+| Personal in property | Tied to the insured's interest, so transfer rules (Secs. 20-23) suspend rather than assign freely        |
 
 ### Case: Galian v. State Assurance Co., G.R. No. L-8405, February 10, 1915, 29 Phil. 413
 
@@ -289,7 +304,10 @@ Doctrine: ordinary persons may testify on common household values. The ratable-p
 
 **Q: A P5M building is insured for P3M and suffers a P1.5M partial fire loss under a 60 percent coinsurance clause. What is the recovery?**
 
-A: Recovery is scaled down. The insured does not get the full P1.5M. Under Galian's ratable-proportion rule and the Section 17 measure, the insurer pays only the insured proportion of the loss. Here, the insured carried part of the risk by underinsuring the P5M building for P3M. The insurer therefore pays only the coinsured proportion of the loss.
+A: Recovery is scaled down to P900,000. The insured does not get the full P1,500,000.
+Under Section 17 of the Insurance Code, the measure of property interest is capped at damnification, applied through the ratable-proportion rule, under which the insured is his own insurer for the uninsured excess (Galian v. State Assurance Co., G.R. No. L-8405, February 10, 1915). Partial loss therefore equals actual loss multiplied by insured value over value at fire. Coinsurance punishes underinsurance rather than rewarding it.
+Here, the figures trigger the scale-down. The building is worth P5,000,000 but is insured for only P3,000,000, so the insured carried two-fifths of the risk. The P1,500,000 partial fire loss is multiplied by three-fifths, yielding P900,000. The counter-reading that any loss below the P3,000,000 face amount is paid in full fails because the 60 percent coinsurance clause makes the insured coinsure the uncovered portion.
+The insurer therefore pays only P900,000, and the insured bears the P600,000 balance as his own insurer.
 
 ## 7. Perfection (Requisites, Cognition, Offer/Acceptance, Unaccepted Application, Stipulation, Tort Liability, Delivery)
 
@@ -308,10 +326,10 @@ A: Recovery is scaled down. The insured does not get the full P1.5M. Under Galia
 
 **2016 Bar Q: "Jason is the proud owner of a newly-built house worth PS million. As a protection against any possible loss or damage to his house, Jason applied for a fire insurance policy thereon with Shure Insurance Corporation (Shure) on October 11, 2016 and paid the premium in cash. It took the company a week to approve Jason's application. On October 18, 2016, Shure mailed the approved policy to Jason which the latter received five (5) days later. However, Jason's house had been razed by fire which transpired a day before his receipt of the approved policy. Jason filed a written claim with Shure under the insurance policy. Shure prays for the denial of the claim on the ground that the theory of cognition applies to contracts of insurance. Decide Jason's claim with reasons. (5%)"**
 
-A: Jason's claim must fail on these facts because no contract had yet been perfected when the fire occurred.
-Perfection needs absolute acceptance known to the offeror: mailed acceptance binds only from knowledge under Civil Code Article 1319, paragraph 2, and the policy here was still in transit at loss.
-Approval was mailed October 18 and was received five days later. The fire came the day before receipt, so at loss no acceptance had reached Jason and no contract yet existed despite premium payment.
-Shure is correct to deny. The premium is returnable. Delay alone neither perfects the contract nor, without inexcusable neglect proved, makes a tort case on these facts.
+A: Jason loses and Shure properly denies the claim because no insurance contract had yet been perfected when the fire occurred.
+Under Article 1319, paragraph 2, of the Civil Code, a mailed acceptance binds the offeror only from knowledge, and under Sections 77 and 78 of the Insurance Code, premium is earned on exposure and cover attaches only upon a perfected contract plus exposure within the policy period. The application is the offer and the company approval is the acceptance, which must be absolute and known to the offeror. Delay alone is neither acceptance nor, without inexcusable neglect proved, a tort.
+Here, the dates defeat the claim. Jason applied and paid in cash on October 11, 2016. Shure approved and mailed on October 18. Jason received the policy five days later. The fire came the day before receipt, while the approval was still in transit, so at loss no acceptance had reached Jason and no contract yet existed despite premium payment.
+Shure is therefore correct to deny. The cash premium is returnable, and no tort liability arises on these facts without inexcusable delay proved.
 
 > Exam trap: premium payment is not acceptance — it evidences the offer and earns cover only once the contract is perfected and exposure begins (Sec. 77). Keep 2016-II apart from 2024-14, where a perfected policy plus agent receipt saved the claim.
 
@@ -356,7 +374,10 @@ On the suretyship pair: in First Lepanto-Taisho (G.R. No. 177839, 2012), the sur
 
 **Q: Two fire policies cover the same building, with the owner holding one and the lessee holding the other, and both are disclosed. Is there a forfeiture?**
 
-A: No, there is no forfeiture, and both policies stand. Forfeiture needs triple identity of subject, interest, and risk, and La O holds that different interests defeat the clause. Here, the owner's interest and the lessee's interest differ. Both policies therefore stand, and the loss is shared within each policy's measure.
+A: No. There is no forfeiture, and both policies stand in full force.
+Under Sections 13 and 14 of the Insurance Code, any damnifiable relation to the thing is an insurable interest, applied through the triple-identity rule, under which forfeiture for other insurance needs the same subject, the same interest, and the same risk. Different interests defeat the clause even on the same building. The contracting insured sues on his own interest, and other policies on different interests are no breach (La O v. Yek Tong Lin Fire and Marine, G.R. No. 33131, December 30, 1930). Undisclosed coinsurance on the same interest forfeits all benefits, which confirms that identity of interest is the pivot (Multi-Ware Manufacturing Corp. v. Cibeles Insurance Corp., G.R. No. 230528, February 1, 2021).
+Here, the required identity is lacking. The owner holds the ownership interest and the lessee holds the leasehold interest. Both policies are disclosed. The counter-reading that two policies on one building automatically forfeit fails for want of the same interest.
+Both policies therefore stand, and each pays within its own measure without double recovery.
 
 ## 9. The Parties (Insured, Policyholder Rights, Death of Owner, Insurer, Beneficiary, Trustee/Agent, Partner, Assignees, Agent/Broker, Jurisdiction)
 
@@ -378,18 +399,18 @@ A: No, there is no forfeiture, and both policies stand. Forfeiture needs triple 
 > "The interest of a beneficiary in a life insurance policy shall be forfeited when the beneficiary is the principal, accomplice, or accessory in willfully bringing about the death of the insured. In such a case, the share forfeited shall pass on to the other beneficiaries, unless otherwise disqualified. In the absence of other beneficiaries, the proceeds shall be paid in accordance with the policy contract. If the policy contract is silent, the proceeds shall be paid to the estate of the insured."
 > — Sec. 12, Insurance Code (RA 10607, verified)
 
-| Party | Content |
-|---|---|
-| Insured | The one whose interest is covered; must have insurable interest (Secs. 10-18) |
-| Policyholder rights | Premium notices, grace, reinstatement, loan/surrender values, beneficiary change (Sec. 11) |
-| Death of owner | Rights, title, and interest in a life/health policy vest automatically in the insured on the owner's death unless the policy provides otherwise (Sec. 3, par. 3, verified) |
-| Insurer | Authorized corporation, partnership, or association (Sec. 6); disapproval grounds and prohibited acts per TOC 10.04 |
-| Beneficiary | Generally revocable (Sec. 11); endowment-policy rights vest per terms; forfeiture on willful killing (Sec. 12); disqualifications (e.g. illicit-relations limits tested in 2025-8) |
-| Trustee or agent; partner | May insure in a representative or partnership capacity; capacity determines whose interest answers |
-| Assignee of life | Freely assignable; assignee needs no insurable interest where assignment is in good faith |
-| Assignee of property | Assignment needs insurer assent; unassented transfer suspends (Sec. 20) |
-| Agent vs broker | Agent represents the insurer; broker represents the insured; knowledge of the approving agent is knowledge of the insurer (2023 Q10) |
-| Jurisdiction | Insurer-agent relations outside the Insurance Commissioner's quasi-judicial reach (TOC 10.11); TPL insurer directly suable (Shafer) |
+| Party                     | Content                                                                                                                                                                            |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Insured                   | The one whose interest is covered; must have insurable interest (Secs. 10-18)                                                                                                      |
+| Policyholder rights       | Premium notices, grace, reinstatement, loan/surrender values, beneficiary change (Sec. 11)                                                                                         |
+| Death of owner            | Rights, title, and interest in a life/health policy vest automatically in the insured on the owner's death unless the policy provides otherwise (Sec. 3, par. 3, verified)         |
+| Insurer                   | Authorized corporation, partnership, or association (Sec. 6); disapproval grounds and prohibited acts per TOC 10.04                                                                |
+| Beneficiary               | Generally revocable (Sec. 11); endowment-policy rights vest per terms; forfeiture on willful killing (Sec. 12); disqualifications (e.g. illicit-relations limits tested in 2025-8) |
+| Trustee or agent; partner | May insure in a representative or partnership capacity; capacity determines whose interest answers                                                                                 |
+| Assignee of life          | Freely assignable; assignee needs no insurable interest where assignment is in good faith                                                                                          |
+| Assignee of property      | Assignment needs insurer assent; unassented transfer suspends (Sec. 20)                                                                                                            |
+| Agent vs broker           | Agent represents the insurer; broker represents the insured; knowledge of the approving agent is knowledge of the insurer (2023 Q10)                                               |
+| Jurisdiction              | Insurer-agent relations outside the Insurance Commissioner's quasi-judicial reach (TOC 10.11); TPL insurer directly suable (Shafer)                                                |
 
 ### Case: La O v. Yek Tong Lin Fire and Marine, G.R. No. 33131, December 30, 1930
 
@@ -427,27 +448,27 @@ Batch-1 pointers (Nos. 13 and 15, one-line ratios from the Batch-1 Summary Table
 
 **2025 Bar Q (Q8): "A was a rich businessperson with two wives. He married B, with whom he had three children namely, C, D, and E. While their marriage was subsisting, he met X with whom he madly fell in love. He also married her despite his first marriage. They had a child named Y. In his life insurance policy from XYZ Life Insurance Corp., A designated his second wife, X, and their son, Y, as beneficiaries. Five years later, A died. X filed a claim for the proceeds of the policy for herself and for Y as the designated beneficiaries. At the same time, B also filed a claim for death benefits for herself and her children, C, D, and E, as A's legal wife and legitimate children. Who is/are entitled to the life insurance proceeds? Reason(s)."**
 
-A: Y takes the proceeds while X does not, and B, C, D, and E take only outside the policy through the estate, not as beneficiaries.
-Section 11 makes the designation revocable, and the disqualification of illicit-relation beneficiaries extends to the bigamous spouse, while the innocent child keeps an insurable interest in the parent's life.
-X's designation is void as fruit of a bigamous union. Y, though illegitimate, holds a Sec. 10 interest and a valid designation. The legal family was never designated and claims only by succession.
-The proceeds therefore go to Y (and any other valid co-beneficiaries), never to X.
+A: Y takes the proceeds while X does not. B, C, D, and E take nothing as beneficiaries and claim only outside the policy through the estate.
+Under Section 11 of the Insurance Code, the designation is revocable unless the right to change is expressly waived, and under Section 10, every person has an insurable interest in the life of his child. Anyone may be named beneficiary of a life policy taken by the insured on his own life (Manila Bankers Life v. Aban, G.R. No. 175666, July 29, 2013). The designation of a bigamous spouse is void as contrary to law and morals, while the innocent child keeps both interest and designation.
+Here, the relations decide each limb. X is the second wife of a still-subsisting first marriage, so her designation is void and she takes nothing under the policy. Y is the innocent child with a Section 10 interest and a valid designation, so Y takes. B, C, D, and E were never designated, so they are not beneficiaries and reach only what succession gives them outside the policy.
+The proceeds therefore go to Y to the exclusion of X, and the legal family recovers only through the estate.
 
 ## 10. The Policy (Form, Basic Provisions, Identification, Adhesion, Interpretation, Indivisibility, Proof, Riders, Cover Notes, Renewal, Reformation)
 
 Section 50 requires seven specifications in substance (standard text). The policy must specify (a) the parties. It must state (b) the amount insured except in open or running policies. It must state (c) the premium. It must identify (d) the property or life insured. It must state (e) the interest of the insured. It must state (f) the risks insured against. Finally, it must state (g) the period of coverage.
 
-| Item | Content |
-|---|---|
-| Form; basic provisions | Printed form approved by the Commissioner; Sec. 50 contents mandatory |
-| Identification of insured and property | Misidentification fatal only if material; error in name where identity is certain does not avoid |
-| Adhesion | Take-it-or-leave-it; construed against the insurer, for the weaker party (Qua Chee Gan; Villacorta; Perla theft-clause limit) |
-| Interpretation | Plain meaning first; obscurity against the drafter (CC 1377); riders and endorsements read with the policy |
-| Indivisibility | One unit, one premium = indivisible (Oriental); severable only on contrary intent |
-| Proof | Policy is the best evidence; loss may still be proved where the policy is lost, on secondary proof |
-| Riders | Attached, referred-to, and premium-charged riders become part of the contract |
-| Cover notes | Short-term binders pending policy issuance; bind within their stated period and terms |
-| Renewal | A new contract on old terms unless varied; premium and acceptance rules rerun |
-| Reformation | Instrument reformed to express true intent on clear proof of mistake, fraud, or inequitable conduct |
+| Item                                   | Content                                                                                                                       |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Form; basic provisions                 | Printed form approved by the Commissioner; Sec. 50 contents mandatory                                                         |
+| Identification of insured and property | Misidentification fatal only if material; error in name where identity is certain does not avoid                              |
+| Adhesion                               | Take-it-or-leave-it; construed against the insurer, for the weaker party (Qua Chee Gan; Villacorta; Perla theft-clause limit) |
+| Interpretation                         | Plain meaning first; obscurity against the drafter (CC 1377); riders and endorsements read with the policy                    |
+| Indivisibility                         | One unit, one premium = indivisible (Oriental); severable only on contrary intent                                             |
+| Proof                                  | Policy is the best evidence; loss may still be proved where the policy is lost, on secondary proof                            |
+| Riders                                 | Attached, referred-to, and premium-charged riders become part of the contract                                                 |
+| Cover notes                            | Short-term binders pending policy issuance; bind within their stated period and terms                                         |
+| Renewal                                | A new contract on old terms unless varied; premium and acceptance rules rerun                                                 |
+| Reformation                            | Instrument reformed to express true intent on clear proof of mistake, fraud, or inequitable conduct                           |
 
 ### Case: Cebu Shipyard v. William Lines, G.R. No. 132607, May 5, 1999
 
@@ -479,7 +500,10 @@ Doctrine: the insurer that issues policies knowing the shortfall against its own
 
 **Q: A policy insures "Building A", and the insurer denies a claim on Building B by invoking an unsigned, unattached, and unreferred-to endorsement. Does that endorsement form part of the contract?**
 
-A: The endorsement is no part of the contract. Riders must be attached to the policy, referred to in it, and supported by premium, and ambiguities are construed against the insurer. Here, the unsigned, unattached, and unmentioned endorsement binds no one. The Building A claim therefore stands on the policy as written.
+A: The endorsement forms no part of the contract, so the Building A claim stands on the policy as written.
+Under Section 50 of the Insurance Code, the policy must carry the seven mandatory specifications, applied with Article 1377 of the Civil Code, under which obscurity is construed against the drafter, and with the adhesion rule, under which ambiguities are resolved against the insurer to avoid forfeiture (Qua Chee Gan v. Law Union and Rock Insurance Co., G.R. No. L-4611, December 17, 1955). Riders become part of the contract only when attached to the policy, referred to in it, and supported by premium.
+Here, the endorsement fails every test. It is unsigned, unattached, and unreferred to in the policy. The counter-reading that the insurer may invoke an unattached paper to deny a Building B loss fails because an unmentioned endorsement binds no one.
+The endorsement is therefore disregarded entirely, and the Building A fire loss is payable in full within the written terms and limits of the policy.
 
 ## 11. Elements (Distribution of Losses; Risk; Insurable Interest)
 
@@ -519,29 +543,38 @@ A: The endorsement is no part of the contract. Riders must be attached to the po
 
 **2019 Bar Q: "(c) Insurable interest in property (2%)".**
 
-A: Insurable interest in property is any interest in property, whether real or personal, or any relation thereto, or liability in respect thereof, of such nature that a contemplated peril might directly damnify the insured.
-The governing provisions are Section 13 for the definition, Section 18 requiring that the policy be enforceable only for one holding such interest, Section 19 fixing the time at both effect and loss, and Section 17 fixing the measure at damnification.
-The question asks for the bare definition, which the Section 13 sentence supplies.
-A complete answer therefore recites the Section 13 definition together with the Section 19 timing and the Section 17 measure.
+A: Insurable interest in property is every interest in property, whether real or personal, or any relation thereto, or liability in respect thereof, of such nature that a contemplated peril might directly damnify the insured.
+Under Section 13 of the Insurance Code, insurable interest in property is every damnifiable relation to the thing. Under Section 18, a property policy is enforceable only for the benefit of one holding such interest. Under Section 19, the interest must exist both when the insurance takes effect and when the loss occurs. Under Section 17, the measure is the extent of damnification. The definition is therefore framed by an enforceability condition, a two-point timing rule, and a loss-based measure. Interest enforcement runs as in La O v. Yek Tong Lin Fire and Marine (G.R. No. 33131, 1930), where the Court first identified the holder of the damnifiable interest before sustaining recovery.
+Here, only the bare definition is asked, and the Section 13 sentence supplies it word for word. The timing and measure provisions complete the answer by showing when the interest must exist and how far recovery reaches.
+A complete answer therefore recites the Section 13 definition together with the Section 19 timing at effect and loss and the Section 17 measure of damnification.
 
 **2017 Bar Q (XI(e)): "(e) The law on life insurance prohibits double insurance. (2%)".**
 
-A: No, the statement is false: the law does not prohibit double insurance. Double insurance is lawful. Recovery is capped at the loss with contribution among insurers, and life policies, being valued, routinely stand in multiples. Applied to the proposition, multiple policies are valid and the only bar is on double recovery. The statement is therefore false.
+A: No. The statement is false because the law does not prohibit double insurance in life policies or in any other line.
+Under Sections 17 and 18 of the Insurance Code, recovery is capped at damnification and a property policy is enforceable only for an interest-holder, so a second policy adds no second recovery. Insurers sharing the same doubly covered interest divide the loss as the law provides (Malayan Insurance v. Phil First Insurance, G.R. No. 184300, July 11, 2012). Life policies are valued by agreement rather than capped at damnification, so multiple life policies routinely stand together. Disclosure and the identity of subject, interest, and risk decide coordination, not prohibition.
+Here, several life policies on one life are valid and each is enforceable. The only bar is on profit from loss, enforced through contribution and the cap at actual loss on the property side. The counter-reading that multiplicity itself voids the policies has no basis in the Code.
+The statement is therefore false, and multiple policies stand subject to the ban on double recovery.
 
 **2017 Bar Q (I.B): "The newly restored Ford Mustang muscle car was just released from the car restoration shop to its owner, Seth, an avid sportsman. Given his passion for sailing, he needed to go to a round-the-world voyage with his crew on his brand-new 180-meter yacht. Hearing about his coming voyage, Sean, his bosom friend, asked Seth if he could borrow the car for his next roadshow. Sean, who had been in the business of holding motor shows and promotions, proposed to display the restored car of Seth in major cities of the country. Seth agreed and lent the Ford Mustang to Sean. Seth further expressly allowed Sean to use the car even for his own purposes on special occasions during his absence from the country. Seth and Sean then went together to Bayad Agad Insurance Co. (BAIC) to get separate policies for the car in their respective names. SAIC consults you as its lawyer on whether separate policies could be issued to Seth and Sean in respect of the same car. (a) What is insurable interest? (2%) (b) Do Seth and Sean have separate insurable interests? Explain Briefly your answer(3%)"**
 
-A: (a) Insurable interest is the Section 13 interest. (b) Yes, both Seth and Sean hold separate insurable interests. Sections 13 and 14 extend property interest to any damnifiable relation to the thing, Section 19 fixes the timing, and La O recognizes the separate-interest rule. Seth owns (existing interest). Sean holds contractual custody plus use with liability exposure (inchoate/expectancy coupled with existing custody interest). Different interests, so there is no other-insurance breach. Separate policies may therefore issue to each, and each recovers within his own damnification.
+A: (a) Insurable interest is the interest defined in Section 13. (b) Yes, Seth and Sean hold separate insurable interests, so separate policies may issue to each of them.
+Under Sections 13 and 14 of the Insurance Code, any damnifiable relation to the thing is an insurable interest, whether existing, inchoate founded on an existing interest, or expectancy coupled with an existing interest, timed by Section 19 at effect and loss. Different interests on the same thing support different policies without breach of the other-insurance condition (La O v. Yek Tong Lin Fire and Marine, G.R. No. 33131, December 30, 1930).
+Here, Seth as owner holds the existing ownership interest in the Mustang. Sean holds contractual custody for the roadshow plus express permission to use the car, with the accompanying liability exposure, which is an inchoate and expectancy interest coupled with his existing custodial interest. The counter-reading that one car can carry only one policy fails because the interests differ even though the subject and the risk are shared.
+Separate policies may therefore issue to Seth and to Sean, and each recovers within his own damnification under Section 17.
 
 **2025 Bar Q (Q5): "X obtained an insurance policy for her Porsche Carrera GT from XYZ Insurance Company. The same car was insured by her creditor-mortgagee, Y, with ABC Insurance Company. When the car was damaged because of an accident, X filed a claim with XYZ Insurance Company. The latter denied the claim since it discovered that the car was also insured with ABC Insurance Company. According to XYZ Insurance Company, double insurance is prohibited by law. Decide with reason(s)."**
 
-A: The denial is wrong, and X recovers on her policy. The owner and the creditor-mortgagee hold distinct insurable interests (Secs. 8 and 13-14 and La O). Double insurance is not prohibited — only double recovery is. X's policy answers her ownership interest, and Y's answers the credit interest. Different interests defeat triple identity and forfeiture. XYZ must therefore pay X within her loss, leaving contribution rules to sort the insurers.
+A: The denial is wrong, and X recovers on her XYZ policy within her loss.
+Under Sections 8, 13, and 14 of the Insurance Code, the mortgagor-owner and the mortgagee hold distinct insurable interests in the same thing, applied through the triple-identity rule, under which forfeiture needs the same subject, interest, and risk. Different interests defeat the other-insurance clause (La O v. Yek Tong Lin Fire and Marine, G.R. No. 33131, December 30, 1930). Undisclosed coinsurance on the same interest forfeits, which confirms that sameness of interest is the test (Multi-Ware Manufacturing Corp. v. Cibeles Insurance Corp., G.R. No. 230528, February 1, 2021).
+Here, X insures her ownership interest with XYZ while Y insures the credit interest with ABC. Double insurance is lawful and only double recovery is barred. The counter-reading that any second policy on the car is prohibited by law misstates the rule and ignores the distinct interests.
+XYZ must therefore pay X within her damnification, leaving contribution rules to sort the insurers without any double recovery.
 
 **2023 Bar Q: "Emilio owns a car which he purchased from Gregorio. Emilio agreed to pay Gregorio the balance of the purchase price in the amount of P500,000 within one year. To secure the payment of the balance, Emilio and Gregorio executed a security agreement that complies with the requirements of the Personal Property Security Act (PPSA). The security interest was also perfected in accordance with the PPSA. Who has insurable interest over the car? Explain your answer."**
 
-A: Both Emilio and Gregorio hold insurable interest over the car.
-Section 13's property interest covers any damnifiable relation to the thing. Section 14 reaches existing interests and expectancies coupled with an existing interest. A perfected PPSA security interest is such a relation.
-Emilio as buyer-owner holds the existing ownership interest. Gregorio as perfected secured creditor holds an interest to the extent of the P500,000 collectible from the car.
-Either or both may therefore insure, each within its own measure (Sec. 17), and two policies on different interests are no double-insurance breach (La O and 2025-5).
+A: Both Emilio and Gregorio hold insurable interest over the car, and either or both of them may insure.
+Under Sections 13 and 14 of the Insurance Code, any damnifiable relation to the thing is an insurable interest, including an existing interest and an expectancy coupled with an existing interest, measured by Section 17 at damnification. Separate interests on one thing support separate policies without breach (La O v. Yek Tong Lin Fire and Marine, G.R. No. 33131, December 30, 1930).
+Here, Emilio as buyer-owner holds the existing ownership interest and is damnified by loss of the car beyond the unpaid balance. Gregorio as perfected secured creditor holds an interest to the extent of the P500,000 collectible from the car, because a perfected Personal Property Security Act interest is a damnifiable relation to the thing. The counter-reading that perfection merges the two interests into one fails because ownership and security interests remain distinct.
+Either or both may therefore insure, each within his own measure, and the two policies are no double-insurance breach.
 
 > Exam trap: Sec. 19 asymmetry — life interest tested once (effect), and property twice (effect and loss). Sec. 20 suspension is not avoidance — reunite thing and policy in one person and cover revives.
 
@@ -563,10 +596,10 @@ Section 77 provides in substance (standard text) that the insurer earns premium 
 
 **2024 Bar Q: "Flavio obtained from Safe Assurance Corporation (SAC), through its agent Laureen, a fire insurance policy over his residential house for a period of one year from August 25, 2024 to August 24, 2025. Flavio delivered on August 26, 2024 a check representing premium payment to Laureen who then issued an acknowledgment receipt. On August 27, 2024, a fire completely razed Flavio's house. Oblivious of the incident, Laureen deposited the check on August 28, 2024 to SAC's bank account and was credited on the same day. Thereafter, Flavio filed against SAC an insurance claim. However, SAC denied the claim and argued that there was no payment of premium yet to make the insurance policy effective at the time of the loss. SAC explained that it received the premium payment only on August 28, 2024 or after the fire occurred on August 27, 2024. Is there a valid and binding insurance contract between SAC and Flavio? Explain."**
 
-A: Yes, a valid and binding insurance contract exists between SAC and Flavio, and SAC must pay the claim.
-A premium delivered to the authorized agent with an acknowledgment receipt is payment to the insurer. Cover attaches upon perfection plus exposure within the policy period. Later bank crediting does not move the payment date back.
-Flavio paid by check to Laureen on August 26, inside the August 25, 2024 to August 24, 2025 term, and the receipt placed payment before the August 27 fire, which fell within cover. The August 28 deposit is merely internal timing.
-The denial therefore fails: the contract is valid and the loss is covered.
+A: Yes. A valid and binding insurance contract exists between SAC and Flavio, and SAC must pay for the razed house.
+Under Sections 77 and 78 of the Insurance Code, premium is earned on exposure and cover attaches upon a perfected contract plus exposure within the policy period, applied with the agency rule, under which premium delivered to the authorized agent with an acknowledgment receipt is payment to the insurer itself. An insurer that collects premium through its agent is estopped from denying payment on internal-timing grounds, as in Qua Chee Gan v. Law Union and Rock Insurance Co. (G.R. No. L-4611, 1955).
+Here, Flavio delivered his check to Laureen on August 26, 2024, inside the August 25, 2024 to August 24, 2025 term, and Laureen issued an acknowledgment receipt before the August 27 fire. The August 28 deposit and crediting are merely internal timing that does not move the payment date back. The counter-reading that payment happened only on August 28 fails because delivery to the authorized agent was complete on August 26.
+The denial therefore fails. The contract is valid, the August 27 loss fell within cover, and SAC must pay.
 
 > Exam trap: 2024-14 (agent receipt before loss) vs 2016-II (no perfected contract at loss) — same "unpaid at fire" smell, opposite outcomes. Perfection plus payment-to-agent is the divider. And La O/Qua Chee Gan waiver needs knowledge before collection — post-loss knowledge waives nothing.
 

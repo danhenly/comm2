@@ -180,10 +180,10 @@ Historic Bar question: gap. No verbatim pre-need question appears in the 2016-20
 
 **Q: A hospital gives subscribers, their spouses, and dependents free or discounted board, procedures, and drugs as subscriber incentives. Decide whether these perks are pre-need plans or HMO contracts.**
 
-A: The perks are neither pre-need plans nor HMO contracts. They are mere shareholder incentives.
-The controlling rules are Sec. 4(b) of RA 9829, which requires a contract for future service, money, or benefit at actual need or agreed maturity in exchange for cash or installment amounts. EO 192 s. 2015 defines an HMO contract as pre-agreed health care services for a fixed prepaid fee over a period through a provider network.
-Applied here, the perks ride on stock subscription payments rather than plan consideration and promise no benefit at actual need or agreed maturity. They likewise involve no fixed prepaid fee and no provider network.
-The perks therefore fall outside both Sec. 4(b) and the HMO definition and stand as mere shareholder incentives.
+A: The hospital perks are neither pre-need plans under Sec. 4(b) nor HMO contracts under EO 192 s. 2015, so they fall outside pre-need regulation and stand as mere shareholder incentives.
+Under Sec. 4(b) of RA 9829, a pre-need plan is a contract for the benefit of planholders providing future service or money or other benefit at actual need or agreed maturity as specified therein in exchange for cash or installment amounts. Under EO 192 s. 2015 as applied in IC Letter Opinion 2022-01, an HMO contract delivers pre-agreed health care for a fixed prepaid fee over a period through a provider network. Under Gaw v. CA (G.R. No. 147748, 2006), the written plan terms control the classification because the plan is the law between the parties.
+Here, the free and discounted board and procedures and drugs go to subscribers and their spouses and dependents as incentives for stock subscription rather than as specified benefits at actual need or agreed maturity paid for with plan consideration. The arrangement likewise collects no fixed prepaid membership fee over a period and operates no provider network, so the HMO definition fails on both price and structure. Treating share incentives as plan benefits would rewrite the Sec. 4(b) exchange element that Gaw enforces literally.
+The perks are therefore neither pre-need plans nor HMO contracts, and no pre-need license or registration or brochure duty attaches to them as such.
 
 ## 2. Parties; Other Regulated Persons; Suspension/Revocation
 
@@ -237,10 +237,10 @@ Historic Bar question: gap for §2. Use the drill below.
 
 **Q: A company offers pension plans online with bank-deposit payment instructions but holds no license. Decide whether the offer is actionable.**
 
-A: The online offer is actionable, and a cease-and-desist order against it is proper.
-The controlling rules are Sec. 10, which bars operation as a pre-need company without a Commission license. Sec. 18 requires prior Commission approval of advertising. Sec. 53(c) fines unauthorized sales on a 30%/40%/license-loss ladder. Sec. 54(a)-(b) punishes unregistered selling with one (1) year of imprisonment and triple-price fines.
-Applied here, the Primamanila-pattern facts — a website offer of pension plans with bank-deposit payments and no license — breach both the licensing gate and the advertising gate.
-The Commission may therefore issue a cease-and-desist order, and fines plus criminal exposure attach.
+A: The unlicensed online pension-plan offer is unlawful on both the licensing and advertising gates, so the Insurance Commission may issue a cease-and-desist order against it and the sellers face fines and criminal exposure.
+Under Sec. 10 of RA 9829, no person may operate as a pre-need company without a Commission license. Under Sec. 14, every plan intended for public sale needs a registration statement filed within forty-five days of licensing. Under Sec. 18, no pre-need advertising may run without prior Commission approval. Under Primamanila Plans v. SEC (G.R. No. 193791, 2014), a website offer of pension plans with bank-deposit payment instructions and no license sustains a cease-and-desist order. Under Secs. 53(c) and 54, unauthorized selling draws fines on a thirty-percent and forty-percent and license-loss ladder plus one year of imprisonment and triple-price fines.
+Here, the company holds no license yet offers pension plans to the public online and collects through bank deposits. The missing license breaches Sec. 10 and the missing registration breaches Sec. 14 while the unapproved website solicitation breaches Sec. 18. That the payments look like ordinary bank deposits changes nothing because plan consideration paid through a bank remains plan consideration. The Primamanila pattern is matched element for element.
+The Commission may therefore shut the offer down by cease-and-desist order, and the sellers answer for administrative fines and criminal liability for unregistered selling.
 
 ## 3. Kinds of Plans; Pre-need Contract and Interpretation
 
@@ -289,10 +289,10 @@ Historic Bar question: gap for §3. Use the drill below.
 
 **Q: After a planholder's mother dies, the family at once engages an outside funeral home that embalms the body and supplies a casket, notifies the provider only that evening, and later substitutes a different casket. Decide whether the provider owes memorial services.**
 
-A: The provider owes no memorial services, and the dismissal of the claim stands.
-The controlling rules are that the plan is the law between the parties so its clear stipulations control literally, and that Sec. 3 liberality for the planholder cannot rewrite those stipulations.
-Applied here, the sole-and-exclusive arrangement right and the imperative acknowledged-notice requirement were preempted by the evening notice after embalming and casketing, and the pre-selected-casket term was breached by the upgrade whose cost falls on the family alone.
-There is therefore no liability for refusing the services, and the CA dismissal stands.
+A: The provider owes no memorial services on these facts, so the dismissal of the planholder claim stands and the family bears the outside funeral and replacement-casket costs alone.
+Under RA 9829 and the plan-is-law rule of Gaw v. CA (G.R. No. 147748, 2006), the clear stipulations of the pre-need plan control literally between the parties. Under Gaw, the provider holding the sole and exclusive right to arrange services with a mortuary of its choice requires notice directly to and acknowledged by the provider before the family acts, with time of the essence. Under Sec. 3, doubts favor the planholder, but liberality never rewrites a clear term. Under Dio v. St. Ferdinand Memorial Park (G.R. No. 169578, 2006), an adhesion contract binds as written because the adherer was free to reject it entirely.
+Here, the family engaged an outside funeral home at once upon the death of the mother and let it embalm the body and supply a casket before notifying the provider only that evening. The evening notice after embalming and casketing preempted the sole arrangement right and breached the imperative acknowledged-notice term. The later substitution of a different casket breached the pre-selected-casket term whose upgrade cost Gaw assigns to the family alone. That the plan is an adhesion contract avails nothing because Dio enforces clear adhesion terms literally.
+The provider therefore properly refused the memorial services, and the dismissal stands with the family absorbing the outside expenses.
 
 ## 4. Registration/Disclosure; Consideration
 
@@ -340,10 +340,10 @@ Historic Bar question: gap for §4. Use the drill below.
 
 **Q: A planholder misses six months of installments after receiving only one notice, and the company cancels the plan. Decide whether the cancellation is valid.**
 
-A: The cancellation is invalid, and the company must accept reinstatement or reimburse the late payments.
-The controlling rule is Sec. 23, which requires a 60-day grace period, a 2-year reinstatement window from grace lapse with no cancellation inside it, and two written 30-day notices — one after grace expiry and one after reinstatement-period expiry.
-Applied here, six months of nonpayment still falls inside the reinstatement window, and a single notice fails the two-notice rule.
-Cancellation is therefore barred until the window closes with both notices given. The company must accept reinstatement or reimburse.
+A: The cancellation is invalid, so the company must treat the plan as merely lapsed and either accept reinstatement within the window or reimburse the late payments.
+Under Sec. 23 of RA 9829, every contract carries a grace period of at least sixty days from the due date of the first unpaid installment, and nonpayment within that period renders the plan only lapsed. Under the same section, the planholder may reinstate within not less than two years from grace lapse, and no cancellation may be made inside that window. Under Sec. 23 paragraph 2, the company must give two written notices, one within thirty days after grace expiry and another within thirty days after reinstatement-period expiry warning of cancellation, and failure to give either notice precludes cancelled treatment. Under Sec. 23, payments made after grace must be reimbursed forthwith unless the planholder duly reinstates.
+Here, six months of missed installments sits well inside the two-year reinstatement window that opened after the sixty-day grace lapsed. The single notice satisfies neither the two-notice rule nor the timing of the second notice, which can only follow the two-year expiry. That the planholder is deeply delinquent changes nothing because delinquency past grace produces lapsed status only and never cancelled status inside the window.
+The company therefore cannot cancel yet, and it must accept a timely reinstatement or return the late payments.
 
 ## 5. Termination (by Planholder; by Company)
 
@@ -366,10 +366,10 @@ Historic Bar question: gap for §5. Use the drill below.
 
 **Q: A pre-need company offers to buy out plans at 120 percent of termination value without Commission approval, and some planholders object. Decide whether the offer may proceed.**
 
-A: The offer cannot proceed as to the objecting planholders without Commission approval.
-The controlling rule is Sec. 24, which requires a fair, equitable, Commission-compliant termination-value schedule predetermined by the actuary and disclosed in the contract, and which allows a company above-value offer without prior approval only where the consideration is below the plan's pre-need reserves, the planholder accepts, and non-availing planholders are not prejudiced.
-Applied here, the objectors defeat both the acceptance and non-prejudice conditions, and below-reserves proof is still required.
-The offer therefore cannot proceed as to objectors and must be routed through Commission approval.
+A: The buyout offer cannot proceed as to the objecting planholders without prior Commission approval, so the company must either secure that approval or limit any deal to consenting planholders within reserves and without prejudice to the rest.
+Under Sec. 24 of RA 9829, a planholder may terminate at any time by written notice and collect the termination value from the schedule predetermined by the company actuary at registration and disclosed in the contract, which must be fair and equitable and Commission-compliant. Under the Sec. 24 regulatory backdrop, a company offer above termination value needs no prior Commission approval only where three conditions concur, namely consideration below the plan pre-need reserves and planholder acceptance and no prejudice to non-availing planholders. Under Sec. 30, reserves and trust assets answer solely to planholders and cannot fund prejudice to the remaining pool.
+Here, the one hundred twenty percent of termination value exceeds the scheduled value, so the three-condition gate governs rather than the planholder termination right. The objections defeat the acceptance condition for the objectors and raise the non-prejudice condition for everyone else. That the premium looks generous changes nothing because generosity above reserves without clearance still raids the actuarial base that protects the remaining planholders. Below-reserves proof alone cannot cure a missing acceptance.
+The offer therefore stalls as to objectors until the Commission approves it, and any consenting-only buyout must stay below reserves and leave non-availing planholders unprejudiced.
 
 ## 6. Claims Settlement; Unfair Claims Settlement
 
@@ -416,10 +416,10 @@ Historic Bar question: gap for §6. Use the drill below.
 
 **Q: A matured education plan pays 60 days late without any fraud. State what the beneficiary collects.**
 
-A: The beneficiary collects twice-legal-interest for the delay period plus Sec. 28 damages on suit.
-The controlling rules are Sec. 26, which prices scheduled-plan delay at twice legal interest from day 16 where the planholder complied with documents. Sec. 28 imposes actual damages, attorney's fees, and legal interest from claim date on unreasonable withholding, with a missed Sec. 26 clock as prima facie proof of unreasonable delay.
-Applied here, the 60-day delay yields 45 days of delay interest, and the missed clock supplies the prima facie case for litigation damages if unreasonableness is found.
-The beneficiary therefore recovers twice-legal-interest for the delay period plus Sec. 28 damages on a successful suit.
+A: The beneficiary of the matured education plan collects delay interest at twice the legal rate for the forty-five-day delay plus Sec. 28 litigation damages on a successful enforcement suit.
+Under Sec. 26 paragraph 1 of RA 9829, scheduled benefit plans such as education plans pay immediately upon maturity, with installments or annuities as they fall due, and refusal or failure to pay within fifteen days from maturity entitles the beneficiary to interest at twice the legal rate for the delay unless the claim is fraudulent and the planholder complied with the documentary requirements. Under Sec. 28, the Commission determines in any enforcement litigation whether denial or withholding was unreasonable, and unreasonable delay draws actual damages plus attorney fees and legal interest from claim date to full satisfaction. Under Sec. 28, failure to pay within the Sec. 26 time is prima facie evidence of unreasonable delay.
+Here, the education plan matured on a date fixed at purchase, which makes it a scheduled benefit plan under Sec. 4(q) rather than a contingent plan. The sixty-day payment delay with no fraud leaves forty-five compensable days from day sixteen to day sixty at twice the legal rate. That no fraud tainted the claim removes only the Sec. 26 fraud defense and never the delay price, while the missed fifteen-day clock supplies the prima facie unreasonableness case for Sec. 28 damages. Documentary compliance is assumed on the stated facts, so the interest entitlement stands.
+The beneficiary therefore recovers twice-legal-interest for the delay period, and a court finding of unreasonableness adds actual damages with attorney fees and running legal interest.
 
 ## 7. Trust Fund; Regulation of Companies; Companies in Distress
 
@@ -504,7 +504,10 @@ Historic Bar question: gap for §7. Use the drill below.
 
 **Q: General creditors of an insolvent pre-need company seek to attach the trust fund. Decide whether attachment lies.**
 
-A: The attachment fails, and the creditors are confined to non-fund assets. The controlling rules are Sec. 30, which bars diversion of the fund and creditor claims against it notwithstanding any contrary law. Sec. 52 excludes the fund from court insolvency jurisdiction and denies creditors personality in Commission fund proceedings. Laigo vests beneficial ownership of the fund in the planholders. Applied here, the attachment targets fund assets, the precise object of the statutory shield. Attachment therefore fails, and creditors may proceed against non-fund assets only.
+A: The attachment does not lie against the trust fund, so the general creditors are confined to the company non-fund assets while the fund answers exclusively to the planholders.
+Under Sec. 30 paragraph 1 of RA 9829, each plan category carries a trust fund whose assets remain at all times for the sole benefit of the planholders and may never be diverted, and no part of the fund may satisfy other creditors of the company notwithstanding any contrary law. Under Sec. 30 paragraph 2, the fund is immune from attachment and garnishment and levy and seizure except for the planholder plan debt or criminal liability. Under Sec. 52, court insolvency proceedings reach company assets excluding the fund, and creditors have no personality in Commission fund proceedings. Under SEC v. Laigo (G.R. No. 188689, 2015), beneficial ownership of the fund lies in the planholders with legal title in the trustee and none in the company.
+Here, the insolvent company creditors target the trust fund itself, which is the precise object of the statutory shield. That the company is insolvent changes nothing because Sec. 30 expressly extends the shield to insolvency and Sec. 52 removes the fund from the court insolvency estate. The creditors cannot recharacterize fund assets as company assets because Laigo places beneficial ownership in the planholders. Only trustee fees and trust taxes share the fund with planholders on distribution.
+The attachment therefore fails, and the Commission may take custody of the fund to satisfy planholder obligations pro rata to termination values.
 
 ## Quick-Recall Tables
 

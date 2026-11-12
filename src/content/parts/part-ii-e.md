@@ -109,9 +109,10 @@ Registration follows the nationality principle of the Chicago system. An aircraf
 
 **Q: An investor buys a light aircraft abroad and starts selling seats on weekly Boracay runs without registering the aircraft and without any Board authority. A paying guest is hurt on landing and sues on carrier liability. How does the regulatory status affect the case?**
 
-A: The guest still sues a common carrier because Art. 1732 turns on holding out carriage for compensation to the public and not on possession of a permit.
-The lack of registration and of Board authority exposes the operator to administrative and criminal consequences and weakens every documentary defense the operator raises.
-The operator therefore answers under Arts. 1755 and 1756 with presumed fault while facing the regulators separately.
+A: The guest may hold the investor liable as a common carrier for the landing injury, and the lack of registration and Board authority does not negate that liability but exposes the operator to separate administrative and criminal sanctions.
+Under Civil Code Art. 1732 with Arts. 1733, 1755 and 1756 and R.A. No. 776 of 1952 with R.A. No. 9497 of 2008, one who holds out carriage by air for compensation to the public is a common carrier bound to utmost diligence with presumed fault on injury, as confirmed in Sps. Cruz v. Sun Holidays, Inc. (G.R. No. 186312, June 29, 2010) and LRTA v. Navidad (G.R. No. 145804, February 6, 2003).
+Here, the investor sells seats on weekly Boracay runs to paying guests for hire, which satisfies the holding-out and compensation test even without a permit or nationality marks, while the unregistered aircraft and unlicensed operation weaken documentary defenses and prove non-compliance that cannot excuse failure to observe extraordinary diligence.
+Therefore the guest recovers upon proof of injury during carriage unless the operator proves utmost diligence, and the operator separately answers to the Civil Aeronautics Board and the Civil Aviation Authority of the Philippines for flying unregistered and unauthorized.
 
 ## 2. Air Transportation in General; Persons Involved; Charter of Aircraft
 
@@ -149,16 +150,17 @@ Doctrine: A demise charter transfers carrier character to the charterer as owner
 
 **2025 Bar Q: To celebrate her 70th birthday, A hired F Travel & Tours to arrange and facilitate her booking, ticketing, and accommodation for a two-week foreign tour, which included visits to Italy and Greece, for the total amount of PHP 145,000.00. On Wednesday, August 14, 2024, B, an employee of F Travel & Tours, went to A's house to deliver the travel documents and plane ticket. She told A to be at the Ninoy Aquino International Airport (NAIA) on Saturday, August 17, 2024 two hours before her flight schedule. Without checking her travel documents, A went to NAIA on Saturday, August 17, 2024. When she got there, she was informed that the flight she was supposed to take had already left the previous day. A demanded that F Travel & Tours refund her payment. She claimed that F Travel & Tours did not observe the standard of care required of a common carrier when its employee, B, informed her of the wrong flight schedule. Is F Travel & Tours liable as a common carrier? Reason(s).**
 
-A: F Travel & Tours is not liable as a common carrier because it only arranged booking, ticketing, and accommodation and operated no aircraft or carriage business for the public under Art. 1732.
-A travel agency is an agent whose diligence is contractual agency care and not the extraordinary diligence of Arts. 1733 and 1755.
-A trip on the wrong date caused by the employee's misinformation is tested under agency and fault rules with proof of actual loss and not under presumed carrier fault.
-The refund therefore depends on the agency contract and on proved negligence and not on common carrier liability.
+A: F Travel & Tours is not liable as a common carrier, and A cannot invoke presumed fault and extraordinary diligence because the agency operated no carriage business, though it may answer for refund and damages under agency and fault rules if its negligence is proved.
+Under Civil Code Art. 1732 with Arts. 1733 and 1755, only one engaged in carrying passengers or goods for compensation with service to the public is a common carrier, while a mere arranger of booking, ticketing and accommodation is an agent, as confirmed in Sps. Cruz v. Sun Holidays, Inc. (G.R. No. 186312, June 29, 2010) and British Airways v. Court of Appeals (G.R. No. 92288, February 9, 1993).
+Here, F Travel & Tours for PHP 145,000.00 only arranged and facilitated booking, ticketing and accommodation for the Italy and Greece tour and operated no aircraft, and B as its employee merely delivered documents and gave the Saturday August 17 instruction that caused A to miss the Friday flight, which tests agency care in transmitting correct schedule information rather than carrier safety diligence.
+Therefore the claim for breach of common-carrier diligence fails, and A recovers refund with damages only upon proving the agency contract and B's fault with actual loss within the scope of employment.
 
 **2025 Bar Q: To celebrate her 30th birthday party, socialite A chartered for her exclusive use the yacht usually utilized by XYZ Resort to ferry its guests from the public port to its private island. A brought her own private crew to operate the yacht and invited 30 guests to her yacht party. While in the middle of the ocean, a sudden storm caused the yacht to capsize. While all the guests survived thanks to the prompt rescue operations of XYZ Resort, A succumbed to her injuries after hitting her head on floating debris and drowning. B, A's father, sued XYZ Resorts for gross negligence, alleging that it failed to observe extraordinary diligence expected of common carriers. Is XYZ Resorts liable as a common carrier? Reason(s).**
 
-A: XYZ Resorts is not liable as a common carrier because A took the yacht for her exclusive use with her own private crew and full operational control, which is a demise that makes the charterer owner pro hac vice.
-The resort kept no navigation or command over the capsized voyage since A supplied the crew and ran her private party on board.
-The storm loss therefore cannot be laid on the resort's extraordinary diligence as carrier, and B must anchor any claim on a different source of obligation with its own proof.
+A: XYZ Resort is not liable as a common carrier for A's death, and B cannot invoke presumed fault and extraordinary diligence against it because the exclusive charter with A's own crew transferred command and made A the owner pro hac vice for that voyage.
+Under Civil Code Art. 1732 with Arts. 1733, 1755 and 1756, carrier status turns on operating carriage for the public and control decides charter effects, so a demise transferring full possession, manning, victualling and navigation shifts liability while affreightment retains it with the owner, as confirmed in Planters Products v. Court of Appeals (G.R. No. 101503, September 15, 1993) and Sps. Cruz v. Sun Holidays, Inc. (G.R. No. 186312, June 29, 2010).
+Here, socialite A chartered the XYZ yacht for her exclusive 30th birthday use with 30 guests, brought her own private crew to operate it from the public port to the private island, and sustained fatal head injury and drowning after a sudden storm capsized it mid-ocean despite XYZ rescue, so navigation and control lay with A and not with XYZ as mere owner-lessor.
+Therefore B's common-carrier claim against XYZ fails, and any recovery must rest on a different proven fault outside carrier diligence, with the storm and control facts defeating the presumption B invokes.
 ## 3. Sovereignty and Air Freedoms; Cancellation; Cabotage
 
 Every State has complete and exclusive sovereignty over the airspace above its territory, and the Chicago Convention of 1944 builds the whole commercial system on that grant. No scheduled international air service may operate over or into the territory of another State without that State's permission, and non-scheduled flights keep only a transit and non-traffic-stop privilege subject to conditions. Permission is rationed through the numbered freedoms of the air, and a State may withdraw or condition a grant where the carrier abuses it or where public interest requires.
@@ -176,9 +178,10 @@ Cabotage is the reservation of domestic carriage to national carriers. A foreign
 
 **Q: A foreign flag carrier flies Taipei to Manila to Cebu and offers cheap Manila to Cebu seats to fill the domestic hop. The Board stops the sale while letting the through flight continue. Is the Board correct?**
 
-A: The Board is correct because the Manila to Cebu leg is domestic traffic reserved by the cabotage rule even when flown as part of a foreign through service.
-The fifth and higher freedoms never include the right to carry purely local passengers between two domestic points without a domestic grant.
-The carrier keeps its transit and through rights but the domestic sale stays barred.
+A: The Board is correct to stop the Manila to Cebu sale while allowing the Taipei to Manila to Cebu through flight to continue, because the domestic hop is reserved traffic that a foreign carrier may not sell without domestic authority.
+Under the Chicago Convention of 1944 on sovereignty with R.A. No. 776 of 1952 on permits and R.A. No. 9497 of 2008 on regulation, every State owns the sky above its territory and scheduled commercial entry needs permission per freedom, with purely domestic carriage reserved to Philippine carriers.
+Here, the foreign flag carrier operates Taipei to Manila to Cebu but offers cheap Manila to Cebu seats to local passengers to fill the hop, which is cabotage even though the aircraft is already flying the sector as part of an authorized through service, and the counter-reading that through-flight authority implies domestic-sale authority fails because transit and fifth-freedom rights never include the domestic leg.
+Therefore the stop-sale order stands, the through carriage remains lawful, and the carrier may carry only through passengers on that sector unless it secures proper domestic authority.
 
 ## 4. Extraordinary Diligence in Air; Tariff System; Baggage; Duty to Passenger; Denied Boarding; Air Passenger Bill of Rights; Inspection of Aircraft and Cargoes
 
@@ -234,9 +237,10 @@ Doctrine: Fare paid and accepted perfects the contract to carry without need of 
 
 **Q: A confirmed economy passenger checks in on time and the airline bumps her without asking for volunteers because the flight is overbooked. She accepts the next-day rebooking and signs a compensation receipt. May she still sue for moral damages for wounded feelings?**
 
-A: She may not recover beyond the receipt because compensation accepted under the overbooking rule operates as liquidated damages for the lost confirmed seat.
-The carrier breached the volunteer-first rule since no passenger with a confirmed seat may be bumped without consent before volunteers are sought with rising offers.
-Her signature on the compensation package therefore closes the seat-loss claim and leaves only relief outside that bargain if independently proved.
+A: The airline is liable for breaching the volunteer-first rule, but the passenger who accepted next-day rebooking and signed a compensation receipt cannot still recover moral damages for the same lost seat because the accepted package operates as liquidated damages closing that claim.
+Under DOTC-DTI Joint Administrative Order No. 1, s. 2012 effective December 21, 2012 with Civil Code Arts. 1733, 1755 and 1756, a checked-in passenger with a confirmed reserved seat may board and may not be bumped for overbooking without consent until volunteers are called with rising amenities and compensation, as confirmed in British Airways v. Court of Appeals (G.R. No. 92288, February 9, 1993) and LRTA v. Navidad (G.R. No. 145804, February 6, 2003).
+Here, the confirmed economy passenger checked in on time yet was bumped without any call for volunteers to free seats for standbys, which violates consent and escalation, but her acceptance of rebooking with a signed compensation receipt elects the liquidated remedy for the seat loss and the counter-reading that wounded feelings reopens it fails absent an independent actionable wrong outside the bargain.
+Therefore the seat-loss claim is closed by the receipt, the carrier keeps the breach on record for regulatory purposes, and only separately proved injury beyond loss of the seat could still be pursued.
 ## 5. Montreal Convention 1999
 
 The Convention for the Unification of Certain Rules for International Carriage by Air was done at Montreal on May 28, 1999 to modernize and consolidate the Warsaw system and to protect consumers in international carriage with equitable compensation on a restitution basis. Its own preamble states the systemic purpose:
@@ -328,15 +332,17 @@ Board limits sit under the Convention and never above it. The Civil Aeronautics 
 
 **Q: A Manila to Singapore passenger checks through with one ticket and her checked bag never arrives. She declares no higher value and writes a complaint on the tenth day after arrival. The bag is still missing on the twenty-fifth day. What may she collect and is her complaint timely?**
 
-A: She collects up to 1,000 Special Drawing Rights under the original-treaty baggage cap since she declared no higher value and proved no intent or qualifying recklessness.
-Her written complaint on the tenth day misses the seven-day baggage damage rule, so the carrier invokes the time bar unless it committed fraud.
-The twenty-one-day loss rule lets her enforce the contract rights for a missing bag, but the late damage notice still defeats the claim where fraud is absent.
+A: She may recover up to 1,000 Special Drawing Rights for the checked bag and her tenth-day written complaint is timely as a delay and loss complaint, though it would have been late if framed as a damage complaint, with loss enforceable on the twenty-fifth day.
+Under the Montreal Convention of 1999 Arts. 1, 17, 19, 22, 31 and 35, international carriage with one ticket from Manila to Singapore is covered, checked baggage pays on an event in carrier charge capped at 1,000 Special Drawing Rights absent higher declaration or intent or qualifying recklessness, with seven days for damage notice and twenty-one days for delay notice and loss enforceable after twenty-one days missing.
+Here, she checked through with one ticket, declared no higher value and proved no cap-breaker so the 1,000 figure applies, and her tenth-day letter misses the seven-day damage window but falls inside the twenty-one-day delay window while the twenty-fifth-day continued absence triggers the admitted-or-twenty-one-day loss rule, defeating the counter-reading that any tenth-day letter is automatically barred.
+Therefore she collects delay and loss value within the cap upon proving the contract and non-delivery with timely delay notice, and clean-receipt and fraud rules do not aid the carrier where no delivery occurred.
 
 **Q: Cargo flies Manila to Osaka and arrives water-damaged. The carrier proves the shipper packed the crate defectively and its own handlers did nothing wrong. The consignee sues on the third year after arrival. What is the outcome?**
 
-A: The carrier wins on the defense since defective packing by a person other than the carrier or its servants or agents exonerates it to the extent proved.
-The suit also arrives dead because the two-year extinction under Art. 35 runs from arrival and the forum computation cannot revive an extinguished right.
-The consignee therefore collects nothing under the Convention and domestic tort cannot reopen what exclusivity closed.
+A: The consignee recovers nothing because the carrier proved the defective-packing defense and the suit filed in the third year is extinguished by the two-year limit, with domestic tort unable to revive the closed Convention claim.
+Under the Montreal Convention of 1999 Arts. 18, 20, 22, 29 and 35, cargo pays only for an event during carriage by air subject to four exclusive escapes including defective packing by one other than the carrier or its servants or agents, capped at 17 Special Drawing Rights per kilogram absent higher declaration, with exclusivity channeling every action however founded through Convention conditions and with extinction after two years from arrival.
+Here, the Manila to Osaka water damage was proved to come from the shipper's defective crate with no fault by the carrier's own handlers, satisfying the packing defense to its causal extent, and filing on the third year after arrival falls outside the two-year extinction that the forum computes but cannot extend, defeating the counter-reading that negligence pleading or domestic diligence reopens the case.
+Therefore the defense and the time bar each independently defeat recovery, aggregate caps and exemplary-damage pleas do not arise, and dismissal with costs against the consignee follows.
 
 ## Quick-Recall Tables
 

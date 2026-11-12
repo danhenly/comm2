@@ -157,17 +157,17 @@ Doctrine: Section 19 of Article XII is anti-trust in history and in spirit and m
 
 **Q: The Secretary of Energy writes the Commission directing it to clear a refinery merger without review because the project is a presidential priority. The merging refiners invoke the letter and demand immediate clearance. Must the Commission obey the directive.**
 
-A: No, because the Commission is an independent quasi-judicial body that decides only on evidence after due process.
-Section 5 creates the Commission as independent although attached to the Office of the President for administration, while Section 12 gives it original and primary jurisdiction over merger review and Section 31 gives it sole and exclusive authority to open and close inquiries.
-A cabinet letter is neither evidence nor law, and the ruling in Tatad v. Secretary of DOE (G.R. No. 124360, 1997) struck down executive implementation that rewrote congressional competition standards.
-The Commission therefore disregards the directive and runs the notification and review clock on the merits.
+A: No. The Commission must disregard the directive and must independently review the refinery merger on the merits, and the merging refiners cannot compel immediate clearance by invoking the letter.
+Under R.A. No. 10667 Sec. 5 creating the Commission as an independent quasi-judicial body attached only for administration to the Office of the President, Sec. 12 granting it original and primary jurisdiction over merger review, and Sec. 31 granting sole and exclusive authority to open and resolve inquiries, applied in Tatad v. Secretary of DOE (G.R. No. 124360, November 5, 1997) which struck down executive measures entrenching an oligopoly in violation of 1987 Constitution Art. XII Sec. 19, independence means adjudication turns only on evidence after due notice and hearing and never on political direction.
+Here, the Secretary of Energy ordered clearance without review because the project is a presidential priority, and the merging refiners demand immediate clearance on that basis, but attachment to the Office of the President does not authorize direction of outcomes, and a cabinet letter invoking presidential priority is neither substantial evidence nor law that can displace notification and review, so the claim that administrative attachment equals obedience fails.
+The Commission therefore disregards the letter, retains jurisdiction, conducts inquiry and merger review to prohibition or conditional clearance on the merits, and any clearance issued without that review would be void for lack of jurisdiction and due process.
 
 **Q: After due hearing the Commission finds a cement cartel and orders the members to sell two plants although a supervised price and supply commitment would restore rivalry. The cartel answers that divestiture is a listed remedy so the Commission may choose it freely. Is the divestiture order valid.**
 
-A: No, because structural remedies issue only where behavioral relief cannot do the job.
-Section 12(h) allows adjustment and divestiture orders only where no equally effective behavioral remedy exists or where the behavioral option would burden the enterprise more, and only in proportion to a lasting or repeated infringement risk rooted in the structure itself.
-The finding here admits that a supervised commitment would restore rivalry, so the first condition fails and the order punishes structure instead of curing conduct.
-The Commission must replace divestiture with the effective behavioral remedy and reserve structural surgery for a case that proves its necessity.
+A: No. The divestiture order is invalid and must be set aside, and the Commission must instead impose the equally effective supervised price and supply commitment that restores rivalry with less intrusion.
+Under R.A. No. 10667 Sec. 12(d) allowing stoppage or redress only upon substantial evidence after due notice and hearing through injunctions, divestment and disgorgement, and Sec. 12(h) permitting adjustment or divestiture orders only where no equally effective behavioral remedy exists or where any equally effective behavioral remedy would be more burdensome, proportionate only to lasting or repeated infringement risk rooted in structure, as enforced by an independent enforcer under Tatad v. Secretary of DOE (G.R. No. 124360, November 5, 1997) pursuant to 1987 Constitution Art. XII Sec. 19, mere listing of divestiture among remedies never makes it freely electable.
+Here, the Commission found a cement cartel after due hearing but ordered members to sell two plants although it conceded a supervised price and supply commitment would restore rivalry, and the cartel wrongly reads mere listing of divestiture as free choice, but the admitted effectiveness of the behavioral commitment defeats the first statutory condition and shows the order punishes structure rather than curing conduct proportionately.
+The Commission therefore vacates divestiture, substitutes the effective behavioral order with monitoring and retains disgorgement or fines if warranted, reserving divestiture for proof that conduct relief cannot work or burdens more than reorganization.
 
 ## 2. Composition, Term, Qualification; Confidentiality; Remedies of the Entity
 
@@ -239,17 +239,17 @@ Doctrine: Conclusions never state a cause of action without ultimate facts. Domi
 
 **Q: A business daily demands that the Commission publish the production costs and customer lists a cement maker filed during a cartel inquiry. The maker objects and withholds consent while no court orders disclosure. Must the Commission publish the data.**
 
-A: No, because confidential business information filed in an inquiry shall never be disclosed without consent or a lawful disclosure order.
-Section 34 seals operations, production, sales, shipments, customer identities, inventories, and income data against direct or indirect disclosure, publication, transfer, copying, or dissemination, and breach draws a fine of not less than P1,000,000.00 but not more than P5,000,000.00.
-Consent is absent here and no law or valid court or regulatory order compels release, so none of the three exceptions opens.
-The Commission therefore keeps the data sealed and publishes only a ruling redacted to the extent possible.
+A: No. The Commission must deny publication, must keep the production costs and customer lists sealed, and must release only a redacted ruling that protects the sealed data.
+Under R.A. No. 10667 Sec. 34 sealing confidential business information submitted in any inquiry or investigation and in any deliberation relating thereto against direct or indirect disclosure, publication, transfer, copying or dissemination, punishable by a fine of not less than P1,000,000.00 but not more than P5,000,000.00, with only three exits of notifying-entity consent, mandatory disclosure by law, or valid order of a court, government or regulatory agency including an exchange, consistent with Gios-Samar v. DOTC (G.R. No. 217158, March 12, 2019) which requires ultimate facts on market, dominance and abuse to be pleaded and proved in the proper forum first rather than aired as conclusions, inquiry filings stay inside the forum until a lawful exit opens.
+Here, a business daily demands publication of the production costs and customer lists a cement maker filed during a cartel inquiry, the maker objects and withholds consent while no court orders disclosure, and no mandatory law is invoked, so press demand alone opens none of the three exits and the counter-reading that public interest or press request equals a valid order fails.
+The Commission therefore keeps the data sealed, publishes only a ruling redacted to the extent possible, and any official who discloses faces the Sec. 34 fine of P1,000,000.00 to P5,000,000.00.
 
 **Q: A flour distributor directly injured by a price cartel files a civil damages suit in the Regional Trial Court while the Commission preliminary inquiry is still running. The cartel moves to dismiss as premature. Must the court dismiss the suit.**
 
-A: Yes, because a private action opens only after the Commission completes its preliminary inquiry.
-Section 45 lets any person who suffers direct injury sue separately and independently only after completion of the Section 31 preliminary inquiry, and Section 31 gives the Commission sole and exclusive authority to open that inquiry with a ninety-day completion rule.
-The ruling in Gios-Samar v. DOTC (G.R. No. 217158, 2019) dismisses competition claims pleaded without the ultimate facts that an inquiry first builds, so a suit filed mid-inquiry jumps the administrative gate.
-The court therefore dismisses the suit as premature without prejudice to refiling once the Commission completes its inquiry.
+A: Yes. The court must dismiss the civil damages suit as premature without prejudice, and the flour distributor may refile only after the Commission completes its preliminary inquiry.
+Under R.A. No. 10667 Sec. 45 allowing any person who suffers direct injury to institute a separate and independent civil action only after the Commission has completed the preliminary inquiry under Sec. 31, with Sec. 31 giving the Commission sole and exclusive authority to open fact-finding or preliminary inquiry to be completed within ninety days, and Sec. 44 giving the Regional Trial Court original and exclusive jurisdiction over the civil case once the gate opens, as applied in Gios-Samar v. DOTC (G.R. No. 217158, March 12, 2019) which dismissed competition claims pleaded as bare conclusions without ultimate facts on market, dominance and abuse, the inquiry first builds the facts that a court later tries.
+Here, a flour distributor directly injured by a price cartel filed civil damages in the Regional Trial Court while the Commission preliminary inquiry is still running, and the cartel moves to dismiss as premature, but direct injury alone does not open the action because completion of the inquiry is a condition precedent, so the early filing jumps the administrative gate and the claim that separateness means immediacy fails.
+The court therefore dismisses the suit as premature without prejudice to refiling once the Commission completes its inquiry, leaving the five-year Sec. 46 period from accrual and the later civil jurisdiction intact.
 
 ## Quick-Recall Tables
 

@@ -1,0 +1,65 @@
+---
+import Base from '../layouts/Base.astro';
+
+const gateHash = import.meta.env.PUBLIC_GATE_HASH ?? '';
+---
+<Base title="Sign in — Comm2 Reviewer" noGate>
+  <h1>Comm2 Reviewer</h1>
+  <div class="card" id="login-app" data-hash={gateHash}>
+    <p><strong>Sign in</strong></p>
+    {gateHash ? (
+      <>
+        <p class="meta">Enter the shared password to continue.</p>
+        <form id="login-form">
+          <label for="login-pw"><strong>Password</strong></label><br />
+          <input id="login-pw" type="password" autocomplete="current-password" style="width: 100%; max-width: 22rem; font-size: 11pt; padding: 0.4rem 0.6rem;" />
+          <p style="margin-top: 0.6rem;">
+            <button class="btn primary" type="submit">Sign in</button>
+          </p>
+        </form>
+        <p class="meta" id="login-err" role="alert" hidden>Wrong password. Try again.</p>
+      </>
+    ) : (
+      <p class="meta">No password is set on this build (dev mode). <a href="/">Continue to the reviewer &rarr;</a></p>
+    )}
+  </div>
+
+  <script is:inline>
+    (() => {
+      const app = document.getElementById('login-app');
+      const expected = (app && app.dataset.hash) || '';
+      const params = new URLSearchParams(location.search);
+      let next = params.get('next') || '/';
+      if (next.charAt(0) !== '/' || next.slice(0, 6) === '//' || next.slice(0, 6) === '/login') next = '/';
+      if (!expected) return;
+      try {
+        if (localStorage.getItem('comm2-gate-v1') === expected) { location.replace(next); return; }
+      } catch (_) {}
+      const form = document.getElementById('login-form');
+      const pw = document.getElementById('login-pw');
+      const err = document.getElementById('login-err');
+      if (pw) pw.focus();
+      if (!form) return;
+      const hex = (buf) => Array.from(new Uint8Array(buf)).map((b) => b.toString(16).padStart(2, '0')).join('');
+      form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        if (err) err.hidden = true;
+        const v = (pw && pw.value) || '';
+        let digest;
+        try {
+          digest = hex(await crypto.subtle.digest('SHA-256', new TextEncoder().encode(v)));
+        } catch (_) {
+          if (err) { err.textContent = 'This browser cannot check the password (crypto unavailable).'; err.hidden = false; }
+          return;
+        }
+        if (digest === expected) {
+          try { localStorage.setItem('comm2-gate-v1', expected); } catch (_) {}
+          location.replace(next);
+        } else {
+          if (err) err.hidden = false;
+          if (pw) { pw.value = ''; pw.focus(); }
+        }
+      });
+    })();
+  </script>
+</Base>

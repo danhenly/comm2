@@ -49,8 +49,10 @@ python3 grader/test_grader.py        # rubric sums, caps, validator, prompt, fix
 
 Two services from this repo:
 
-- **comm2-web** (`Dockerfile.web`): static `dist/` on nginx. Put Traefik
-  BasicAuth on this service (single user gate).
+- **comm2-web** (`Dockerfile.web`): static `dist/` on nginx. Gated by the
+  built-in `/login` page (single shared password, `PUBLIC_GATE_HASH` build
+  arg = SHA-256 hex of the password). Keep Coolify BasicAuth **off** on this
+  service; the gate is cosmetic (direct `/pdfs/...` URLs stay fetchable).
 - **comm2-grader** (`grader/Dockerfile`): uvicorn on 8000, `GET /health`.
   Set `GRADER_BASE_URL` / `GRADER_API_KEY` / `GRADER_MODEL` / `GRADER_CUTOFF`
   envs here. No volumes, no DB.

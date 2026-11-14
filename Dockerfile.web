@@ -1,16 +1,20 @@
 # comm2-web: static Astro build served by nginx.
 # PUBLIC_GRADER_URL is baked in at build time (exam pages inline it via import.meta.env).
+# PUBLIC_GATE_HASH is the SHA-256 hex of the shared site password (login page + layout gate check it).
 ARG PUBLIC_GRADER_URL=http://localhost:8000/grade
+ARG PUBLIC_GATE_HASH=
 
 FROM node:22-alpine AS build
 WORKDIR /app
 ARG PUBLIC_GRADER_URL
+ARG PUBLIC_GATE_HASH
 ENV PUBLIC_GRADER_URL=${PUBLIC_GRADER_URL:-http://localhost:8000/grade} \
+    PUBLIC_GATE_HASH=${PUBLIC_GATE_HASH} \
     COREPACK_ENABLE_DOWNLOAD_PROMPT=0
 RUN corepack enable
 COPY package.json pnpm-lock.yaml ./
 RUN pnpm install --frozen-lockfile
-COPY . .
+COPY . ./
 RUN pnpm astro build
 
 FROM nginx:alpine

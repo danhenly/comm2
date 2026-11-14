@@ -36,6 +36,7 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           build-args: |
             PUBLIC_GRADER_URL=https://c2g.danhenly.com/grade
+            PUBLIC_GATE_HASH=5aabe6e0fc76d252fa6cf1ddbbe79298da4914af6b576d46d140c616abdcd878
           cache-from: type=gha
           cache-to: type=gha,mode=max
 

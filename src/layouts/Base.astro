@@ -3,12 +3,15 @@ interface Props {
   title?: string;
   description?: string;
   image?: string;
+  noGate?: boolean;
 }
 const {
   title = 'Comm2 Reviewer',
   description = 'Commercial Law 2 reviewer (Aquino 2024): 18 parts, per-part and whole-course exams, compiled PDFs.',
   image = 'https://c2.danhenly.com/og.png',
+  noGate = false,
 } = Astro.props;
+const gateHash = import.meta.env.PUBLIC_GATE_HASH ?? '';
 ---
 <html lang="en">
   <head>
@@ -27,6 +30,9 @@ const {
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={image} />
     <!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "17a0c4c4f67945d0b54de54c94cf507c"}'></script><!-- End Cloudflare Web Analytics -->
+    {gateHash && !noGate && (
+      <script is:inline set:html={`(function(){try{var h=${JSON.stringify(gateHash)};if(!h)return;if(localStorage.getItem("comm2-gate-v1")===h)return;var n=location.pathname+location.search;location.replace("/login?next="+encodeURIComponent(n));}catch(e){}})();`} />
+    )}
     <style is:global>
       :root {
         --tint: #f4f6fb;
@@ -199,10 +205,14 @@ const {
         <a href="/#parts">Parts</a>
         <a href="/exams/all">Exams</a>
         <a href="/#pdfs">PDFs</a>
+        {gateHash && !noGate && (<a href="/login" data-logout>Sign out</a>)}
       </div>
     </nav>
     <main>
       <slot />
     </main>
+    {gateHash && !noGate && (
+      <script is:inline set:html={`document.addEventListener("click",function(e){var t=e.target&&e.target.closest?e.target.closest("[data-logout]"):null;if(!t)return;e.preventDefault();try{localStorage.removeItem("comm2-gate-v1");}catch(_){}location.replace("/login");});`} />
+    )}
   </body>
 </html>
